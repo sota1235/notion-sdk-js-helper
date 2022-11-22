@@ -1,0 +1,5 @@
+{
+  "extends": [
+    "github>sota1235/renovate-config"
+  ]
+}

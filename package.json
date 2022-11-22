@@ -1,0 +1,45 @@
+{
+  "name": "ts-simple-boilderplate",
+  "version": "0.0.1",
+  "description": "Simple boilerplate for @sota1235",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "dependencies": {
+    "typescript": "^4.0.0"
+  },
+  "devDependencies": {
+    "@sota1235/eslint-config": "^3.0.0",
+    "@types/jest": "29.2.3",
+    "@typescript-eslint/eslint-plugin": "^5.3.0",
+    "eslint": "8.28.0",
+    "husky": "8.0.2",
+    "jest": "29.3.1",
+    "lint-staged": "13.0.3",
+    "prettier": "2.7.1",
+    "ts-jest": "29.0.3",
+    "ts-loader": "9.3.1",
+    "webpack": "5.74.0",
+    "webpack-cli": "^4.3.1"
+  },
+  "scripts": {
+    "build": "webpack",
+    "watch": "webpack --progress --color --watch",
+    "fix": "npm run prettier && npm run eslint:fix",
+    "lint": "npm run eslint",
+    "eslint": "eslint 'src/**/*.ts'",
+    "eslint:fix": "npm run eslint --fix",
+    "prettier": "prettier './src/**/*.ts' --write",
+    "test": "jest",
+    "test:ci": "jest -c ./jest.config.ci.js"
+  },
+  "keywords": [],
+  "author": "@sota1235",
+  "license": "MIT",
+  "lint-staged": {
+    "*.ts": [
+      "npm run fix"
+    ]
+  }
+}
