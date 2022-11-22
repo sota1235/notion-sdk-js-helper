@@ -18,4 +18,5 @@ module.exports = {
     filename: 'bundle.js',
     path: path.resolve(__dirname, 'dist'),
   },
+  mode: process.env.NODE_ENV === 'production' ? 'production' : 'development',
 };
