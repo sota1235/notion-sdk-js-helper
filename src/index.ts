@@ -1,1 +1,1 @@
-import './script';
+export * as BlockHelper from './blockObjects';
