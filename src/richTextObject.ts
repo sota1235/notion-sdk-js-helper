@@ -22,7 +22,10 @@ export const richText = (
 });
 
 // https://developers.notion.com/reference/rich-text#link-objects
-export type LinkObject = Exclude<TextRichTextItemResponse['text']['link'], null>;
+export type LinkObject = Exclude<
+  TextRichTextItemResponse['text']['link'],
+  null
+>;
 export const linkObject = (link: string): LinkObject => ({
   url: link,
 });
@@ -38,12 +41,12 @@ export const defaultAnnotation: Annotation = {
 };
 
 export const annotation = (options: {
-  bold?: boolean,
-  italic?: boolean,
-  strikethrough?: boolean,
-  underline?: boolean,
-  code?: boolean,
-  color?: TextColor
+  bold?: boolean;
+  italic?: boolean;
+  strikethrough?: boolean;
+  underline?: boolean;
+  code?: boolean;
+  color?: TextColor;
 }): Annotation => ({
   bold: options.bold || false,
   italic: options.italic || false,
