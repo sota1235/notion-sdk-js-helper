@@ -1,6 +1,6 @@
 {
   "name": "@sota1235/notion-sdk-js-helper",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Helper utilities for using @notion/client",
   "main": "dist/index.js",
   "dependencies": {
@@ -21,6 +21,7 @@
   },
   "scripts": {
     "build": "tsc",
+    "build:publish": "tsc -p ./tsconfig.publish.json",
     "watch": "tsc --watch",
     "fix": "npm run prettier && npm run eslint:fix",
     "lint": "npm run eslint",

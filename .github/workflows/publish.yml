@@ -54,7 +54,7 @@ jobs:
           git_tag_prefix: "v"
 
       - name: Build package
-        run: npm run build
+        run: npm run build:publish
 
       - name: Publishing to npm
         run: npm publish --access public
