@@ -8,8 +8,8 @@ export type RichText = ReturnType<typeof richText>;
 
 export const richText = (
   text: string,
-  annotation: AnnotationForRequest | undefined,
-  link: string | undefined,
+  annotation?: AnnotationForRequest,
+  link?: string | undefined,
 ): TextRichTextItemResponse => ({
   type: 'text',
   text: {

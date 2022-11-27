@@ -68,7 +68,7 @@ const main = async () => {
     properties: {
       title: {
         title: [
-          richText(`test ${Date.now().toString()}`, undefined, undefined),
+          richText(`test ${Date.now().toString()}`),
         ],
       },
     },
@@ -275,12 +275,12 @@ image(
         column([
           ...resultHeading3,
           embed('https://example.com/', {
-            captions: [richText('example caption', undefined, undefined)],
+            captions: [richText('example caption')],
           }),
           image(
             'https://upload.wikimedia.org/wikipedia/commons/thumb/e/e9/Notion-logo.svg/1200px-Notion-logo.svg.png',
             {
-              captions: [richText('image caption', undefined, undefined)],
+              captions: [richText('image caption')],
             },
           ),
         ]),
