@@ -22,7 +22,7 @@ import { richText } from '../richTextObject';
 
 const sampleCodeBlock = (codes: string) => {
   return code(
-    `await client.pages.create({
+    richText(`await client.pages.create({
   // ...
   children: [
 ${codes
@@ -30,7 +30,7 @@ ${codes
   .map((line) => `    ${line}`)
   .join('\n')}
   ],
-});`,
+});`),
     'typescript',
   );
 };
@@ -41,19 +41,15 @@ const main = async () => {
   });
 
   const codeHeading3 = [
-    heading3('Code', {
-      textAnnotation: {
+    heading3(richText('Code', {
         bold: true,
-      },
-    }),
+      })),
     divider(),
   ];
   const resultHeading3 = [
-    heading3('Result', {
-      textAnnotation: {
+    heading3(richText('Result', {
         bold: true,
-      },
-    }),
+    })),
     divider(),
   ];
   const sectionHeader = (text: string) =>
@@ -98,11 +94,9 @@ paragraph('parent paragraph', {
           paragraph('colored paragraph', {
             blockColor: 'blue_background',
           }),
-          paragraph('annotated paragraph', {
-            textAnnotation: {
-              bold: true,
-            },
-          }),
+          paragraph(richText('annotated paragraph', {
+            bold: true,
+          })),
           paragraph('parent paragraph', {
             children: [paragraph('child paragraph')],
           }),
@@ -135,11 +129,10 @@ heading1('Toggleable heading1', {
           heading1('Toggleable heading1', {
             isToggleable: true,
             children: [
-              heading2('Decorated header', {
+              heading2(richText('Decorated header', {
+                italic: true,
+              }), {
                 blockColor: 'red_background',
-                textAnnotation: {
-                  italic: true,
-                },
               }),
             ],
           }),
