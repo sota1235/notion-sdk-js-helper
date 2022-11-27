@@ -1,7 +1,7 @@
 {
-  "name": "ts-simple-boilderplate",
+  "name": "@sota1235/notion-sdk-js-helper",
   "version": "0.0.1",
-  "description": "Simple boilerplate for @sota1235",
+  "description": "Helper utilities for using @notion/client",
   "main": "dist/index.js",
   "dependencies": {
     "@notionhq/client": "^2.2.2",
@@ -31,7 +31,7 @@
     "test:ci": "jest -c ./jest.config.ci.js",
     "debug:createPage": "ts-node src/example/createPage.ts"
   },
-  "keywords": [],
+  "keywords": ["notion"],
   "author": "@sota1235",
   "license": "MIT",
   "lint-staged": {

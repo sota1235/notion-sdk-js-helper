@@ -1,0 +1,14 @@
+.github/
+.husky
+src/
+.eslintignore
+.eslintrc.json
+.gitignore
+.node-version
+.npmignore
+.prettierrc.js
+codecove.yml
+jest.config.*
+package-lock.json
+renovate.json
+tsconfig.json
