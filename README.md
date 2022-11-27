@@ -1,35 +1,25 @@
-ts-simple-boilerplate [![CircleCI](https://circleci.com/gh/sota1235/ts-simple-boilerplate.svg?style=svg)](https://circleci.com/gh/sota1235/ts-simple-boilerplate) ![](https://github.com/sota1235/ts-simple-boilerplate/workflows/.github/workflows/main.yml/badge.svg) [![codecov](https://codecov.io/gh/sota1235/ts-simple-boilerplate/branch/master/graph/badge.svg)](https://codecov.io/gh/sota1235/ts-simple-boilerplate)
+notion-sdk-js-helper
 ====
 
-Minimum boilerplate for me.
+Helper for [makenotion/notion-sdk-js](https://github.com/makenotion/notion-sdk-js).
 
-Just for bundling 1 JavaScript file.
+### Feature
+
+- Type safe helper to build JSON of [blocks](https://developers.notion.com/reference/block).
 
 ### Requirement
 
-- Node.js v12.10.0~
+- See [.node-version](./.node-version).
 
 ### Usage
 
-See `scripts` in `package.json`.
+TBD
 
 ### Install
 
 ```
-git clone git@github.com:sota1235/ts-simple-boilerplate.git your_app_name
-cd your_app_name
-npm i
+npm i -S @sota1235/notion-sdk-js-helper@latest
 ```
-
-### Optional
-
-- GitHub Actions
-- CircleCI
-    - Only thing you need to do is to replace status badge on `README.md`.
-- Codecov
-    - Only things you need to do is
-        - 1. Set token of [Codecov](https://codecov.io/) as an environment value `CODECOV_TOKEN` on your CircleCI or GitHub project.
-        - 2. Replace status badge on `README.md`.
 
 ### Licence
 
