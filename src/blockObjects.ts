@@ -402,9 +402,9 @@ export const table = (
 });
 
 // https://developers.notion.com/reference/block#table-row-blocks
-export const tableRow = (texts: RichText[][]): NotionBlock<'table_row'> => ({
+export const tableRow = (texts: TextForBlock[]): NotionBlock<'table_row'> => ({
   type: 'table_row',
   table_row: {
-    cells: texts,
+    cells: texts.map((text) => forRichText(text)),
   },
 });
