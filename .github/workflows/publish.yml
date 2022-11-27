@@ -5,6 +5,8 @@ on:
       - main
     tags:
       - "!*"
+    paths:
+      - 'package.json'
 
 jobs:
   check-version:
