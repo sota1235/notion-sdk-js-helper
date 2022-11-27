@@ -5,6 +5,7 @@ import {
 } from '@notionhq/client/build/src/api-endpoints';
 
 export type Annotation = TextRichTextItemResponse['annotations'];
+export type AnnotationForRequest = Partial<Annotation>;
 
 // Workaround: Extract necessary types
 export type BlockObjectRequest = Exclude<

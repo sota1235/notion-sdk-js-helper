@@ -1,32 +1,31 @@
 import {
-  Annotation,
+  AnnotationForRequest,
   BlockObjectRequestWithoutChildren,
   Emoji,
   Language,
   NotionBlock,
   TextColor,
 } from './customTypes';
-import {
-  DEFAULT_COLOR,
-  defaultAnnotation,
-  RichText,
-  richText,
-} from './richTextObject';
+import { DEFAULT_COLOR, RichText, richText } from './richTextObject';
+
+type RichTextOptions = {
+  textAnnotation?: AnnotationForRequest;
+  link?: string;
+};
 
 // https://developers.notion.com/reference/block#paragraph-blocks
 export const paragraph = (
   text: string,
   options: {
     blockColor?: TextColor;
-    textAnnotation?: Annotation;
     children?: BlockObjectRequestWithoutChildren[];
-  } = {},
+  } & RichTextOptions = {},
 ): NotionBlock<'paragraph'> => ({
   type: 'paragraph',
   paragraph: {
-    rich_text: [richText(text, options.textAnnotation)],
+    rich_text: [richText(text, options.textAnnotation, options.link)],
     color: options.blockColor || DEFAULT_COLOR,
-    children: options.children || [],
+    children: options.children || undefined,
   },
 });
 
@@ -35,17 +34,16 @@ export const heading1 = (
   text: string,
   options: {
     blockColor?: TextColor;
-    textAnnotation?: Annotation;
     isToggleable?: boolean;
     children?: BlockObjectRequestWithoutChildren[];
-  } = {},
+  } & RichTextOptions = {},
 ): NotionBlock<'heading_1'> => ({
   type: 'heading_1',
   heading_1: {
-    rich_text: [richText(text, options.textAnnotation || defaultAnnotation)],
+    rich_text: [richText(text, options.textAnnotation, options.link)],
     color: options.blockColor || DEFAULT_COLOR,
     is_toggleable: options.isToggleable || false,
-    children: options.children || [],
+    children: options.children || undefined,
   },
 });
 
@@ -54,14 +52,13 @@ export const heading2 = (
   text: string,
   options: {
     blockColor?: TextColor;
-    textAnnotation?: Annotation;
     isToggleable?: boolean;
     children?: BlockObjectRequestWithoutChildren[];
-  } = {},
+  } & RichTextOptions = {},
 ): NotionBlock<'heading_2'> => ({
   type: 'heading_2',
   heading_2: {
-    rich_text: [richText(text, options.textAnnotation || defaultAnnotation)],
+    rich_text: [richText(text, options.textAnnotation, options.link)],
     color: options.blockColor || DEFAULT_COLOR,
     is_toggleable: options.isToggleable || false,
     children: options.children,
@@ -73,17 +70,16 @@ export const heading3 = (
   text: string,
   options: {
     blockColor?: TextColor;
-    textAnnotation?: Annotation;
     isToggleable?: boolean;
     children?: BlockObjectRequestWithoutChildren[];
-  } = {},
+  } & RichTextOptions = {},
 ): NotionBlock<'heading_3'> => ({
   type: 'heading_3',
   heading_3: {
-    rich_text: [richText(text, options.textAnnotation || defaultAnnotation)],
+    rich_text: [richText(text, options.textAnnotation, options.link)],
     color: options.blockColor || DEFAULT_COLOR,
     is_toggleable: options.isToggleable || false,
-    children: options.children || [],
+    children: options.children || undefined,
   },
 });
 
@@ -92,19 +88,18 @@ export const callout = (
   text: string,
   icon: Emoji,
   options: {
-    textAnnotation?: Annotation;
     blockColor?: TextColor;
     children?: BlockObjectRequestWithoutChildren[];
-  } = {},
+  } & RichTextOptions = {},
 ): NotionBlock<'callout'> => ({
   type: 'callout',
   callout: {
-    rich_text: [richText(text, options.textAnnotation)],
+    rich_text: [richText(text, options.textAnnotation, options.link)],
     icon: {
       emoji: icon,
     },
     color: options.blockColor || DEFAULT_COLOR,
-    children: options.children || [],
+    children: options.children || undefined,
   },
 });
 
@@ -112,33 +107,31 @@ export const callout = (
 export const quote = (
   text: string,
   options: {
-    textAnnotation?: Annotation;
     blockColor?: TextColor;
     children?: BlockObjectRequestWithoutChildren[];
-  } = {},
+  } & RichTextOptions = {},
 ): NotionBlock<'quote'> => ({
   type: 'quote',
   quote: {
-    rich_text: [richText(text, options.textAnnotation)],
+    rich_text: [richText(text, options.textAnnotation, options.link)],
     color: options.blockColor || DEFAULT_COLOR,
-    children: options.children || [],
+    children: options.children || undefined,
   },
 });
 
 // https://developers.notion.com/reference/block#bulleted-list-item-blocks
 export const bulletedListItem = (
   text: string,
-  textAnnotation: Annotation = defaultAnnotation,
   options: {
     blockColor?: TextColor;
     children?: BlockObjectRequestWithoutChildren[];
-  } = {},
+  } & RichTextOptions = {},
 ): NotionBlock<'bulleted_list_item'> => ({
   type: 'bulleted_list_item',
   bulleted_list_item: {
-    rich_text: [richText(text, textAnnotation)],
+    rich_text: [richText(text, options.textAnnotation, options.link)],
     color: options.blockColor || DEFAULT_COLOR,
-    children: options.children || [],
+    children: options.children || undefined,
   },
 });
 
@@ -146,35 +139,33 @@ export const bulletedListItem = (
 export const numberedListItem = (
   text: string,
   options: {
-    textAnnotation?: Annotation;
     blockColor?: TextColor;
     children?: BlockObjectRequestWithoutChildren[];
-  } = {},
+  } & RichTextOptions = {},
 ): NotionBlock<'numbered_list_item'> => ({
   type: 'numbered_list_item',
   numbered_list_item: {
-    rich_text: [richText(text, options.textAnnotation)],
+    rich_text: [richText(text, options.textAnnotation, options.link)],
     color: options.blockColor || DEFAULT_COLOR,
-    children: options.children || [],
+    children: options.children || undefined,
   },
 });
 
 // https://developers.notion.com/reference/block#to-do-blocks
 export const todo = (
   text: string,
-  checked = false,
   options: {
-    textAnnotation?: Annotation;
+    checked?: boolean;
     blockColor?: TextColor;
     children?: BlockObjectRequestWithoutChildren[];
-  } = {},
+  } & RichTextOptions = {},
 ): NotionBlock<'to_do'> => ({
   type: 'to_do',
   to_do: {
-    rich_text: [richText(text, options.textAnnotation)],
-    checked: checked,
+    rich_text: [richText(text, options.textAnnotation, options.link)],
+    checked: !!options.checked,
     color: options.blockColor || DEFAULT_COLOR,
-    children: options.children || [],
+    children: options.children || undefined,
   },
 });
 
@@ -182,16 +173,15 @@ export const todo = (
 export const toggle = (
   text: string,
   options: {
-    textAnnotation?: Annotation;
     blockColor?: TextColor;
     children?: BlockObjectRequestWithoutChildren[];
-  } = {},
+  } & RichTextOptions = {},
 ): NotionBlock<'toggle'> => ({
   type: 'toggle',
   toggle: {
-    rich_text: [richText(text, options.textAnnotation)],
+    rich_text: [richText(text, options.textAnnotation, options.link)],
     color: options.blockColor || DEFAULT_COLOR,
-    children: options.children || [],
+    children: options.children || undefined,
   },
 });
 
@@ -199,104 +189,100 @@ export const toggle = (
 export const code = (
   text: string,
   language: Language,
-  options: {
-    textAnnotation?: Annotation;
-  } = {},
+  options: RichTextOptions = {},
 ): NotionBlock<'code'> => ({
   type: 'code',
   code: {
-    rich_text: [richText(text, options.textAnnotation)],
+    rich_text: [richText(text, options.textAnnotation, options.link)],
     language,
   },
 });
 
 // https://developers.notion.com/reference/block#embed-blocks
-export const embed = (url: string): NotionBlock<'embed'> => ({
+export const embed = (
+  url: string,
+  options: {
+    captions?: RichText[];
+  } = {},
+): NotionBlock<'embed'> => ({
   type: 'embed',
   embed: {
     url,
+    caption: options.captions,
   },
 });
 
 // https://developers.notion.com/reference/block#image-blocks
 export const image = (
   url: string,
-  caption?: RichText,
+  options: {
+    captions?: RichText[];
+  } = {},
 ): NotionBlock<'image'> => ({
   type: 'image',
   image: {
     external: {
       url,
     },
-    ...(caption !== undefined
-      ? {
-          caption: [caption],
-        }
-      : {}),
+    caption: options.captions,
   },
 });
 
 // https://developers.notion.com/reference/block#video-blocks
 export const video = (
   url: string,
-  caption?: RichText,
+  options: {
+    captions?: RichText[];
+  } = {},
 ): NotionBlock<'video'> => ({
   type: 'video',
   video: {
     external: {
       url,
     },
-    ...(caption !== undefined
-      ? {
-          caption: [caption],
-        }
-      : {}),
+    caption: options.captions,
   },
 });
 
 // https://developers.notion.com/reference/block#file-blocks
-export const file = (url: string, caption?: RichText): NotionBlock<'file'> => ({
+export const file = (
+  url: string,
+  options: { captions?: RichText[] } = {},
+): NotionBlock<'file'> => ({
   type: 'file',
   file: {
     external: {
       url,
     },
-    ...(caption !== undefined
-      ? {
-          caption: [caption],
-        }
-      : {}),
+    caption: options.captions,
   },
 });
 
 // https://developers.notion.com/reference/block#pdf-blocks
-export const pdf = (url: string, caption?: RichText): NotionBlock<'pdf'> => ({
+export const pdf = (
+  url: string,
+  options: { captions?: RichText[] } = {},
+): NotionBlock<'pdf'> => ({
   type: 'pdf',
   pdf: {
     external: {
       url,
     },
-    ...(caption !== undefined
-      ? {
-          caption: [caption],
-        }
-      : {}),
+    caption: options.captions,
   },
 });
 
 // https://developers.notion.com/reference/block#bookmark-blocks
 export const bookmark = (
   url: string,
-  caption?: RichText,
+  options: {
+    captions?: RichText[];
+  } = {},
 ): NotionBlock<'bookmark'> => ({
   type: 'bookmark',
   bookmark: {
     url,
-    ...(caption !== undefined
-      ? {
-          caption: [caption],
-        }
-      : {}),
+    caption: options.captions,
   },
 });
 
@@ -354,13 +340,11 @@ export const column = (
 export const template = (
   text: string,
   children: BlockObjectRequestWithoutChildren[],
-  options: {
-    textAnnotation?: Annotation;
-  } = {},
+  options: RichTextOptions = {},
 ): NotionBlock<'template'> => ({
   type: 'template',
   template: {
-    rich_text: [richText(text, options.textAnnotation)],
+    rich_text: [richText(text, options.textAnnotation, options.link)],
     children,
   },
 });
@@ -376,7 +360,7 @@ export const linkToPage = (pageId: string): NotionBlock<'link_to_page'> => ({
 // https://developers.notion.com/reference/block#synced-block-blocks
 export const syncedBlock = (
   blockId: string | undefined,
-  children: BlockObjectRequestWithoutChildren[] = [],
+  children?: BlockObjectRequestWithoutChildren[],
 ): NotionBlock<'synced_block'> => {
   const syncedFrom =
     blockId !== undefined
@@ -388,7 +372,7 @@ export const syncedBlock = (
     type: 'synced_block',
     synced_block: {
       synced_from: syncedFrom,
-      children,
+      children: children || undefined,
     },
   };
 };

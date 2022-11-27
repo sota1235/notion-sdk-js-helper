@@ -1,4 +1,4 @@
-import { Annotation, TextColor } from './customTypes';
+import { Annotation, AnnotationForRequest, TextColor } from './customTypes';
 import { TextRichTextItemResponse } from '@notionhq/client/build/src/api-endpoints';
 
 export const DEFAULT_COLOR: TextColor = 'default' as const;
@@ -8,15 +8,18 @@ export type RichText = ReturnType<typeof richText>;
 
 export const richText = (
   text: string,
-  annotation?: Annotation,
-  link?: string,
+  annotation: AnnotationForRequest | undefined,
+  link: string | undefined,
 ): TextRichTextItemResponse => ({
   type: 'text',
   text: {
     content: text,
     link: link === undefined ? null : linkObject(link),
   },
-  annotations: annotation || defaultAnnotation,
+  annotations: {
+    ...defaultAnnotation,
+    ...annotation,
+  },
   plain_text: text,
   href: null,
 });
