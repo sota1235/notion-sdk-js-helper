@@ -380,7 +380,7 @@ export const syncedBlock = (
 // https://developers.notion.com/reference/block#table-blocks
 export const table = (
   width: number,
-  children: BlockObjectRequestWithoutChildren[],
+  children: NotionBlock<'table_row'>[],
   options: {
     has_column_header?: boolean;
     has_row_header?: boolean;

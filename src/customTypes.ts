@@ -17,7 +17,7 @@ export type NotionBlock<T extends string> = Extract<
   { [key in T]: any }
 >;
 export type BlockObjectRequestWithoutChildren =
-  NotionBlock<'table'>['table']['children'][number];
+  NotionBlock<'table'>['table']['children'][0];
 
 // Enums
 export type Emoji = Extract<

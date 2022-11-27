@@ -1,5 +1,6 @@
 import { Client } from '@notionhq/client';
 import {
+  breadcrumb,
   bulletedListItem,
   callout,
   code,
@@ -64,7 +65,13 @@ const main = async () => {
     parent: {
       database_id: process.env.NOTION_DATABASE_ID as string,
     },
-    properties: {},
+    properties: {
+      title: {
+        title: [
+          richText(`test ${Date.now().toString()}`, undefined, undefined),
+        ],
+      },
+    },
     children: [
       sectionHeader('Paragraph block'),
       columnList([
@@ -253,7 +260,18 @@ todo('TODO 2', {
       ]),
       sectionHeader('External resources blocks'),
       columnList([
-        column([...codeHeading3, sampleCodeBlock(``)]),
+        column([
+          ...codeHeading3,
+          sampleCodeBlock(`embed('https://example.com/', {
+  captions: [richText('example caption', undefined, undefined)],
+}),
+image(
+  'https://upload.wikimedia.org/wikipedia/commons/thumb/e/e9/Notion-logo.svg/1200px-Notion-logo.svg.png',
+  {
+    captions: [richText('image caption', undefined, undefined)],
+  },
+),`),
+        ]),
         column([
           ...resultHeading3,
           embed('https://example.com/', {
@@ -266,6 +284,16 @@ todo('TODO 2', {
             },
           ),
         ]),
+      ]),
+      sectionHeader('Divider blocks'),
+      columnList([
+        column([...codeHeading3, sampleCodeBlock('divider(),')]),
+        column([...resultHeading3, divider()]),
+      ]),
+      sectionHeader('Breadcrumb bloks'),
+      columnList([
+        column([...codeHeading3, sampleCodeBlock('breadcrumb(),')]),
+        column([...resultHeading3, breadcrumb()]),
       ]),
     ],
   });
