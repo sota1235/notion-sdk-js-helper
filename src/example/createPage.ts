@@ -41,15 +41,19 @@ const main = async () => {
   });
 
   const codeHeading3 = [
-    heading3(richText('Code', {
+    heading3(
+      richText('Code', {
         bold: true,
-      })),
+      }),
+    ),
     divider(),
   ];
   const resultHeading3 = [
-    heading3(richText('Result', {
+    heading3(
+      richText('Result', {
         bold: true,
-    })),
+      }),
+    ),
     divider(),
   ];
   const sectionHeader = (text: string) =>
@@ -63,9 +67,7 @@ const main = async () => {
     },
     properties: {
       title: {
-        title: [
-          richText(`test ${Date.now().toString()}`),
-        ],
+        title: [richText(`test ${Date.now().toString()}`)],
       },
     },
     children: [
@@ -94,9 +96,11 @@ paragraph('parent paragraph', {
           paragraph('colored paragraph', {
             blockColor: 'blue_background',
           }),
-          paragraph(richText('annotated paragraph', {
-            bold: true,
-          })),
+          paragraph(
+            richText('annotated paragraph', {
+              bold: true,
+            }),
+          ),
           paragraph('parent paragraph', {
             children: [paragraph('child paragraph')],
           }),
@@ -129,11 +133,14 @@ heading1('Toggleable heading1', {
           heading1('Toggleable heading1', {
             isToggleable: true,
             children: [
-              heading2(richText('Decorated header', {
-                italic: true,
-              }), {
-                blockColor: 'red_background',
-              }),
+              heading2(
+                richText('Decorated header', {
+                  italic: true,
+                }),
+                {
+                  blockColor: 'red_background',
+                },
+              ),
             ],
           }),
         ]),

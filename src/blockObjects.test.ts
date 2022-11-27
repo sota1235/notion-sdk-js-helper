@@ -1,15 +1,33 @@
 import { RichText, richText } from './richTextObject';
 import {
-  bookmark, breadcrumb,
+  bookmark,
+  breadcrumb,
   bulletedListItem,
-  callout, code, column, columnList, divider, embed, equation, file,
+  callout,
+  code,
+  column,
+  columnList,
+  divider,
+  embed,
+  equation,
+  file,
   heading1,
   heading2,
-  heading3, image, linkToPage,
+  heading3,
+  image,
+  linkToPage,
   numberedListItem,
-  paragraph, pdf,
-  quote, syncedBlock, table, tableOfContents, tableRow, template,
-  todo, toggle, video
+  paragraph,
+  pdf,
+  quote,
+  syncedBlock,
+  table,
+  tableOfContents,
+  tableRow,
+  template,
+  todo,
+  toggle,
+  video,
 } from './blockObjects';
 import { BlockObjectRequestWithoutChildren } from './customTypes';
 
@@ -28,12 +46,12 @@ describe('blockObjects', () => {
     });
 
     test('with options', () => {
-      expect(paragraph('test', {
-        blockColor: 'red_background',
-        children: [
-          paragraph('test2'),
-        ],
-      })).toMatchSnapshot();
+      expect(
+        paragraph('test', {
+          blockColor: 'red_background',
+          children: [paragraph('test2')],
+        }),
+      ).toMatchSnapshot();
     });
   });
 
@@ -43,15 +61,17 @@ describe('blockObjects', () => {
     });
 
     test('with option', () => {
-      expect(heading1('test', {
-        blockColor: 'gray_background',
-        isToggleable: true,
-        children: [
-          heading1('test', {
-            blockColor: 'red_background',
-          }),
-        ],
-      })).toMatchSnapshot();
+      expect(
+        heading1('test', {
+          blockColor: 'gray_background',
+          isToggleable: true,
+          children: [
+            heading1('test', {
+              blockColor: 'red_background',
+            }),
+          ],
+        }),
+      ).toMatchSnapshot();
     });
   });
 
@@ -61,15 +81,17 @@ describe('blockObjects', () => {
     });
 
     test('with option', () => {
-      expect(heading2('test', {
-        blockColor: 'gray_background',
-        isToggleable: true,
-        children: [
-          heading2('test', {
-            blockColor: 'red_background',
-          }),
-        ],
-      })).toMatchSnapshot();
+      expect(
+        heading2('test', {
+          blockColor: 'gray_background',
+          isToggleable: true,
+          children: [
+            heading2('test', {
+              blockColor: 'red_background',
+            }),
+          ],
+        }),
+      ).toMatchSnapshot();
     });
   });
 
@@ -79,15 +101,17 @@ describe('blockObjects', () => {
     });
 
     test('with option', () => {
-      expect(heading3('test', {
-        blockColor: 'gray_background',
-        isToggleable: true,
-        children: [
-          heading3('test', {
-            blockColor: 'red_background',
-          }),
-        ],
-      })).toMatchSnapshot();
+      expect(
+        heading3('test', {
+          blockColor: 'gray_background',
+          isToggleable: true,
+          children: [
+            heading3('test', {
+              blockColor: 'red_background',
+            }),
+          ],
+        }),
+      ).toMatchSnapshot();
     });
   });
 
@@ -97,27 +121,27 @@ describe('blockObjects', () => {
     });
 
     test('with option', () => {
-      expect(callout('test', '🔥', {
-        blockColor: 'gray_background',
-        children: [
-          callout('test', '🔥'),
-        ],
-      })).toMatchSnapshot();
+      expect(
+        callout('test', '🔥', {
+          blockColor: 'gray_background',
+          children: [callout('test', '🔥')],
+        }),
+      ).toMatchSnapshot();
     });
   });
 
   describe('quote', () => {
     test.each<TextForBlock>(testCasesForText)('no option', (text) => {
-      expect(quote(text )).toMatchSnapshot();
+      expect(quote(text)).toMatchSnapshot();
     });
 
     test('with option', () => {
-      expect(quote('test', {
-        blockColor: 'gray_background',
-        children: [
-          quote('test'),
-        ],
-      })).toMatchSnapshot();
+      expect(
+        quote('test', {
+          blockColor: 'gray_background',
+          children: [quote('test')],
+        }),
+      ).toMatchSnapshot();
     });
   });
 
@@ -127,12 +151,12 @@ describe('blockObjects', () => {
     });
 
     test('with option', () => {
-      expect(bulletedListItem('test', {
-        blockColor: 'gray_background',
-        children: [
-          bulletedListItem('test'),
-        ],
-      })).toMatchSnapshot();
+      expect(
+        bulletedListItem('test', {
+          blockColor: 'gray_background',
+          children: [bulletedListItem('test')],
+        }),
+      ).toMatchSnapshot();
     });
   });
 
@@ -142,12 +166,12 @@ describe('blockObjects', () => {
     });
 
     test('with option', () => {
-      expect(numberedListItem('test', {
-        blockColor: 'gray_background',
-        children: [
-          numberedListItem('test'),
-        ],
-      })).toMatchSnapshot();
+      expect(
+        numberedListItem('test', {
+          blockColor: 'gray_background',
+          children: [numberedListItem('test')],
+        }),
+      ).toMatchSnapshot();
     });
   });
 
@@ -157,15 +181,17 @@ describe('blockObjects', () => {
     });
 
     test('with option', () => {
-      expect(todo('test', {
-        checked: true,
-        blockColor: 'gray_background',
-        children: [
-          todo('test', {
-            checked: false,
-          }),
-        ],
-      })).toMatchSnapshot();
+      expect(
+        todo('test', {
+          checked: true,
+          blockColor: 'gray_background',
+          children: [
+            todo('test', {
+              checked: false,
+            }),
+          ],
+        }),
+      ).toMatchSnapshot();
     });
   });
 
@@ -175,12 +201,12 @@ describe('blockObjects', () => {
     });
 
     test('with option', () => {
-      expect(toggle('test', {
-        blockColor: 'gray_background',
-        children: [
-          toggle('test'),
-        ],
-      })).toMatchSnapshot();
+      expect(
+        toggle('test', {
+          blockColor: 'gray_background',
+          children: [toggle('test')],
+        }),
+      ).toMatchSnapshot();
     });
   });
 
@@ -196,9 +222,11 @@ describe('blockObjects', () => {
     });
 
     test('with option', () => {
-      expect(embed('test', {
-        captions: [richText('test2')],
-      })).toMatchSnapshot();
+      expect(
+        embed('test', {
+          captions: [richText('test2')],
+        }),
+      ).toMatchSnapshot();
     });
   });
 
@@ -208,9 +236,11 @@ describe('blockObjects', () => {
     });
 
     test('with option', () => {
-      expect(image('url', {
-        captions: [richText('test2')],
-      })).toMatchSnapshot();
+      expect(
+        image('url', {
+          captions: [richText('test2')],
+        }),
+      ).toMatchSnapshot();
     });
   });
 
@@ -220,9 +250,11 @@ describe('blockObjects', () => {
     });
 
     test('with option', () => {
-      expect(video('url', {
-        captions: [richText('test2')],
-      })).toMatchSnapshot();
+      expect(
+        video('url', {
+          captions: [richText('test2')],
+        }),
+      ).toMatchSnapshot();
     });
   });
 
@@ -232,9 +264,11 @@ describe('blockObjects', () => {
     });
 
     test('with option', () => {
-      expect(file('url', {
-        captions: [richText('test2')],
-      })).toMatchSnapshot();
+      expect(
+        file('url', {
+          captions: [richText('test2')],
+        }),
+      ).toMatchSnapshot();
     });
   });
 
@@ -244,9 +278,11 @@ describe('blockObjects', () => {
     });
 
     test('with option', () => {
-      expect(pdf('url', {
-        captions: [richText('test2')],
-      })).toMatchSnapshot();
+      expect(
+        pdf('url', {
+          captions: [richText('test2')],
+        }),
+      ).toMatchSnapshot();
     });
   });
 
@@ -256,9 +292,11 @@ describe('blockObjects', () => {
     });
 
     test('with option', () => {
-      expect(bookmark('url', {
-        captions: [richText('test2')],
-      })).toMatchSnapshot();
+      expect(
+        bookmark('url', {
+          captions: [richText('test2')],
+        }),
+      ).toMatchSnapshot();
     });
   });
 
@@ -296,14 +334,13 @@ describe('blockObjects', () => {
         columnList([
           column([
             heading1('test'),
-            paragraph(richText('test', {
-              bold: true,
-            })),
+            paragraph(
+              richText('test', {
+                bold: true,
+              }),
+            ),
           ]),
-          column([
-            heading1('test'),
-            paragraph('test'),
-          ]),
+          column([heading1('test'), paragraph('test')]),
         ]),
       ).toMatchSnapshot();
     });
@@ -311,37 +348,33 @@ describe('blockObjects', () => {
 
   describe('template', () => {
     test.each<TextForBlock>(testCasesForText)('default', (text) => {
-      expect(
-        template(text, [
-          paragraph('test'),
-        ]),
-      ).toMatchSnapshot();
+      expect(template(text, [paragraph('test')])).toMatchSnapshot();
     });
   });
 
   describe('linkToPage', () => {
     test('default', () => {
-      expect(
-        linkToPage('pageId'),
-      ).toMatchSnapshot();
+      expect(linkToPage('pageId')).toMatchSnapshot();
     });
   });
 
   describe('syncedBlock', () => {
-    test.each<[string | undefined, BlockObjectRequestWithoutChildren[] | undefined]>([
+    test.each<
+      [string | undefined, BlockObjectRequestWithoutChildren[] | undefined]
+    >([
       [undefined, undefined],
       [undefined, [paragraph('test')]],
       ['blockId', undefined],
       ['blockId', [paragraph('test')]],
     ])('default', (blockId, children) => {
-      expect(
-        syncedBlock(blockId, children),
-      ).toMatchSnapshot();
+      expect(syncedBlock(blockId, children)).toMatchSnapshot();
     });
   });
 
   describe('table', () => {
-    test.each<[number, boolean | undefined, boolean | undefined, RichText[][][]]>([
+    test.each<
+      [number, boolean | undefined, boolean | undefined, RichText[][][]]
+    >([
       [2, undefined, undefined, [[[richText('test')]]]],
       [2, true, undefined, [[[richText('test')]]]],
       [2, undefined, true, [[[richText('test')]]]],
@@ -353,7 +386,7 @@ describe('blockObjects', () => {
           {
             has_column_header: hasColumnHeader,
             has_row_header: hasRowHeader,
-          }
+          },
         ),
       ).toMatchSnapshot();
     });
