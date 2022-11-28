@@ -149,6 +149,52 @@ exports[`blockObjects bulletedListItem no option 3`] = `
 }
 `;
 
+exports[`blockObjects bulletedListItem no option 4`] = `
+{
+  "bulleted_list_item": {
+    "children": undefined,
+    "color": "default",
+    "rich_text": [
+      {
+        "annotations": {
+          "bold": false,
+          "code": false,
+          "color": "default",
+          "italic": false,
+          "strikethrough": false,
+          "underline": false,
+        },
+        "href": null,
+        "plain_text": "test",
+        "text": {
+          "content": "test",
+          "link": null,
+        },
+        "type": "text",
+      },
+      {
+        "annotations": {
+          "bold": true,
+          "code": false,
+          "color": "default",
+          "italic": false,
+          "strikethrough": false,
+          "underline": false,
+        },
+        "href": null,
+        "plain_text": "test2",
+        "text": {
+          "content": "test2",
+          "link": null,
+        },
+        "type": "text",
+      },
+    ],
+  },
+  "type": "bulleted_list_item",
+}
+`;
+
 exports[`blockObjects bulletedListItem with option 1`] = `
 {
   "bulleted_list_item": {
@@ -318,6 +364,55 @@ exports[`blockObjects callout no option 3`] = `
 }
 `;
 
+exports[`blockObjects callout no option 4`] = `
+{
+  "callout": {
+    "children": undefined,
+    "color": "default",
+    "icon": {
+      "emoji": "🔥",
+    },
+    "rich_text": [
+      {
+        "annotations": {
+          "bold": false,
+          "code": false,
+          "color": "default",
+          "italic": false,
+          "strikethrough": false,
+          "underline": false,
+        },
+        "href": null,
+        "plain_text": "test",
+        "text": {
+          "content": "test",
+          "link": null,
+        },
+        "type": "text",
+      },
+      {
+        "annotations": {
+          "bold": true,
+          "code": false,
+          "color": "default",
+          "italic": false,
+          "strikethrough": false,
+          "underline": false,
+        },
+        "href": null,
+        "plain_text": "test2",
+        "text": {
+          "content": "test2",
+          "link": null,
+        },
+        "type": "text",
+      },
+    ],
+  },
+  "type": "callout",
+}
+`;
+
 exports[`blockObjects callout with option 1`] = `
 {
   "callout": {
@@ -437,6 +532,51 @@ exports[`blockObjects code code 2`] = `
 `;
 
 exports[`blockObjects code code 3`] = `
+{
+  "code": {
+    "language": "javascript",
+    "rich_text": [
+      {
+        "annotations": {
+          "bold": false,
+          "code": false,
+          "color": "default",
+          "italic": false,
+          "strikethrough": false,
+          "underline": false,
+        },
+        "href": null,
+        "plain_text": "test",
+        "text": {
+          "content": "test",
+          "link": null,
+        },
+        "type": "text",
+      },
+      {
+        "annotations": {
+          "bold": true,
+          "code": false,
+          "color": "default",
+          "italic": false,
+          "strikethrough": false,
+          "underline": false,
+        },
+        "href": null,
+        "plain_text": "test2",
+        "text": {
+          "content": "test2",
+          "link": null,
+        },
+        "type": "text",
+      },
+    ],
+  },
+  "type": "code",
+}
+`;
+
+exports[`blockObjects code code 4`] = `
 {
   "code": {
     "language": "javascript",
@@ -814,6 +954,53 @@ exports[`blockObjects heading1 no option 3`] = `
 }
 `;
 
+exports[`blockObjects heading1 no option 4`] = `
+{
+  "heading_1": {
+    "children": undefined,
+    "color": "default",
+    "is_toggleable": false,
+    "rich_text": [
+      {
+        "annotations": {
+          "bold": false,
+          "code": false,
+          "color": "default",
+          "italic": false,
+          "strikethrough": false,
+          "underline": false,
+        },
+        "href": null,
+        "plain_text": "test",
+        "text": {
+          "content": "test",
+          "link": null,
+        },
+        "type": "text",
+      },
+      {
+        "annotations": {
+          "bold": true,
+          "code": false,
+          "color": "default",
+          "italic": false,
+          "strikethrough": false,
+          "underline": false,
+        },
+        "href": null,
+        "plain_text": "test2",
+        "text": {
+          "content": "test2",
+          "link": null,
+        },
+        "type": "text",
+      },
+    ],
+  },
+  "type": "heading_1",
+}
+`;
+
 exports[`blockObjects heading1 with option 1`] = `
 {
   "heading_1": {
@@ -979,6 +1166,53 @@ exports[`blockObjects heading2 no option 3`] = `
 }
 `;
 
+exports[`blockObjects heading2 no option 4`] = `
+{
+  "heading_2": {
+    "children": undefined,
+    "color": "default",
+    "is_toggleable": false,
+    "rich_text": [
+      {
+        "annotations": {
+          "bold": false,
+          "code": false,
+          "color": "default",
+          "italic": false,
+          "strikethrough": false,
+          "underline": false,
+        },
+        "href": null,
+        "plain_text": "test",
+        "text": {
+          "content": "test",
+          "link": null,
+        },
+        "type": "text",
+      },
+      {
+        "annotations": {
+          "bold": true,
+          "code": false,
+          "color": "default",
+          "italic": false,
+          "strikethrough": false,
+          "underline": false,
+        },
+        "href": null,
+        "plain_text": "test2",
+        "text": {
+          "content": "test2",
+          "link": null,
+        },
+        "type": "text",
+      },
+    ],
+  },
+  "type": "heading_2",
+}
+`;
+
 exports[`blockObjects heading2 with option 1`] = `
 {
   "heading_2": {
@@ -1098,6 +1332,53 @@ exports[`blockObjects heading3 no option 2`] = `
 `;
 
 exports[`blockObjects heading3 no option 3`] = `
+{
+  "heading_3": {
+    "children": undefined,
+    "color": "default",
+    "is_toggleable": false,
+    "rich_text": [
+      {
+        "annotations": {
+          "bold": false,
+          "code": false,
+          "color": "default",
+          "italic": false,
+          "strikethrough": false,
+          "underline": false,
+        },
+        "href": null,
+        "plain_text": "test",
+        "text": {
+          "content": "test",
+          "link": null,
+        },
+        "type": "text",
+      },
+      {
+        "annotations": {
+          "bold": true,
+          "code": false,
+          "color": "default",
+          "italic": false,
+          "strikethrough": false,
+          "underline": false,
+        },
+        "href": null,
+        "plain_text": "test2",
+        "text": {
+          "content": "test2",
+          "link": null,
+        },
+        "type": "text",
+      },
+    ],
+  },
+  "type": "heading_3",
+}
+`;
+
+exports[`blockObjects heading3 no option 4`] = `
 {
   "heading_3": {
     "children": undefined,
@@ -1357,6 +1638,52 @@ exports[`blockObjects numberedListItem no option 3`] = `
 }
 `;
 
+exports[`blockObjects numberedListItem no option 4`] = `
+{
+  "numbered_list_item": {
+    "children": undefined,
+    "color": "default",
+    "rich_text": [
+      {
+        "annotations": {
+          "bold": false,
+          "code": false,
+          "color": "default",
+          "italic": false,
+          "strikethrough": false,
+          "underline": false,
+        },
+        "href": null,
+        "plain_text": "test",
+        "text": {
+          "content": "test",
+          "link": null,
+        },
+        "type": "text",
+      },
+      {
+        "annotations": {
+          "bold": true,
+          "code": false,
+          "color": "default",
+          "italic": false,
+          "strikethrough": false,
+          "underline": false,
+        },
+        "href": null,
+        "plain_text": "test2",
+        "text": {
+          "content": "test2",
+          "link": null,
+        },
+        "type": "text",
+      },
+    ],
+  },
+  "type": "numbered_list_item",
+}
+`;
+
 exports[`blockObjects numberedListItem with option 1`] = `
 {
   "numbered_list_item": {
@@ -1472,6 +1799,52 @@ exports[`blockObjects paragraph no option 2`] = `
 `;
 
 exports[`blockObjects paragraph no option 3`] = `
+{
+  "paragraph": {
+    "children": undefined,
+    "color": "default",
+    "rich_text": [
+      {
+        "annotations": {
+          "bold": false,
+          "code": false,
+          "color": "default",
+          "italic": false,
+          "strikethrough": false,
+          "underline": false,
+        },
+        "href": null,
+        "plain_text": "test",
+        "text": {
+          "content": "test",
+          "link": null,
+        },
+        "type": "text",
+      },
+      {
+        "annotations": {
+          "bold": true,
+          "code": false,
+          "color": "default",
+          "italic": false,
+          "strikethrough": false,
+          "underline": false,
+        },
+        "href": null,
+        "plain_text": "test2",
+        "text": {
+          "content": "test2",
+          "link": null,
+        },
+        "type": "text",
+      },
+    ],
+  },
+  "type": "paragraph",
+}
+`;
+
+exports[`blockObjects paragraph no option 4`] = `
 {
   "paragraph": {
     "children": undefined,
@@ -1674,6 +2047,52 @@ exports[`blockObjects quote no option 2`] = `
 `;
 
 exports[`blockObjects quote no option 3`] = `
+{
+  "quote": {
+    "children": undefined,
+    "color": "default",
+    "rich_text": [
+      {
+        "annotations": {
+          "bold": false,
+          "code": false,
+          "color": "default",
+          "italic": false,
+          "strikethrough": false,
+          "underline": false,
+        },
+        "href": null,
+        "plain_text": "test",
+        "text": {
+          "content": "test",
+          "link": null,
+        },
+        "type": "text",
+      },
+      {
+        "annotations": {
+          "bold": true,
+          "code": false,
+          "color": "default",
+          "italic": false,
+          "strikethrough": false,
+          "underline": false,
+        },
+        "href": null,
+        "plain_text": "test2",
+        "text": {
+          "content": "test2",
+          "link": null,
+        },
+        "type": "text",
+      },
+    ],
+  },
+  "type": "quote",
+}
+`;
+
+exports[`blockObjects quote no option 4`] = `
 {
   "quote": {
     "children": undefined,
@@ -2190,6 +2609,78 @@ exports[`blockObjects template default 3`] = `
 }
 `;
 
+exports[`blockObjects template default 4`] = `
+{
+  "template": {
+    "children": [
+      {
+        "paragraph": {
+          "children": undefined,
+          "color": "default",
+          "rich_text": [
+            {
+              "annotations": {
+                "bold": false,
+                "code": false,
+                "color": "default",
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+              },
+              "href": null,
+              "plain_text": "test",
+              "text": {
+                "content": "test",
+                "link": null,
+              },
+              "type": "text",
+            },
+          ],
+        },
+        "type": "paragraph",
+      },
+    ],
+    "rich_text": [
+      {
+        "annotations": {
+          "bold": false,
+          "code": false,
+          "color": "default",
+          "italic": false,
+          "strikethrough": false,
+          "underline": false,
+        },
+        "href": null,
+        "plain_text": "test",
+        "text": {
+          "content": "test",
+          "link": null,
+        },
+        "type": "text",
+      },
+      {
+        "annotations": {
+          "bold": true,
+          "code": false,
+          "color": "default",
+          "italic": false,
+          "strikethrough": false,
+          "underline": false,
+        },
+        "href": null,
+        "plain_text": "test2",
+        "text": {
+          "content": "test2",
+          "link": null,
+        },
+        "type": "text",
+      },
+    ],
+  },
+  "type": "template",
+}
+`;
+
 exports[`blockObjects todo no option 1`] = `
 {
   "to_do": {
@@ -2251,6 +2742,53 @@ exports[`blockObjects todo no option 2`] = `
 `;
 
 exports[`blockObjects todo no option 3`] = `
+{
+  "to_do": {
+    "checked": false,
+    "children": undefined,
+    "color": "default",
+    "rich_text": [
+      {
+        "annotations": {
+          "bold": false,
+          "code": false,
+          "color": "default",
+          "italic": false,
+          "strikethrough": false,
+          "underline": false,
+        },
+        "href": null,
+        "plain_text": "test",
+        "text": {
+          "content": "test",
+          "link": null,
+        },
+        "type": "text",
+      },
+      {
+        "annotations": {
+          "bold": true,
+          "code": false,
+          "color": "default",
+          "italic": false,
+          "strikethrough": false,
+          "underline": false,
+        },
+        "href": null,
+        "plain_text": "test2",
+        "text": {
+          "content": "test2",
+          "link": null,
+        },
+        "type": "text",
+      },
+    ],
+  },
+  "type": "to_do",
+}
+`;
+
+exports[`blockObjects todo no option 4`] = `
 {
   "to_do": {
     "checked": false,
@@ -2414,6 +2952,52 @@ exports[`blockObjects toggle no option 2`] = `
 `;
 
 exports[`blockObjects toggle no option 3`] = `
+{
+  "toggle": {
+    "children": undefined,
+    "color": "default",
+    "rich_text": [
+      {
+        "annotations": {
+          "bold": false,
+          "code": false,
+          "color": "default",
+          "italic": false,
+          "strikethrough": false,
+          "underline": false,
+        },
+        "href": null,
+        "plain_text": "test",
+        "text": {
+          "content": "test",
+          "link": null,
+        },
+        "type": "text",
+      },
+      {
+        "annotations": {
+          "bold": true,
+          "code": false,
+          "color": "default",
+          "italic": false,
+          "strikethrough": false,
+          "underline": false,
+        },
+        "href": null,
+        "plain_text": "test2",
+        "text": {
+          "content": "test2",
+          "link": null,
+        },
+        "type": "text",
+      },
+    ],
+  },
+  "type": "toggle",
+}
+`;
+
+exports[`blockObjects toggle no option 4`] = `
 {
   "toggle": {
     "children": undefined,
