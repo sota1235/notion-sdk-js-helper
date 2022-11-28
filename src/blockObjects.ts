@@ -7,11 +7,18 @@ import {
 } from './customTypes';
 import { DEFAULT_COLOR, richText, RichText } from './richTextObject';
 
-type TextForBlock = string | RichText | RichText[];
+type Text = string | RichText;
+type TextForBlock = Text | Text[];
 
 function forRichText(text: TextForBlock): RichText[] {
   if (Array.isArray(text)) {
-    return text;
+    return text.map((t) => {
+      if (typeof t === 'string') {
+        return richText(t);
+      }
+
+      return t;
+    });
   }
 
   if (typeof text === 'string') {

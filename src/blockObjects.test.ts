@@ -31,12 +31,13 @@ import {
 } from './blockObjects';
 import { BlockObjectRequestWithoutChildren } from './customTypes';
 
-type TextForBlock = string | RichText | RichText[];
+type Text = string | RichText;
+type TextForBlock = Text | Text[];
 
 const testCasesForText: TextForBlock[] = [
   'test',
   richText('test'),
-  [richText('test'), richText('test2', { bold: true })],
+  ['test', richText('test2', { bold: true })],
 ];
 
 describe('blockObjects', () => {
