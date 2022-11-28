@@ -31,11 +31,13 @@ import {
 } from './blockObjects';
 import { BlockObjectRequestWithoutChildren } from './customTypes';
 
-type TextForBlock = string | RichText | RichText[];
+type Text = string | RichText;
+type TextForBlock = Text | Text[];
 
 const testCasesForText: TextForBlock[] = [
   'test',
   richText('test'),
+  ['test', richText('test2', { bold: true })], // mixed array
   [richText('test'), richText('test2', { bold: true })],
 ];
 
