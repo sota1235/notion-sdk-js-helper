@@ -1,4 +1,4 @@
-notion-sdk-js-helper
+notion-sdk-js-helper [![npm version](https://badge.fury.io/js/@sota1235%2Fnotion-sdk-js-helper.svg)](https://badge.fury.io/js/@sota1235%2Fnotion-sdk-js-helper)
 ====
 
 Helper for [makenotion/notion-sdk-js](https://github.com/makenotion/notion-sdk-js).
