@@ -15,7 +15,102 @@ You can see example codes on [this page](https://sota1235.notion.site/Example-pa
 
 ### Usage
 
-TBD
+Without this library, when you want to create new page.
+
+```typescript
+import { Client } from '@notionhq/client';
+
+const client = new Client({
+  auth: 'YOUR_NOTION_API_TOKEN',
+});
+
+await client.pages.create({
+  parent: {
+    databse_id: 'DATABASE_ID',
+  },
+  properties: {},
+  children: [
+    {
+      type: 'heading_1',
+      heading_1: {
+        rich_text: [
+          {
+            type: 'text',
+            text: {
+              content: 'Section1',
+            },
+          },
+        ],
+      },
+    },
+    {
+      type: 'paragraph',
+      paragraph: {
+        rich_text: [
+          {
+            type: 'text',
+            text: {
+              content: 'I am ',
+            },
+          },
+          {
+            type: 'text',
+            text: {
+              content: 'engineer',
+            },
+            annotations: {
+              bold: true,
+            },
+          },
+        ],
+      },
+    },
+  ],
+});
+```
+
+With this library.
+
+```typescript
+import { BlockObjects, RichTextObjects, CustomTypes } from '@sota1235/notion-sdk-js-helper';
+import { Client } from '@notionhq/client';
+
+const {
+  heading1,
+  paragraph,
+} = BlockObjects;
+
+const client = new Client({
+  auth: 'YOUR_NOTION_API_TOKEN',
+});
+
+// Use helper methods when create page
+await client.pages.create({
+  parent: {
+    databse_id: 'DATABASE_ID',
+  },
+  properties: {},
+  children: [
+    heading1('Section 1'),
+    paragraph([
+      RichTextObjects.richText('I am '),
+      RichTextObjects.richText('engineer', {
+        bold: true,
+      }),
+    ]),
+  ],
+});
+```
+
+You can also use this library when fetching data.
+
+```typescript
+// Use custom types as you like when fetching data
+const { results } = await client.blocks.children.list({
+  block_id: 'PAGE_ID',
+});
+const heading1Data = results[0].heading_1 as CustomTypes.NotionBlock<'heading_1'>['heading_1'];
+```
 
 ### Install
 
