@@ -9,7 +9,7 @@
   },
   "devDependencies": {
     "@sota1235/eslint-config": "^3.2.0",
-    "@types/jest": "29.5.1",
+    "@types/jest": "29.5.2",
     "@typescript-eslint/eslint-plugin": "^5.3.0",
     "eslint": "8.41.0",
     "husky": "8.0.3",
