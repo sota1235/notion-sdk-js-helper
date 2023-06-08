@@ -1,3 +1,3 @@
 export * as BlockObjects from './blockObjects';
-export * as RichTextObjets from './richTextObject';
+export * as RichTextObjects from './richTextObject';
 export * as CustomTypes from './customTypes';
