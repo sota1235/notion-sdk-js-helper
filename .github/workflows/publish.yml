@@ -13,10 +13,10 @@ jobs:
     name: Checking whether it can be published or not
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@c85c95e3d7251135ab7dc9ce3241c5835cc595a9 # v3
 
       - name: Setting up Node.js
-        uses: actions/setup-node@v3
+        uses: actions/setup-node@64ed1c7eab4cce3362f8c340dee64e5eaeef8f7c # v3
         with:
           node-version-file: .node-version
           registry-url: 'https://registry.npmjs.org'
@@ -30,10 +30,10 @@ jobs:
     needs: check-version
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@c85c95e3d7251135ab7dc9ce3241c5835cc595a9 # v3
 
       - name: Setting up Node.js
-        uses: actions/setup-node@v3
+        uses: actions/setup-node@64ed1c7eab4cce3362f8c340dee64e5eaeef8f7c # v3
         with:
           node-version-file: .node-version
           registry-url: 'https://registry.npmjs.org'
@@ -47,7 +47,7 @@ jobs:
         run: node -p -e '`PACKAGE_VERSION=${require("./package.json").version}`' >> $GITHUB_ENV
 
       - name: package-version-to-git-tag
-        uses: pkgdeps/git-tag-action@v2
+        uses: pkgdeps/git-tag-action@00821b688297ad5792cf50e6aaa0d4404bec49d0 # v2
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           github_repo: ${{ github.repository }}
