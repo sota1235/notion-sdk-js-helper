@@ -51,10 +51,10 @@ export const annotation = (options: {
   code?: boolean;
   color?: TextColor;
 }): Annotation => ({
-  bold: options.bold || false,
-  italic: options.italic || false,
-  strikethrough: options.strikethrough || false,
-  underline: options.underline || false,
-  code: options.code || false,
-  color: options.color || 'default',
+  bold: options.bold ?? false,
+  italic: options.italic ?? false,
+  strikethrough: options.strikethrough ?? false,
+  underline: options.underline ?? false,
+  code: options.code ?? false,
+  color: options.color ?? 'default',
 });
