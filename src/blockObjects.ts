@@ -39,8 +39,8 @@ export const paragraph = (
   type: 'paragraph',
   paragraph: {
     rich_text: forRichText(text),
-    color: options.blockColor || DEFAULT_COLOR,
-    children: options.children || undefined,
+    color: options.blockColor ?? DEFAULT_COLOR,
+    children: options.children ?? undefined,
   },
 });
 
@@ -56,9 +56,9 @@ export const heading1 = (
   type: 'heading_1',
   heading_1: {
     rich_text: forRichText(text),
-    color: options.blockColor || DEFAULT_COLOR,
-    is_toggleable: options.isToggleable || false,
-    children: options.children || undefined,
+    color: options.blockColor ?? DEFAULT_COLOR,
+    is_toggleable: options.isToggleable ?? false,
+    children: options.children ?? undefined,
   },
 });
 
@@ -74,8 +74,8 @@ export const heading2 = (
   type: 'heading_2',
   heading_2: {
     rich_text: forRichText(text),
-    color: options.blockColor || DEFAULT_COLOR,
-    is_toggleable: options.isToggleable || false,
+    color: options.blockColor ?? DEFAULT_COLOR,
+    is_toggleable: options.isToggleable ?? false,
     children: options.children,
   },
 });
@@ -92,9 +92,9 @@ export const heading3 = (
   type: 'heading_3',
   heading_3: {
     rich_text: forRichText(text),
-    color: options.blockColor || DEFAULT_COLOR,
-    is_toggleable: options.isToggleable || false,
-    children: options.children || undefined,
+    color: options.blockColor ?? DEFAULT_COLOR,
+    is_toggleable: options.isToggleable ?? false,
+    children: options.children ?? undefined,
   },
 });
 
@@ -113,8 +113,8 @@ export const callout = (
     icon: {
       emoji: icon,
     },
-    color: options.blockColor || DEFAULT_COLOR,
-    children: options.children || undefined,
+    color: options.blockColor ?? DEFAULT_COLOR,
+    children: options.children ?? undefined,
   },
 });
 
@@ -129,8 +129,8 @@ export const quote = (
   type: 'quote',
   quote: {
     rich_text: forRichText(text),
-    color: options.blockColor || DEFAULT_COLOR,
-    children: options.children || undefined,
+    color: options.blockColor ?? DEFAULT_COLOR,
+    children: options.children ?? undefined,
   },
 });
 
@@ -145,8 +145,8 @@ export const bulletedListItem = (
   type: 'bulleted_list_item',
   bulleted_list_item: {
     rich_text: forRichText(text),
-    color: options.blockColor || DEFAULT_COLOR,
-    children: options.children || undefined,
+    color: options.blockColor ?? DEFAULT_COLOR,
+    children: options.children ?? undefined,
   },
 });
 
@@ -161,8 +161,8 @@ export const numberedListItem = (
   type: 'numbered_list_item',
   numbered_list_item: {
     rich_text: forRichText(text),
-    color: options.blockColor || DEFAULT_COLOR,
-    children: options.children || undefined,
+    color: options.blockColor ?? DEFAULT_COLOR,
+    children: options.children ?? undefined,
   },
 });
 
@@ -179,8 +179,8 @@ export const todo = (
   to_do: {
     rich_text: forRichText(text),
     checked: !!options.checked,
-    color: options.blockColor || DEFAULT_COLOR,
-    children: options.children || undefined,
+    color: options.blockColor ?? DEFAULT_COLOR,
+    children: options.children ?? undefined,
   },
 });
 
@@ -195,8 +195,8 @@ export const toggle = (
   type: 'toggle',
   toggle: {
     rich_text: forRichText(text),
-    color: options.blockColor || DEFAULT_COLOR,
-    children: options.children || undefined,
+    color: options.blockColor ?? DEFAULT_COLOR,
+    children: options.children ?? undefined,
   },
 });
 
@@ -320,7 +320,7 @@ export const tableOfContents = (
 ): NotionBlock<'table_of_contents'> => ({
   type: 'table_of_contents',
   table_of_contents: {
-    color: blockColor || DEFAULT_COLOR,
+    color: blockColor ?? DEFAULT_COLOR,
   },
 });
 
@@ -385,7 +385,7 @@ export const syncedBlock = (
     type: 'synced_block',
     synced_block: {
       synced_from: syncedFrom,
-      children: children || undefined,
+      children: children ?? undefined,
     },
   };
 };
