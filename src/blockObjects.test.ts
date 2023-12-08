@@ -29,7 +29,7 @@ import {
   toggle,
   video,
 } from './blockObjects';
-import { BlockObjectRequestWithoutChildren } from './customTypes';
+import { BlockObjectRequestWithoutChildren } from '@notionhq/client/build/src/api-endpoints';
 
 type Text = string | RichText;
 type TextForBlock = Text | Text[];
