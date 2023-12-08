@@ -4,7 +4,6 @@
   "description": "Helper utilities for using @notion/client",
   "main": "dist/index.js",
   "dependencies": {
-    "@notionhq/client": "^2.2.2",
     "typescript": "^5.0.0"
   },
   "devDependencies": {
@@ -32,12 +31,17 @@
     "test:ci": "jest -c ./jest.config.ci.js",
     "debug:createPage": "ts-node src/example/createPage.ts"
   },
-  "keywords": ["notion"],
+  "keywords": [
+    "notion"
+  ],
   "author": "@sota1235",
   "license": "MIT",
   "lint-staged": {
     "*.ts": [
       "npm run fix"
     ]
+  },
+  "peerDependencies": {
+    "@notionhq/client": "2.2.14"
   }
 }
