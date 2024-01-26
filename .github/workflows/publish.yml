@@ -47,7 +47,7 @@ jobs:
         run: node -p -e '`PACKAGE_VERSION=${require("./package.json").version}`' >> $GITHUB_ENV
 
       - name: package-version-to-git-tag
-        uses: pkgdeps/git-tag-action@00821b688297ad5792cf50e6aaa0d4404bec49d0 # v2
+        uses: pkgdeps/git-tag-action@ef111413f44ebe5cc05994e7f5b5b9edaaada08d # v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           github_repo: ${{ github.repository }}
