@@ -1,7 +1,7 @@
 import { Annotation, AnnotationForRequest, TextColor } from './customTypes';
 import { TextRichTextItemResponse } from '@notionhq/client/build/src/api-endpoints';
 
-export const DEFAULT_COLOR: TextColor = 'default' as const;
+export const DEFAULT_COLOR: TextColor = 'default';
 
 // https://developers.notion.com/reference/rich-text
 export type RichText = ReturnType<typeof richText>;
