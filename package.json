@@ -1,6 +1,6 @@
 {
   "name": "@sota1235/notion-sdk-js-helper",
-  "version": "2.1.1",
+  "version": "2.2.0",
   "description": "Helper utilities for using @notion/client",
   "main": "dist/index.js",
   "dependencies": {
@@ -42,6 +42,6 @@
     ]
   },
   "peerDependencies": {
-    "@notionhq/client": "2.2.14"
+    "@notionhq/client": "2.2.x"
   }
 }
