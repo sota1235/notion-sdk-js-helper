@@ -7,8 +7,8 @@ src/
 .node-version
 .npmignore
 .prettierrc.js
-codecove.yml
 jest.config.*
 package-lock.json
 renovate.json
 tsconfig.json
+tsconfig.*.json
