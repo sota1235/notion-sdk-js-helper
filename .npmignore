@@ -11,3 +11,4 @@ jest.config.*
 package-lock.json
 renovate.json
 tsconfig.json
+tsconfig.*.json
