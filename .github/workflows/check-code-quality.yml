@@ -16,15 +16,13 @@ jobs:
           cache: npm
 
       - name: npm install
-        run: npm ci
+        run: npm ci --no-audit --no-fund
 
       - name: lint
         run: npm run lint
 
       - name: test
-        run: |
-          npm run test:ci
-          npx codecov@3.0.2
+        run: npm run test:ci
 
       - name: build
         run: npm run build
