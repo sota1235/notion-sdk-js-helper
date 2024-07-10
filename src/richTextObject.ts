@@ -1,7 +1,11 @@
-import { Annotation, AnnotationForRequest, TextColor } from './customTypes';
-import { TextRichTextItemResponse } from '@notionhq/client/build/src/api-endpoints';
+import type { TextRichTextItemResponse } from "@notionhq/client/build/src/api-endpoints";
+import type {
+  Annotation,
+  AnnotationForRequest,
+  TextColor,
+} from "./customTypes";
 
-export const DEFAULT_COLOR: TextColor = 'default';
+export const DEFAULT_COLOR: TextColor = "default";
 
 // https://developers.notion.com/reference/rich-text
 export type RichText = ReturnType<typeof richText>;
@@ -11,7 +15,7 @@ export const richText = (
   annotation?: AnnotationForRequest,
   link?: string | undefined,
 ): TextRichTextItemResponse => ({
-  type: 'text',
+  type: "text",
   text: {
     content: text,
     link: link === undefined ? null : linkObject(link),
@@ -26,7 +30,7 @@ export const richText = (
 
 // https://developers.notion.com/reference/rich-text#link-objects
 export type LinkObject = Exclude<
-  TextRichTextItemResponse['text']['link'],
+  TextRichTextItemResponse["text"]["link"],
   null
 >;
 export const linkObject = (link: string): LinkObject => ({
@@ -40,7 +44,7 @@ export const defaultAnnotation: Annotation = {
   strikethrough: false,
   underline: false,
   code: false,
-  color: 'default',
+  color: "default",
 };
 
 export const annotation = (options: {
@@ -56,5 +60,5 @@ export const annotation = (options: {
   strikethrough: options.strikethrough ?? false,
   underline: options.underline ?? false,
   code: options.code ?? false,
-  color: options.color ?? 'default',
+  color: options.color ?? "default",
 });
