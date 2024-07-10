@@ -1,6 +1,6 @@
-import { PageObjectResponse } from '@notionhq/client/build/src/api-endpoints';
+import type { PageObjectResponse } from "@notionhq/client/build/src/api-endpoints";
 
-type Properties = PageObjectResponse['properties'];
+type Properties = PageObjectResponse["properties"];
 type Property = Properties[string];
 export type ResponsePropertyBlock<T extends string> = Extract<
   Property,

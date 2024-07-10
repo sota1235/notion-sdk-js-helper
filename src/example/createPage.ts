@@ -1,4 +1,4 @@
-import { Client } from '@notionhq/client';
+import { Client } from "@notionhq/client";
 import {
   breadcrumb,
   bulletedListItem,
@@ -17,8 +17,8 @@ import {
   quote,
   todo,
   toggle,
-} from '../blockObjects';
-import { richText } from '../richTextObject';
+} from "../blockObjects";
+import { richText } from "../richTextObject";
 
 const sampleCodeBlock = (codes: string) => {
   return code(
@@ -26,12 +26,12 @@ const sampleCodeBlock = (codes: string) => {
   // ...
   children: [
 ${codes
-  .split('\n')
+  .split("\n")
   .map((line) => `    ${line}`)
-  .join('\n')}
+  .join("\n")}
   ],
 });`),
-    'typescript',
+    "typescript",
   );
 };
 
@@ -42,7 +42,7 @@ const main = async () => {
 
   const codeHeading3 = [
     heading3(
-      richText('Code', {
+      richText("Code", {
         bold: true,
       }),
     ),
@@ -50,7 +50,7 @@ const main = async () => {
   ];
   const resultHeading3 = [
     heading3(
-      richText('Result', {
+      richText("Result", {
         bold: true,
       }),
     ),
@@ -58,7 +58,7 @@ const main = async () => {
   ];
   const sectionHeader = (text: string) =>
     heading1(text, {
-      blockColor: 'gray_background',
+      blockColor: "gray_background",
     });
 
   return await client.pages.create({
@@ -71,7 +71,7 @@ const main = async () => {
       },
     },
     children: [
-      sectionHeader('Paragraph block'),
+      sectionHeader("Paragraph block"),
       columnList([
         column([
           ...codeHeading3,
@@ -92,21 +92,21 @@ paragraph('parent paragraph', {
         ]),
         column([
           ...resultHeading3,
-          paragraph('paragraph'),
-          paragraph('colored paragraph', {
-            blockColor: 'blue_background',
+          paragraph("paragraph"),
+          paragraph("colored paragraph", {
+            blockColor: "blue_background",
           }),
           paragraph(
-            richText('annotated paragraph', {
+            richText("annotated paragraph", {
               bold: true,
             }),
           ),
-          paragraph('parent paragraph', {
-            children: [paragraph('child paragraph')],
+          paragraph("parent paragraph", {
+            children: [paragraph("child paragraph")],
           }),
         ]),
       ]),
-      sectionHeader('Header blocks'),
+      sectionHeader("Header blocks"),
       columnList([
         column([
           ...codeHeading3,
@@ -127,25 +127,25 @@ heading1('Toggleable heading1', {
         ]),
         column([
           ...resultHeading3,
-          heading1('Heading1'),
-          heading2('Heading2'),
-          heading3('Heading3'),
-          heading1('Toggleable heading1', {
+          heading1("Heading1"),
+          heading2("Heading2"),
+          heading3("Heading3"),
+          heading1("Toggleable heading1", {
             isToggleable: true,
             children: [
               heading2(
-                richText('Decorated header', {
+                richText("Decorated header", {
                   italic: true,
                 }),
                 {
-                  blockColor: 'red_background',
+                  blockColor: "red_background",
                 },
               ),
             ],
           }),
         ]),
       ]),
-      sectionHeader('Callout blocks'),
+      sectionHeader("Callout blocks"),
       columnList([
         column([
           ...codeHeading3,
@@ -156,13 +156,13 @@ callout('Change color as you like', '🎨', {
         ]),
         column([
           ...resultHeading3,
-          callout('Callout', '🥴'),
-          callout('Change color as you like', '🎨', {
-            blockColor: 'red_background',
+          callout("Callout", "🥴"),
+          callout("Change color as you like", "🎨", {
+            blockColor: "red_background",
           }),
         ]),
       ]),
-      sectionHeader('Quote blocks'),
+      sectionHeader("Quote blocks"),
       columnList([
         column([
           ...codeHeading3,
@@ -173,13 +173,13 @@ quote('Some great articles with greate background color.', {
         ]),
         column([
           ...resultHeading3,
-          quote('Some great articles.'),
-          quote('Some great articles with greate background color.', {
-            blockColor: 'yellow_background',
+          quote("Some great articles."),
+          quote("Some great articles with greate background color.", {
+            blockColor: "yellow_background",
           }),
         ]),
       ]),
-      sectionHeader('List blocks'),
+      sectionHeader("List blocks"),
       columnList([
         column([
           ...codeHeading3,
@@ -198,17 +198,17 @@ numberedListItem('Numbered list item 2', {
         ]),
         column([
           ...resultHeading3,
-          bulletedListItem('Bulleted list item 1'),
-          bulletedListItem('Bulleted list item 2', {
-            children: [bulletedListItem('Child bulleted list item')],
+          bulletedListItem("Bulleted list item 1"),
+          bulletedListItem("Bulleted list item 2", {
+            children: [bulletedListItem("Child bulleted list item")],
           }),
-          numberedListItem('Numbered list item 1'),
-          numberedListItem('Numbered list item 2', {
-            children: [numberedListItem('Child numbered list item')],
+          numberedListItem("Numbered list item 1"),
+          numberedListItem("Numbered list item 2", {
+            children: [numberedListItem("Child numbered list item")],
           }),
         ]),
       ]),
-      sectionHeader('Todo blocks'),
+      sectionHeader("Todo blocks"),
       columnList([
         column([
           ...codeHeading3,
@@ -222,14 +222,14 @@ todo('TODO 2', {
         ]),
         column([
           ...resultHeading3,
-          todo('TODO 1'),
-          todo('TODO 2', {
+          todo("TODO 1"),
+          todo("TODO 2", {
             checked: true,
-            children: [todo('Child TODO')],
+            children: [todo("Child TODO")],
           }),
         ]),
       ]),
-      sectionHeader('Toggle blocks'),
+      sectionHeader("Toggle blocks"),
       columnList([
         column([
           ...codeHeading3,
@@ -240,12 +240,12 @@ todo('TODO 2', {
 }),`),
         ]),
         column([
-          toggle('Toggle block', {
-            children: [paragraph('Child paragraph')],
+          toggle("Toggle block", {
+            children: [paragraph("Child paragraph")],
           }),
         ]),
       ]),
-      sectionHeader('Code blocks'),
+      sectionHeader("Code blocks"),
       columnList([
         column([
           ...codeHeading3,
@@ -255,10 +255,10 @@ todo('TODO 2', {
         ]),
         column([
           ...resultHeading3,
-          code("console.log('Code block is here!');", 'typescript'),
+          code("console.log('Code block is here!');", "typescript"),
         ]),
       ]),
-      sectionHeader('External resources blocks'),
+      sectionHeader("External resources blocks"),
       columnList([
         column([
           ...codeHeading3,
@@ -274,25 +274,25 @@ image(
         ]),
         column([
           ...resultHeading3,
-          embed('https://example.com/', {
-            captions: [richText('example caption')],
+          embed("https://example.com/", {
+            captions: [richText("example caption")],
           }),
           image(
-            'https://upload.wikimedia.org/wikipedia/commons/thumb/e/e9/Notion-logo.svg/1200px-Notion-logo.svg.png',
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e9/Notion-logo.svg/1200px-Notion-logo.svg.png",
             {
-              captions: [richText('image caption')],
+              captions: [richText("image caption")],
             },
           ),
         ]),
       ]),
-      sectionHeader('Divider blocks'),
+      sectionHeader("Divider blocks"),
       columnList([
-        column([...codeHeading3, sampleCodeBlock('divider(),')]),
+        column([...codeHeading3, sampleCodeBlock("divider(),")]),
         column([...resultHeading3, divider()]),
       ]),
-      sectionHeader('Breadcrumb bloks'),
+      sectionHeader("Breadcrumb bloks"),
       columnList([
-        column([...codeHeading3, sampleCodeBlock('breadcrumb(),')]),
+        column([...codeHeading3, sampleCodeBlock("breadcrumb(),")]),
         column([...resultHeading3, breadcrumb()]),
       ]),
     ],

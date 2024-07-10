@@ -13,11 +13,6 @@
     "esModuleInterop": true,
     "outDir": "./dist"
   },
-  "include": [
-    "src/**/*"
-  ],
-  "exclude": [
-    "node_modules",
-    "src/__snapshots__"
-  ]
+  "include": ["src/**/*"],
+  "exclude": ["node_modules", "src/__snapshots__"]
 }

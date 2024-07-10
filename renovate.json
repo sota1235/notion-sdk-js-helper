@@ -1,5 +1,3 @@
 {
-  "extends": [
-    "github>sota1235/renovate-config"
-  ]
+  "extends": ["github>sota1235/renovate-config"]
 }

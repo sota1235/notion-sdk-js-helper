@@ -1,11 +1,11 @@
-import {
+import type {
   BlockObjectResponse,
   CreatePageResponse,
   GetPageResponse,
   ListBlockChildrenResponse,
   PageObjectResponse,
   UpdatePageResponse,
-} from '@notionhq/client/build/src/api-endpoints';
+} from "@notionhq/client/build/src/api-endpoints";
 
 // Check by the presence or absence of the url parameter
 export const isPageObjectResponse = (
@@ -16,7 +16,7 @@ export const isPageObjectResponse = (
 
 // BlockObjectResponse
 export const isBlockObjectResponse = (
-  result: ListBlockChildrenResponse['results'][0],
+  result: ListBlockChildrenResponse["results"][0],
 ): result is BlockObjectResponse => {
   return (result as any).type !== undefined;
 };
