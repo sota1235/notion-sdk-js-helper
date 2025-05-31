@@ -5,7 +5,7 @@ import type {
   ListBlockChildrenResponse,
   PageObjectResponse,
   UpdatePageResponse,
-} from "@notionhq/client/build/src/api-endpoints";
+} from "@notionhq/client/build/src/api-endpoints.js";
 
 // Check by the presence or absence of the url parameter
 export const isPageObjectResponse = (

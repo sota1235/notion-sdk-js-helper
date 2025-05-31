@@ -2,7 +2,7 @@ import type {
   CodeBlockObjectResponse,
   CreatePageParameters,
   TextRichTextItemResponse,
-} from "@notionhq/client/build/src/api-endpoints";
+} from "@notionhq/client/build/src/api-endpoints.js";
 
 export type Annotation = TextRichTextItemResponse["annotations"];
 export type AnnotationForRequest = Partial<Annotation>;

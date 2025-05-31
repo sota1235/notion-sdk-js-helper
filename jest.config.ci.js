@@ -1,6 +1,7 @@
-const defaultConfig = require('./jest.config.js');
+import defaultConfig from './jest.config.js';
 
-module.exports = Object.assign({}, defaultConfig, {
+export default {
+  ...defaultConfig,
   collectCoverage: true,
   collectCoverageFrom: [
     '**/*.{ts,tsx}',
@@ -8,4 +9,4 @@ module.exports = Object.assign({}, defaultConfig, {
     '!**/*.d.ts',
     '!jest.*',
   ],
-});
+};

@@ -1,6 +1,6 @@
-import type { BlockObjectRequestWithoutChildren } from "@notionhq/client/build/src/api-endpoints";
-import type { Emoji, Language, NotionBlock, TextColor } from "./customTypes";
-import { DEFAULT_COLOR, type RichText, richText } from "./richTextObject";
+import type { BlockObjectRequestWithoutChildren } from "@notionhq/client/build/src/api-endpoints.js";
+import type { Emoji, Language, NotionBlock, TextColor } from "./customTypes.js";
+import { DEFAULT_COLOR, type RichText, richText } from "./richTextObject.js";
 
 type Text = string | RichText;
 type TextForBlock = Text | Text[];

@@ -17,8 +17,8 @@ import {
   quote,
   todo,
   toggle,
-} from "../blockObjects";
-import { richText } from "../richTextObject";
+} from "../blockObjects.js";
+import { richText } from "../richTextObject.js";
 
 const sampleCodeBlock = (codes: string) => {
   return code(
