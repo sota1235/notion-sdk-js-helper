@@ -1,8 +1,14 @@
 {
   "name": "@sota1235/notion-sdk-js-helper",
-  "version": "2.2.0",
+  "version": "3.0.0",
   "description": "Helper utilities for using @notion/client",
+  "type": "module",
   "main": "dist/index.js",
+  "exports": {
+    ".": {
+      "import": "./dist/index.js"
+    }
+  },
   "dependencies": {
     "typescript": "^5.0.0"
   },
@@ -38,6 +44,6 @@
     ]
   },
   "peerDependencies": {
-    "@notionhq/client": "2.2.x"
+    "@notionhq/client": "3.1.x"
   }
 }

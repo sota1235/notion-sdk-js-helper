@@ -1,5 +1,5 @@
-import type { PageObjectResponse } from "@notionhq/client/build/src/api-endpoints";
-import { isExactProperty } from "./responseProperty";
+import type { PageObjectResponse } from "@notionhq/client/build/src/api-endpoints.js";
+import { isExactProperty } from "./responseProperty.js";
 
 describe("responseProperty", () => {
   it("correct type", () => {

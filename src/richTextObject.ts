@@ -1,9 +1,9 @@
-import type { TextRichTextItemResponse } from "@notionhq/client/build/src/api-endpoints";
+import type { TextRichTextItemResponse } from "@notionhq/client/build/src/api-endpoints.js";
 import type {
   Annotation,
   AnnotationForRequest,
   TextColor,
-} from "./customTypes";
+} from "./customTypes.js";
 
 export const DEFAULT_COLOR: TextColor = "default";
 

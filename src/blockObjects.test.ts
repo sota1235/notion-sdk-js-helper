@@ -1,4 +1,4 @@
-import type { BlockObjectRequestWithoutChildren } from "@notionhq/client/build/src/api-endpoints";
+import type { BlockObjectRequestWithoutChildren } from "@notionhq/client/build/src/api-endpoints.js";
 import {
   bookmark,
   breadcrumb,
@@ -28,8 +28,8 @@ import {
   todo,
   toggle,
   video,
-} from "./blockObjects";
-import { type RichText, richText } from "./richTextObject";
+} from "./blockObjects.js";
+import { type RichText, richText } from "./richTextObject.js";
 
 type Text = string | RichText;
 type TextForBlock = Text | Text[];
