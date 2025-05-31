@@ -12,6 +12,8 @@ jobs:
   check-version:
     name: Checking whether it can be published or not
     runs-on: ubuntu-latest
+    outputs:
+      can_publish: ${{ steps.check_publish.outputs.can_publish }}
     steps:
       - uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683 # v4.2.2
 
@@ -23,11 +25,18 @@ jobs:
           cache: npm
 
       - name: Executing can-npm-publish
-        run: npx can-npm-publish --verbose
+        id: check_publish
+        run: |
+          if npx can-npm-publish --verbose; then
+            echo "can_publish=true" >> $GITHUB_OUTPUT
+          else
+            echo "can_publish=false" >> $GITHUB_OUTPUT
+          fi
 
   release:
     name: Releasing
     needs: check-version
+    if: needs.check-version.outputs.can_publish == 'true'
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683 # v4.2.2
