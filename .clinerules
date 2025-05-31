@@ -1,0 +1,10 @@
+# Clinerules
+
+## Package Manager
+- Use npm as the package manager for this project
+- Do not use other package managers like Yarn, pnpm, or bun
+
+## Pre-commit Checks
+- Run `npm run lint` and ensure it passes without errors
+- Run `actionlint` to validate GitHub Actions workflow files
+- Run `ghalint` to check for security issues in GitHub Actions workflow files
