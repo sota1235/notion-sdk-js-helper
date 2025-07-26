@@ -13,7 +13,7 @@
     "@types/jest": "30.0.0",
     "@types/node": "24.0.15",
     "husky": "9.1.7",
-    "jest": "30.0.4",
+    "jest": "30.0.5",
     "lint-staged": "16.1.2",
     "ts-jest": "29.4.0",
     "ts-node": "^10.9.1"
