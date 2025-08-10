@@ -40,6 +40,6 @@
     ]
   },
   "peerDependencies": {
-    "@notionhq/client": "3.1.x"
+    "@notionhq/client": "3.1.x || 4.0.x"
   }
 }
