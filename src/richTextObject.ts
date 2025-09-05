@@ -2,6 +2,7 @@ import type { TextRichTextItemResponse } from "@notionhq/client/build/src/api-en
 import type {
   Annotation,
   AnnotationForRequest,
+  RichTextForRequest,
   TextColor,
 } from "./customTypes.js";
 
@@ -14,7 +15,7 @@ export const richText = (
   text: string,
   annotation?: AnnotationForRequest,
   link?: string | undefined,
-): TextRichTextItemResponse => ({
+): RichTextForRequest => ({
   type: "text",
   text: {
     content: text,
@@ -24,8 +25,6 @@ export const richText = (
     ...defaultAnnotation,
     ...annotation,
   },
-  plain_text: text,
-  href: null,
 });
 
 // https://developers.notion.com/reference/rich-text#link-objects
