@@ -1,10 +1,10 @@
 import type {
   CodeBlockObjectResponse,
   CreatePageParameters,
-  TextRichTextItemResponse,
+  RichTextItemResponseCommon,
 } from "@notionhq/client/build/src/api-endpoints.js";
 
-export type Annotation = TextRichTextItemResponse["annotations"];
+export type Annotation = RichTextItemResponseCommon["annotations"];
 export type AnnotationForRequest = Partial<Annotation>;
 
 // Workaround: Extract necessary types
@@ -22,6 +22,10 @@ export type Emoji = Extract<
   Exclude<NotionBlock<"callout">["callout"]["icon"], undefined>,
   { [key in "emoji"]: any }
 >["emoji"];
+
+// hack :(
+export type RichTextForRequest =
+  NotionBlock<"heading_1">["heading_1"]["rich_text"][0];
 
 export type Language = CodeBlockObjectResponse["code"]["language"];
 

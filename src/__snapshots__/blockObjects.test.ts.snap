@@ -1,4 +1,4 @@
-// Jest Snapshot v1, https://goo.gl/fbAQLP
+// Jest Snapshot v1, https://jestjs.io/docs/snapshot-testing
 
 exports[`blockObjects bookmark no option 1`] = `
 {
@@ -23,8 +23,6 @@ exports[`blockObjects bookmark with option 1`] = `
           "strikethrough": false,
           "underline": false,
         },
-        "href": null,
-        "plain_text": "test2",
         "text": {
           "content": "test2",
           "link": null,
@@ -60,8 +58,6 @@ exports[`blockObjects bulletedListItem no option 1`] = `
           "strikethrough": false,
           "underline": false,
         },
-        "href": null,
-        "plain_text": "test",
         "text": {
           "content": "test",
           "link": null,
@@ -89,8 +85,6 @@ exports[`blockObjects bulletedListItem no option 2`] = `
           "strikethrough": false,
           "underline": false,
         },
-        "href": null,
-        "plain_text": "test",
         "text": {
           "content": "test",
           "link": null,
@@ -118,8 +112,6 @@ exports[`blockObjects bulletedListItem no option 3`] = `
           "strikethrough": false,
           "underline": false,
         },
-        "href": null,
-        "plain_text": "test",
         "text": {
           "content": "test",
           "link": null,
@@ -135,8 +127,6 @@ exports[`blockObjects bulletedListItem no option 3`] = `
           "strikethrough": false,
           "underline": false,
         },
-        "href": null,
-        "plain_text": "test2",
         "text": {
           "content": "test2",
           "link": null,
@@ -164,8 +154,6 @@ exports[`blockObjects bulletedListItem no option 4`] = `
           "strikethrough": false,
           "underline": false,
         },
-        "href": null,
-        "plain_text": "test",
         "text": {
           "content": "test",
           "link": null,
@@ -181,8 +169,6 @@ exports[`blockObjects bulletedListItem no option 4`] = `
           "strikethrough": false,
           "underline": false,
         },
-        "href": null,
-        "plain_text": "test2",
         "text": {
           "content": "test2",
           "link": null,
@@ -213,8 +199,6 @@ exports[`blockObjects bulletedListItem with option 1`] = `
                 "strikethrough": false,
                 "underline": false,
               },
-              "href": null,
-              "plain_text": "test",
               "text": {
                 "content": "test",
                 "link": null,
@@ -237,8 +221,6 @@ exports[`blockObjects bulletedListItem with option 1`] = `
           "strikethrough": false,
           "underline": false,
         },
-        "href": null,
-        "plain_text": "test",
         "text": {
           "content": "test",
           "link": null,
@@ -269,8 +251,6 @@ exports[`blockObjects callout no option 1`] = `
           "strikethrough": false,
           "underline": false,
         },
-        "href": null,
-        "plain_text": "test",
         "text": {
           "content": "test",
           "link": null,
@@ -301,8 +281,6 @@ exports[`blockObjects callout no option 2`] = `
           "strikethrough": false,
           "underline": false,
         },
-        "href": null,
-        "plain_text": "test",
         "text": {
           "content": "test",
           "link": null,
@@ -333,8 +311,6 @@ exports[`blockObjects callout no option 3`] = `
           "strikethrough": false,
           "underline": false,
         },
-        "href": null,
-        "plain_text": "test",
         "text": {
           "content": "test",
           "link": null,
@@ -350,8 +326,6 @@ exports[`blockObjects callout no option 3`] = `
           "strikethrough": false,
           "underline": false,
         },
-        "href": null,
-        "plain_text": "test2",
         "text": {
           "content": "test2",
           "link": null,
@@ -382,8 +356,6 @@ exports[`blockObjects callout no option 4`] = `
           "strikethrough": false,
           "underline": false,
         },
-        "href": null,
-        "plain_text": "test",
         "text": {
           "content": "test",
           "link": null,
@@ -399,8 +371,6 @@ exports[`blockObjects callout no option 4`] = `
           "strikethrough": false,
           "underline": false,
         },
-        "href": null,
-        "plain_text": "test2",
         "text": {
           "content": "test2",
           "link": null,
@@ -434,8 +404,6 @@ exports[`blockObjects callout with option 1`] = `
                 "strikethrough": false,
                 "underline": false,
               },
-              "href": null,
-              "plain_text": "test",
               "text": {
                 "content": "test",
                 "link": null,
@@ -461,8 +429,6 @@ exports[`blockObjects callout with option 1`] = `
           "strikethrough": false,
           "underline": false,
         },
-        "href": null,
-        "plain_text": "test",
         "text": {
           "content": "test",
           "link": null,
@@ -489,8 +455,6 @@ exports[`blockObjects code code 1`] = `
           "strikethrough": false,
           "underline": false,
         },
-        "href": null,
-        "plain_text": "test",
         "text": {
           "content": "test",
           "link": null,
@@ -517,8 +481,6 @@ exports[`blockObjects code code 2`] = `
           "strikethrough": false,
           "underline": false,
         },
-        "href": null,
-        "plain_text": "test",
         "text": {
           "content": "test",
           "link": null,
@@ -545,8 +507,6 @@ exports[`blockObjects code code 3`] = `
           "strikethrough": false,
           "underline": false,
         },
-        "href": null,
-        "plain_text": "test",
         "text": {
           "content": "test",
           "link": null,
@@ -562,8 +522,6 @@ exports[`blockObjects code code 3`] = `
           "strikethrough": false,
           "underline": false,
         },
-        "href": null,
-        "plain_text": "test2",
         "text": {
           "content": "test2",
           "link": null,
@@ -590,8 +548,6 @@ exports[`blockObjects code code 4`] = `
           "strikethrough": false,
           "underline": false,
         },
-        "href": null,
-        "plain_text": "test",
         "text": {
           "content": "test",
           "link": null,
@@ -607,8 +563,6 @@ exports[`blockObjects code code 4`] = `
           "strikethrough": false,
           "underline": false,
         },
-        "href": null,
-        "plain_text": "test2",
         "text": {
           "content": "test2",
           "link": null,
@@ -643,8 +597,6 @@ exports[`blockObjects columns default 1`] = `
                       "strikethrough": false,
                       "underline": false,
                     },
-                    "href": null,
-                    "plain_text": "test",
                     "text": {
                       "content": "test",
                       "link": null,
@@ -669,8 +621,6 @@ exports[`blockObjects columns default 1`] = `
                       "strikethrough": false,
                       "underline": false,
                     },
-                    "href": null,
-                    "plain_text": "test",
                     "text": {
                       "content": "test",
                       "link": null,
@@ -703,8 +653,6 @@ exports[`blockObjects columns default 1`] = `
                       "strikethrough": false,
                       "underline": false,
                     },
-                    "href": null,
-                    "plain_text": "test",
                     "text": {
                       "content": "test",
                       "link": null,
@@ -729,8 +677,6 @@ exports[`blockObjects columns default 1`] = `
                       "strikethrough": false,
                       "underline": false,
                     },
-                    "href": null,
-                    "plain_text": "test",
                     "text": {
                       "content": "test",
                       "link": null,
@@ -781,8 +727,6 @@ exports[`blockObjects embed with option 1`] = `
           "strikethrough": false,
           "underline": false,
         },
-        "href": null,
-        "plain_text": "test2",
         "text": {
           "content": "test2",
           "link": null,
@@ -830,8 +774,6 @@ exports[`blockObjects file with option 1`] = `
           "strikethrough": false,
           "underline": false,
         },
-        "href": null,
-        "plain_text": "test2",
         "text": {
           "content": "test2",
           "link": null,
@@ -863,8 +805,6 @@ exports[`blockObjects heading1 no option 1`] = `
           "strikethrough": false,
           "underline": false,
         },
-        "href": null,
-        "plain_text": "test",
         "text": {
           "content": "test",
           "link": null,
@@ -893,8 +833,6 @@ exports[`blockObjects heading1 no option 2`] = `
           "strikethrough": false,
           "underline": false,
         },
-        "href": null,
-        "plain_text": "test",
         "text": {
           "content": "test",
           "link": null,
@@ -923,8 +861,6 @@ exports[`blockObjects heading1 no option 3`] = `
           "strikethrough": false,
           "underline": false,
         },
-        "href": null,
-        "plain_text": "test",
         "text": {
           "content": "test",
           "link": null,
@@ -940,8 +876,6 @@ exports[`blockObjects heading1 no option 3`] = `
           "strikethrough": false,
           "underline": false,
         },
-        "href": null,
-        "plain_text": "test2",
         "text": {
           "content": "test2",
           "link": null,
@@ -970,8 +904,6 @@ exports[`blockObjects heading1 no option 4`] = `
           "strikethrough": false,
           "underline": false,
         },
-        "href": null,
-        "plain_text": "test",
         "text": {
           "content": "test",
           "link": null,
@@ -987,8 +919,6 @@ exports[`blockObjects heading1 no option 4`] = `
           "strikethrough": false,
           "underline": false,
         },
-        "href": null,
-        "plain_text": "test2",
         "text": {
           "content": "test2",
           "link": null,
@@ -1020,8 +950,6 @@ exports[`blockObjects heading1 with option 1`] = `
                 "strikethrough": false,
                 "underline": false,
               },
-              "href": null,
-              "plain_text": "test",
               "text": {
                 "content": "test",
                 "link": null,
@@ -1045,8 +973,6 @@ exports[`blockObjects heading1 with option 1`] = `
           "strikethrough": false,
           "underline": false,
         },
-        "href": null,
-        "plain_text": "test",
         "text": {
           "content": "test",
           "link": null,
@@ -1075,8 +1001,6 @@ exports[`blockObjects heading2 no option 1`] = `
           "strikethrough": false,
           "underline": false,
         },
-        "href": null,
-        "plain_text": "test",
         "text": {
           "content": "test",
           "link": null,
@@ -1105,8 +1029,6 @@ exports[`blockObjects heading2 no option 2`] = `
           "strikethrough": false,
           "underline": false,
         },
-        "href": null,
-        "plain_text": "test",
         "text": {
           "content": "test",
           "link": null,
@@ -1135,8 +1057,6 @@ exports[`blockObjects heading2 no option 3`] = `
           "strikethrough": false,
           "underline": false,
         },
-        "href": null,
-        "plain_text": "test",
         "text": {
           "content": "test",
           "link": null,
@@ -1152,8 +1072,6 @@ exports[`blockObjects heading2 no option 3`] = `
           "strikethrough": false,
           "underline": false,
         },
-        "href": null,
-        "plain_text": "test2",
         "text": {
           "content": "test2",
           "link": null,
@@ -1182,8 +1100,6 @@ exports[`blockObjects heading2 no option 4`] = `
           "strikethrough": false,
           "underline": false,
         },
-        "href": null,
-        "plain_text": "test",
         "text": {
           "content": "test",
           "link": null,
@@ -1199,8 +1115,6 @@ exports[`blockObjects heading2 no option 4`] = `
           "strikethrough": false,
           "underline": false,
         },
-        "href": null,
-        "plain_text": "test2",
         "text": {
           "content": "test2",
           "link": null,
@@ -1232,8 +1146,6 @@ exports[`blockObjects heading2 with option 1`] = `
                 "strikethrough": false,
                 "underline": false,
               },
-              "href": null,
-              "plain_text": "test",
               "text": {
                 "content": "test",
                 "link": null,
@@ -1257,8 +1169,6 @@ exports[`blockObjects heading2 with option 1`] = `
           "strikethrough": false,
           "underline": false,
         },
-        "href": null,
-        "plain_text": "test",
         "text": {
           "content": "test",
           "link": null,
@@ -1287,8 +1197,6 @@ exports[`blockObjects heading3 no option 1`] = `
           "strikethrough": false,
           "underline": false,
         },
-        "href": null,
-        "plain_text": "test",
         "text": {
           "content": "test",
           "link": null,
@@ -1317,8 +1225,6 @@ exports[`blockObjects heading3 no option 2`] = `
           "strikethrough": false,
           "underline": false,
         },
-        "href": null,
-        "plain_text": "test",
         "text": {
           "content": "test",
           "link": null,
@@ -1347,8 +1253,6 @@ exports[`blockObjects heading3 no option 3`] = `
           "strikethrough": false,
           "underline": false,
         },
-        "href": null,
-        "plain_text": "test",
         "text": {
           "content": "test",
           "link": null,
@@ -1364,8 +1268,6 @@ exports[`blockObjects heading3 no option 3`] = `
           "strikethrough": false,
           "underline": false,
         },
-        "href": null,
-        "plain_text": "test2",
         "text": {
           "content": "test2",
           "link": null,
@@ -1394,8 +1296,6 @@ exports[`blockObjects heading3 no option 4`] = `
           "strikethrough": false,
           "underline": false,
         },
-        "href": null,
-        "plain_text": "test",
         "text": {
           "content": "test",
           "link": null,
@@ -1411,8 +1311,6 @@ exports[`blockObjects heading3 no option 4`] = `
           "strikethrough": false,
           "underline": false,
         },
-        "href": null,
-        "plain_text": "test2",
         "text": {
           "content": "test2",
           "link": null,
@@ -1444,8 +1342,6 @@ exports[`blockObjects heading3 with option 1`] = `
                 "strikethrough": false,
                 "underline": false,
               },
-              "href": null,
-              "plain_text": "test",
               "text": {
                 "content": "test",
                 "link": null,
@@ -1469,8 +1365,6 @@ exports[`blockObjects heading3 with option 1`] = `
           "strikethrough": false,
           "underline": false,
         },
-        "href": null,
-        "plain_text": "test",
         "text": {
           "content": "test",
           "link": null,
@@ -1508,8 +1402,6 @@ exports[`blockObjects image with option 1`] = `
           "strikethrough": false,
           "underline": false,
         },
-        "href": null,
-        "plain_text": "test2",
         "text": {
           "content": "test2",
           "link": null,
@@ -1549,8 +1441,6 @@ exports[`blockObjects numberedListItem no option 1`] = `
           "strikethrough": false,
           "underline": false,
         },
-        "href": null,
-        "plain_text": "test",
         "text": {
           "content": "test",
           "link": null,
@@ -1578,8 +1468,6 @@ exports[`blockObjects numberedListItem no option 2`] = `
           "strikethrough": false,
           "underline": false,
         },
-        "href": null,
-        "plain_text": "test",
         "text": {
           "content": "test",
           "link": null,
@@ -1607,8 +1495,6 @@ exports[`blockObjects numberedListItem no option 3`] = `
           "strikethrough": false,
           "underline": false,
         },
-        "href": null,
-        "plain_text": "test",
         "text": {
           "content": "test",
           "link": null,
@@ -1624,8 +1510,6 @@ exports[`blockObjects numberedListItem no option 3`] = `
           "strikethrough": false,
           "underline": false,
         },
-        "href": null,
-        "plain_text": "test2",
         "text": {
           "content": "test2",
           "link": null,
@@ -1653,8 +1537,6 @@ exports[`blockObjects numberedListItem no option 4`] = `
           "strikethrough": false,
           "underline": false,
         },
-        "href": null,
-        "plain_text": "test",
         "text": {
           "content": "test",
           "link": null,
@@ -1670,8 +1552,6 @@ exports[`blockObjects numberedListItem no option 4`] = `
           "strikethrough": false,
           "underline": false,
         },
-        "href": null,
-        "plain_text": "test2",
         "text": {
           "content": "test2",
           "link": null,
@@ -1702,8 +1582,6 @@ exports[`blockObjects numberedListItem with option 1`] = `
                 "strikethrough": false,
                 "underline": false,
               },
-              "href": null,
-              "plain_text": "test",
               "text": {
                 "content": "test",
                 "link": null,
@@ -1726,8 +1604,6 @@ exports[`blockObjects numberedListItem with option 1`] = `
           "strikethrough": false,
           "underline": false,
         },
-        "href": null,
-        "plain_text": "test",
         "text": {
           "content": "test",
           "link": null,
@@ -1755,8 +1631,6 @@ exports[`blockObjects paragraph no option 1`] = `
           "strikethrough": false,
           "underline": false,
         },
-        "href": null,
-        "plain_text": "test",
         "text": {
           "content": "test",
           "link": null,
@@ -1784,8 +1658,6 @@ exports[`blockObjects paragraph no option 2`] = `
           "strikethrough": false,
           "underline": false,
         },
-        "href": null,
-        "plain_text": "test",
         "text": {
           "content": "test",
           "link": null,
@@ -1813,8 +1685,6 @@ exports[`blockObjects paragraph no option 3`] = `
           "strikethrough": false,
           "underline": false,
         },
-        "href": null,
-        "plain_text": "test",
         "text": {
           "content": "test",
           "link": null,
@@ -1830,8 +1700,6 @@ exports[`blockObjects paragraph no option 3`] = `
           "strikethrough": false,
           "underline": false,
         },
-        "href": null,
-        "plain_text": "test2",
         "text": {
           "content": "test2",
           "link": null,
@@ -1859,8 +1727,6 @@ exports[`blockObjects paragraph no option 4`] = `
           "strikethrough": false,
           "underline": false,
         },
-        "href": null,
-        "plain_text": "test",
         "text": {
           "content": "test",
           "link": null,
@@ -1876,8 +1742,6 @@ exports[`blockObjects paragraph no option 4`] = `
           "strikethrough": false,
           "underline": false,
         },
-        "href": null,
-        "plain_text": "test2",
         "text": {
           "content": "test2",
           "link": null,
@@ -1908,8 +1772,6 @@ exports[`blockObjects paragraph with options 1`] = `
                 "strikethrough": false,
                 "underline": false,
               },
-              "href": null,
-              "plain_text": "test2",
               "text": {
                 "content": "test2",
                 "link": null,
@@ -1932,8 +1794,6 @@ exports[`blockObjects paragraph with options 1`] = `
           "strikethrough": false,
           "underline": false,
         },
-        "href": null,
-        "plain_text": "test",
         "text": {
           "content": "test",
           "link": null,
@@ -1971,8 +1831,6 @@ exports[`blockObjects pdf with option 1`] = `
           "strikethrough": false,
           "underline": false,
         },
-        "href": null,
-        "plain_text": "test2",
         "text": {
           "content": "test2",
           "link": null,
@@ -2003,8 +1861,6 @@ exports[`blockObjects quote no option 1`] = `
           "strikethrough": false,
           "underline": false,
         },
-        "href": null,
-        "plain_text": "test",
         "text": {
           "content": "test",
           "link": null,
@@ -2032,8 +1888,6 @@ exports[`blockObjects quote no option 2`] = `
           "strikethrough": false,
           "underline": false,
         },
-        "href": null,
-        "plain_text": "test",
         "text": {
           "content": "test",
           "link": null,
@@ -2061,8 +1915,6 @@ exports[`blockObjects quote no option 3`] = `
           "strikethrough": false,
           "underline": false,
         },
-        "href": null,
-        "plain_text": "test",
         "text": {
           "content": "test",
           "link": null,
@@ -2078,8 +1930,6 @@ exports[`blockObjects quote no option 3`] = `
           "strikethrough": false,
           "underline": false,
         },
-        "href": null,
-        "plain_text": "test2",
         "text": {
           "content": "test2",
           "link": null,
@@ -2107,8 +1957,6 @@ exports[`blockObjects quote no option 4`] = `
           "strikethrough": false,
           "underline": false,
         },
-        "href": null,
-        "plain_text": "test",
         "text": {
           "content": "test",
           "link": null,
@@ -2124,8 +1972,6 @@ exports[`blockObjects quote no option 4`] = `
           "strikethrough": false,
           "underline": false,
         },
-        "href": null,
-        "plain_text": "test2",
         "text": {
           "content": "test2",
           "link": null,
@@ -2156,8 +2002,6 @@ exports[`blockObjects quote with option 1`] = `
                 "strikethrough": false,
                 "underline": false,
               },
-              "href": null,
-              "plain_text": "test",
               "text": {
                 "content": "test",
                 "link": null,
@@ -2180,8 +2024,6 @@ exports[`blockObjects quote with option 1`] = `
           "strikethrough": false,
           "underline": false,
         },
-        "href": null,
-        "plain_text": "test",
         "text": {
           "content": "test",
           "link": null,
@@ -2222,8 +2064,6 @@ exports[`blockObjects syncedBlock default 2`] = `
                 "strikethrough": false,
                 "underline": false,
               },
-              "href": null,
-              "plain_text": "test",
               "text": {
                 "content": "test",
                 "link": null,
@@ -2271,8 +2111,6 @@ exports[`blockObjects syncedBlock default 4`] = `
                 "strikethrough": false,
                 "underline": false,
               },
-              "href": null,
-              "plain_text": "test",
               "text": {
                 "content": "test",
                 "link": null,
@@ -2309,8 +2147,6 @@ exports[`blockObjects table default 1`] = `
                   "strikethrough": false,
                   "underline": false,
                 },
-                "href": null,
-                "plain_text": "test",
                 "text": {
                   "content": "test",
                   "link": null,
@@ -2348,8 +2184,6 @@ exports[`blockObjects table default 2`] = `
                   "strikethrough": false,
                   "underline": false,
                 },
-                "href": null,
-                "plain_text": "test",
                 "text": {
                   "content": "test",
                   "link": null,
@@ -2387,8 +2221,6 @@ exports[`blockObjects table default 3`] = `
                   "strikethrough": false,
                   "underline": false,
                 },
-                "href": null,
-                "plain_text": "test",
                 "text": {
                   "content": "test",
                   "link": null,
@@ -2445,8 +2277,6 @@ exports[`blockObjects template default 1`] = `
                 "strikethrough": false,
                 "underline": false,
               },
-              "href": null,
-              "plain_text": "test",
               "text": {
                 "content": "test",
                 "link": null,
@@ -2468,8 +2298,6 @@ exports[`blockObjects template default 1`] = `
           "strikethrough": false,
           "underline": false,
         },
-        "href": null,
-        "plain_text": "test",
         "text": {
           "content": "test",
           "link": null,
@@ -2500,8 +2328,6 @@ exports[`blockObjects template default 2`] = `
                 "strikethrough": false,
                 "underline": false,
               },
-              "href": null,
-              "plain_text": "test",
               "text": {
                 "content": "test",
                 "link": null,
@@ -2523,8 +2349,6 @@ exports[`blockObjects template default 2`] = `
           "strikethrough": false,
           "underline": false,
         },
-        "href": null,
-        "plain_text": "test",
         "text": {
           "content": "test",
           "link": null,
@@ -2555,8 +2379,6 @@ exports[`blockObjects template default 3`] = `
                 "strikethrough": false,
                 "underline": false,
               },
-              "href": null,
-              "plain_text": "test",
               "text": {
                 "content": "test",
                 "link": null,
@@ -2578,8 +2400,6 @@ exports[`blockObjects template default 3`] = `
           "strikethrough": false,
           "underline": false,
         },
-        "href": null,
-        "plain_text": "test",
         "text": {
           "content": "test",
           "link": null,
@@ -2595,8 +2415,6 @@ exports[`blockObjects template default 3`] = `
           "strikethrough": false,
           "underline": false,
         },
-        "href": null,
-        "plain_text": "test2",
         "text": {
           "content": "test2",
           "link": null,
@@ -2627,8 +2445,6 @@ exports[`blockObjects template default 4`] = `
                 "strikethrough": false,
                 "underline": false,
               },
-              "href": null,
-              "plain_text": "test",
               "text": {
                 "content": "test",
                 "link": null,
@@ -2650,8 +2466,6 @@ exports[`blockObjects template default 4`] = `
           "strikethrough": false,
           "underline": false,
         },
-        "href": null,
-        "plain_text": "test",
         "text": {
           "content": "test",
           "link": null,
@@ -2667,8 +2481,6 @@ exports[`blockObjects template default 4`] = `
           "strikethrough": false,
           "underline": false,
         },
-        "href": null,
-        "plain_text": "test2",
         "text": {
           "content": "test2",
           "link": null,
@@ -2697,8 +2509,6 @@ exports[`blockObjects todo no option 1`] = `
           "strikethrough": false,
           "underline": false,
         },
-        "href": null,
-        "plain_text": "test",
         "text": {
           "content": "test",
           "link": null,
@@ -2727,8 +2537,6 @@ exports[`blockObjects todo no option 2`] = `
           "strikethrough": false,
           "underline": false,
         },
-        "href": null,
-        "plain_text": "test",
         "text": {
           "content": "test",
           "link": null,
@@ -2757,8 +2565,6 @@ exports[`blockObjects todo no option 3`] = `
           "strikethrough": false,
           "underline": false,
         },
-        "href": null,
-        "plain_text": "test",
         "text": {
           "content": "test",
           "link": null,
@@ -2774,8 +2580,6 @@ exports[`blockObjects todo no option 3`] = `
           "strikethrough": false,
           "underline": false,
         },
-        "href": null,
-        "plain_text": "test2",
         "text": {
           "content": "test2",
           "link": null,
@@ -2804,8 +2608,6 @@ exports[`blockObjects todo no option 4`] = `
           "strikethrough": false,
           "underline": false,
         },
-        "href": null,
-        "plain_text": "test",
         "text": {
           "content": "test",
           "link": null,
@@ -2821,8 +2623,6 @@ exports[`blockObjects todo no option 4`] = `
           "strikethrough": false,
           "underline": false,
         },
-        "href": null,
-        "plain_text": "test2",
         "text": {
           "content": "test2",
           "link": null,
@@ -2855,8 +2655,6 @@ exports[`blockObjects todo with option 1`] = `
                 "strikethrough": false,
                 "underline": false,
               },
-              "href": null,
-              "plain_text": "test",
               "text": {
                 "content": "test",
                 "link": null,
@@ -2879,8 +2677,6 @@ exports[`blockObjects todo with option 1`] = `
           "strikethrough": false,
           "underline": false,
         },
-        "href": null,
-        "plain_text": "test",
         "text": {
           "content": "test",
           "link": null,
@@ -2908,8 +2704,6 @@ exports[`blockObjects toggle no option 1`] = `
           "strikethrough": false,
           "underline": false,
         },
-        "href": null,
-        "plain_text": "test",
         "text": {
           "content": "test",
           "link": null,
@@ -2937,8 +2731,6 @@ exports[`blockObjects toggle no option 2`] = `
           "strikethrough": false,
           "underline": false,
         },
-        "href": null,
-        "plain_text": "test",
         "text": {
           "content": "test",
           "link": null,
@@ -2966,8 +2758,6 @@ exports[`blockObjects toggle no option 3`] = `
           "strikethrough": false,
           "underline": false,
         },
-        "href": null,
-        "plain_text": "test",
         "text": {
           "content": "test",
           "link": null,
@@ -2983,8 +2773,6 @@ exports[`blockObjects toggle no option 3`] = `
           "strikethrough": false,
           "underline": false,
         },
-        "href": null,
-        "plain_text": "test2",
         "text": {
           "content": "test2",
           "link": null,
@@ -3012,8 +2800,6 @@ exports[`blockObjects toggle no option 4`] = `
           "strikethrough": false,
           "underline": false,
         },
-        "href": null,
-        "plain_text": "test",
         "text": {
           "content": "test",
           "link": null,
@@ -3029,8 +2815,6 @@ exports[`blockObjects toggle no option 4`] = `
           "strikethrough": false,
           "underline": false,
         },
-        "href": null,
-        "plain_text": "test2",
         "text": {
           "content": "test2",
           "link": null,
@@ -3061,8 +2845,6 @@ exports[`blockObjects toggle with option 1`] = `
                 "strikethrough": false,
                 "underline": false,
               },
-              "href": null,
-              "plain_text": "test",
               "text": {
                 "content": "test",
                 "link": null,
@@ -3085,8 +2867,6 @@ exports[`blockObjects toggle with option 1`] = `
           "strikethrough": false,
           "underline": false,
         },
-        "href": null,
-        "plain_text": "test",
         "text": {
           "content": "test",
           "link": null,
@@ -3125,8 +2905,6 @@ exports[`blockObjects video with option 1`] = `
           "strikethrough": false,
           "underline": false,
         },
-        "href": null,
-        "plain_text": "test2",
         "text": {
           "content": "test2",
           "link": null,
