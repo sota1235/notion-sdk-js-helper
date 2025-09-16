@@ -3,8 +3,8 @@
   "version": "4.0.0",
   "description": "Helper utilities for using @notion/client",
   "type": "module",
-  "exports": "dist/index.js",
-  "types": "dist/index.d.ts",
+  "exports": "./dist/index.js",
+  "types": "./dist/index.d.ts",
   "dependencies": {
     "typescript": "^5.0.0"
   },
