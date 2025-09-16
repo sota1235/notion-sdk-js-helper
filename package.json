@@ -1,6 +1,6 @@
 {
   "name": "@sota1235/notion-sdk-js-helper",
-  "version": "4.0.0",
+  "version": "4.0.1",
   "description": "Helper utilities for using @notion/client",
   "type": "module",
   "exports": "./dist/index.js",
