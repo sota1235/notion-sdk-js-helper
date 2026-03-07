@@ -1,0 +1,6 @@
+# tagpr configuration
+# https://github.com/Songmu/tagpr
+[tagpr]
+  releaseBranch = main
+  versionFile = package.json
+  vPrefix = true

@@ -1,0 +1,17 @@
+changelog:
+  categories:
+    - title: Breaking Changes
+      labels:
+        - kind/breaking-change
+    - title: New Features
+      labels:
+        - kind/feature
+    - title: Bug Fixes
+      labels:
+        - kind/bug
+    - title: Dependencies
+      labels:
+        - kind/dependencies
+    - title: Others
+      labels:
+        - "*"
