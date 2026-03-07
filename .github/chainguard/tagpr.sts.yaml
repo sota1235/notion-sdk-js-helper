@@ -1,0 +1,7 @@
+issuer: https://token.actions.githubusercontent.com
+subject_pattern: repo:sota1235/notion-sdk-js-helper:.*
+
+permissions:
+  contents: write
+  pull_requests: write
+  issues: read
