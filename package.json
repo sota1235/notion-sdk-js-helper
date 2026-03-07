@@ -34,6 +34,10 @@
   ],
   "author": "@sota1235",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sota1235/notion-sdk-js-helper.git"
+  },
   "lint-staged": {
     "*.ts": [
       "npm run fix"
