@@ -1,0 +1,464 @@
+# Changelog
+
+## [v4.0.2](https://github.com/sota1235/notion-sdk-js-helper/compare/v4.0.1...v4.0.2) - 2026-03-07
+### Dependencies
+- chore(deps): update songmu/tagpr action to v1.17.1 by @renovate[bot] in https://github.com/sota1235/notion-sdk-js-helper/pull/447
+### Others
+- chore(deps): update dependency @types/node to v24.3.3 by @renovate[bot] in https://github.com/sota1235/notion-sdk-js-helper/pull/379
+- chore(deps): update dependency ts-jest to v29.4.2 by @renovate[bot] in https://github.com/sota1235/notion-sdk-js-helper/pull/380
+- chore(deps): update dependency @types/node to v24.5.1 by @renovate[bot] in https://github.com/sota1235/notion-sdk-js-helper/pull/381
+- chore(deps): update dependency @types/node to v24.5.2 by @renovate[bot] in https://github.com/sota1235/notion-sdk-js-helper/pull/382
+- chore(deps): update dependency ts-jest to v29.4.3 by @renovate[bot] in https://github.com/sota1235/notion-sdk-js-helper/pull/383
+- chore(deps): update dependency ts-jest to v29.4.4 by @renovate[bot] in https://github.com/sota1235/notion-sdk-js-helper/pull/384
+- chore(deps): update node.js to v22.20.0 by @renovate[bot] in https://github.com/sota1235/notion-sdk-js-helper/pull/386
+- chore(deps): update dependency lint-staged to v16.2.0 by @renovate[bot] in https://github.com/sota1235/notion-sdk-js-helper/pull/385
+- chore(deps): update dependency lint-staged to v16.2.3 by @renovate[bot] in https://github.com/sota1235/notion-sdk-js-helper/pull/387
+- chore(deps): update dependency jest to v30.2.0 by @renovate[bot] in https://github.com/sota1235/notion-sdk-js-helper/pull/389
+- chore(deps): update dependency @types/node to v24.6.1 by @renovate[bot] in https://github.com/sota1235/notion-sdk-js-helper/pull/388
+- chore(deps): update dependency @types/node to v24.6.2 by @renovate[bot] in https://github.com/sota1235/notion-sdk-js-helper/pull/390
+- chore(deps): update dependency @types/node to v24.7.0 by @renovate[bot] in https://github.com/sota1235/notion-sdk-js-helper/pull/391
+- chore(deps): update reviewdog/action-actionlint action to v1.68.0 by @renovate[bot] in https://github.com/sota1235/notion-sdk-js-helper/pull/392
+- chore(deps): update dependency @types/node to v24.7.2 by @renovate[bot] in https://github.com/sota1235/notion-sdk-js-helper/pull/393
+- chore(deps): update dependency lint-staged to v16.2.4 by @renovate[bot] in https://github.com/sota1235/notion-sdk-js-helper/pull/394
+- chore(deps): update dependency ts-jest to v29.4.5 by @renovate[bot] in https://github.com/sota1235/notion-sdk-js-helper/pull/395
+- chore(deps): update dependency @types/node to v24.8.0 by @renovate[bot] in https://github.com/sota1235/notion-sdk-js-helper/pull/397
+- chore(deps): update actions/setup-node action to v6 by @renovate[bot] in https://github.com/sota1235/notion-sdk-js-helper/pull/396
+- chore(deps): update actions/checkout action to v5 by @renovate[bot] in https://github.com/sota1235/notion-sdk-js-helper/pull/367
+- chore(deps): update dependency typescript to v5.9.3 by @renovate[bot] in https://github.com/sota1235/notion-sdk-js-helper/pull/362
+- chore(deps): update dependency @biomejs/biome to v2 by @renovate[bot] in https://github.com/sota1235/notion-sdk-js-helper/pull/343
+- chore(deps): update dependency @types/node to v24.8.1 by @renovate[bot] in https://github.com/sota1235/notion-sdk-js-helper/pull/398
+- chore(deps): update dependency lint-staged to v16.2.5 by @renovate[bot] in https://github.com/sota1235/notion-sdk-js-helper/pull/399
+- chore(deps): update node.js to v22.21.0 by @renovate[bot] in https://github.com/sota1235/notion-sdk-js-helper/pull/401
+- chore(deps): update dependency @types/node to v24.9.1 by @renovate[bot] in https://github.com/sota1235/notion-sdk-js-helper/pull/400
+- chore(deps): update dependency @biomejs/biome to v2.2.7 by @renovate[bot] in https://github.com/sota1235/notion-sdk-js-helper/pull/402
+- chore(deps): update dependency lint-staged to v16.2.6 by @renovate[bot] in https://github.com/sota1235/notion-sdk-js-helper/pull/403
+- chore(deps): update dependency @types/node to v24.9.2 by @renovate[bot] in https://github.com/sota1235/notion-sdk-js-helper/pull/404
+- chore(deps): update node.js to v22.21.1 by @renovate[bot] in https://github.com/sota1235/notion-sdk-js-helper/pull/405
+- chore(deps): update actions/checkout action to v5.0.1 by @renovate[bot] in https://github.com/sota1235/notion-sdk-js-helper/pull/410
+- chore(deps): update dependency lint-staged to v16.2.7 by @renovate[bot] in https://github.com/sota1235/notion-sdk-js-helper/pull/412
+- chore(deps): update reviewdog/action-actionlint action to v1.69.0 by @renovate[bot] in https://github.com/sota1235/notion-sdk-js-helper/pull/413
+- chore(deps): update dependency ts-jest to v29.4.6 by @renovate[bot] in https://github.com/sota1235/notion-sdk-js-helper/pull/414
+- chore(deps): update reviewdog/action-actionlint action to v1.69.1 by @renovate[bot] in https://github.com/sota1235/notion-sdk-js-helper/pull/415
+- chore(deps): update actions/setup-node action to v6.1.0 by @renovate[bot] in https://github.com/sota1235/notion-sdk-js-helper/pull/416
+- chore(deps): update dependency @types/node to v25 by @renovate[bot] in https://github.com/sota1235/notion-sdk-js-helper/pull/417
+- chore(deps): update dependency @types/node to v25.0.2 by @renovate[bot] in https://github.com/sota1235/notion-sdk-js-helper/pull/418
+- chore(deps): update dependency @types/node to v25.0.3 by @renovate[bot] in https://github.com/sota1235/notion-sdk-js-helper/pull/419
+- chore(deps): update actions/checkout action to v6 by @renovate[bot] in https://github.com/sota1235/notion-sdk-js-helper/pull/411
+- build(deps): bump glob from 10.4.5 to 10.5.0 by @dependabot[bot] in https://github.com/sota1235/notion-sdk-js-helper/pull/409
+- build(deps): bump js-yaml from 3.14.1 to 3.14.2 by @dependabot[bot] in https://github.com/sota1235/notion-sdk-js-helper/pull/408
+- chore(deps): update dependency @biomejs/biome to v2.3.11 by @renovate[bot] in https://github.com/sota1235/notion-sdk-js-helper/pull/406
+- chore(deps): update node.js to v24 by @renovate[bot] in https://github.com/sota1235/notion-sdk-js-helper/pull/407
+- chore(deps): update dependency @types/node to v25.0.8 by @renovate[bot] in https://github.com/sota1235/notion-sdk-js-helper/pull/420
+- chore(deps): update actions/setup-node action to v6.2.0 by @renovate[bot] in https://github.com/sota1235/notion-sdk-js-helper/pull/421
+- chore(deps): update actions/checkout action to v6.0.2 by @renovate[bot] in https://github.com/sota1235/notion-sdk-js-helper/pull/422
+- chore(deps): update dependency @types/node to v25.0.9 by @renovate[bot] in https://github.com/sota1235/notion-sdk-js-helper/pull/423
+- chore(deps): update dependency @types/node to v25.0.10 by @renovate[bot] in https://github.com/sota1235/notion-sdk-js-helper/pull/424
+- chore(deps): update dependency @biomejs/biome to v2.3.13 by @renovate[bot] in https://github.com/sota1235/notion-sdk-js-helper/pull/425
+- chore(deps): update reviewdog/action-actionlint action to v1.70.0 by @renovate[bot] in https://github.com/sota1235/notion-sdk-js-helper/pull/426
+- chore(deps): update dependency @types/node to v25.1.0 by @renovate[bot] in https://github.com/sota1235/notion-sdk-js-helper/pull/427
+- chore(deps): update dependency @biomejs/biome to v2.3.14 by @renovate[bot] in https://github.com/sota1235/notion-sdk-js-helper/pull/428
+- chore(deps): update dependency @types/node to v25.2.0 by @renovate[bot] in https://github.com/sota1235/notion-sdk-js-helper/pull/429
+- chore(deps): update dependency @types/node to v25.2.3 by @renovate[bot] in https://github.com/sota1235/notion-sdk-js-helper/pull/430
+- chore(deps): update node.js to v24.13.1 by @renovate[bot] in https://github.com/sota1235/notion-sdk-js-helper/pull/431
+- chore(deps): update dependency @biomejs/biome to v2.3.15 by @renovate[bot] in https://github.com/sota1235/notion-sdk-js-helper/pull/432
+- chore(deps): update reviewdog/action-actionlint action to v1.71.0 by @renovate[bot] in https://github.com/sota1235/notion-sdk-js-helper/pull/434
+- chore(deps): update dependency @types/node to v25.3.0 by @renovate[bot] in https://github.com/sota1235/notion-sdk-js-helper/pull/435
+- chore(deps): update dependency @biomejs/biome to v2.4.4 by @renovate[bot] in https://github.com/sota1235/notion-sdk-js-helper/pull/433
+- build(deps): bump minimatch by @dependabot[bot] in https://github.com/sota1235/notion-sdk-js-helper/pull/436
+- chore(deps): update node.js to v24.14.0 by @renovate[bot] in https://github.com/sota1235/notion-sdk-js-helper/pull/438
+- chore(deps): update dependency @types/node to v25.3.2 by @renovate[bot] in https://github.com/sota1235/notion-sdk-js-helper/pull/437
+- chore(deps): update dependency @biomejs/biome to v2.4.5 by @renovate[bot] in https://github.com/sota1235/notion-sdk-js-helper/pull/439
+- chore(deps): update dependency @types/node to v25.3.3 by @renovate[bot] in https://github.com/sota1235/notion-sdk-js-helper/pull/440
+- chore(deps): update actions/setup-node action to v6.3.0 by @renovate[bot] in https://github.com/sota1235/notion-sdk-js-helper/pull/441
+- chore(deps): update dependency lint-staged to v16.3.2 by @renovate[bot] in https://github.com/sota1235/notion-sdk-js-helper/pull/442
+- Claude/resolve dependabot alerts d xal4 by @sota1235 in https://github.com/sota1235/notion-sdk-js-helper/pull/443
+- add: claude.md by @sota1235 in https://github.com/sota1235/notion-sdk-js-helper/pull/444
+- npm publishをOIDC (Trusted Publishing) に移行 by @sota1235 in https://github.com/sota1235/notion-sdk-js-helper/pull/445
+- tagprによるリリースPR自動化を導入 by @sota1235 in https://github.com/sota1235/notion-sdk-js-helper/pull/446
+- tagprワークフローにfetch-depth: 0を追加 by @sota1235 in https://github.com/sota1235/notion-sdk-js-helper/pull/448
+
+## [v4.0.1](https://github.com/sota1235/notion-sdk-js-helper/compare/v4.0.0...v4.0.1) - 2025-09-16
+- chore(deps): update dependency lint-staged to v16.1.6 by @renovate[bot] in https://github.com/sota1235/notion-sdk-js-helper/pull/373
+- chore(deps): update reviewdog/action-actionlint action to v1.67.0 by @renovate[bot] in https://github.com/sota1235/notion-sdk-js-helper/pull/374
+- chore(deps): update dependency jest to v30.1.3 by @renovate[bot] in https://github.com/sota1235/notion-sdk-js-helper/pull/370
+- chore(deps): update dependency @types/node to v24.3.1 by @renovate[bot] in https://github.com/sota1235/notion-sdk-js-helper/pull/376
+- Fixed the incorrect exports and types in package.json by @pieterclaerhout in https://github.com/sota1235/notion-sdk-js-helper/pull/377
+- v4.0.1 by @sota1235 in https://github.com/sota1235/notion-sdk-js-helper/pull/378
+
+## [v4.0.0](https://github.com/sota1235/notion-sdk-js-helper/compare/v3.0.1...v4.0.0) - 2025-09-05
+- chore(deps): update dependency @types/node to v22.15.29 by @renovate[bot] in https://github.com/sota1235/notion-sdk-js-helper/pull/334
+- chore(deps): update dependency @types/node to v22.15.31 by @renovate[bot] in https://github.com/sota1235/notion-sdk-js-helper/pull/336
+- chore(deps): update dependency @types/node to v24 by @renovate[bot] in https://github.com/sota1235/notion-sdk-js-helper/pull/337
+- chore(deps): update dependency @types/node to v24.0.1 by @renovate[bot] in https://github.com/sota1235/notion-sdk-js-helper/pull/339
+- chore(deps): update dependency ts-jest to v29.4.0 by @renovate[bot] in https://github.com/sota1235/notion-sdk-js-helper/pull/340
+- chore(deps): update jest monorepo to v30 (major) by @renovate[bot] in https://github.com/sota1235/notion-sdk-js-helper/pull/338
+- chore(deps): update dependency @types/node to v24.0.3 by @renovate[bot] in https://github.com/sota1235/notion-sdk-js-helper/pull/341
+- chore(deps): update dependency lint-staged to v16.1.2 by @renovate[bot] in https://github.com/sota1235/notion-sdk-js-helper/pull/342
+- chore(deps): update dependency jest to v30.0.1 by @renovate[bot] in https://github.com/sota1235/notion-sdk-js-helper/pull/344
+- chore(deps): update dependency jest to v30.0.2 by @renovate[bot] in https://github.com/sota1235/notion-sdk-js-helper/pull/345
+- chore(deps): update node.js to v22.17.0 by @renovate[bot] in https://github.com/sota1235/notion-sdk-js-helper/pull/346
+- chore(deps): update dependency @types/node to v24.0.4 by @renovate[bot] in https://github.com/sota1235/notion-sdk-js-helper/pull/347
+- chore(deps): update dependency jest to v30.0.3 by @renovate[bot] in https://github.com/sota1235/notion-sdk-js-helper/pull/348
+- chore(deps): update dependency @types/node to v24.0.10 by @renovate[bot] in https://github.com/sota1235/notion-sdk-js-helper/pull/349
+- chore(deps): update dependency jest to v30.0.4 by @renovate[bot] in https://github.com/sota1235/notion-sdk-js-helper/pull/351
+- chore(deps): update dependency @types/node to v24.0.12 by @renovate[bot] in https://github.com/sota1235/notion-sdk-js-helper/pull/352
+- chore(deps): update dependency @types/node to v24.0.14 by @renovate[bot] in https://github.com/sota1235/notion-sdk-js-helper/pull/353
+- chore(deps): update node.js to v22.17.1 by @renovate[bot] in https://github.com/sota1235/notion-sdk-js-helper/pull/354
+- chore(deps): update dependency @types/node to v24.0.15 by @renovate[bot] in https://github.com/sota1235/notion-sdk-js-helper/pull/355
+- chore(deps): update dependency jest to v30.0.5 by @renovate[bot] in https://github.com/sota1235/notion-sdk-js-helper/pull/356
+- chore(deps): update dependency @types/node to v24.1.0 by @renovate[bot] in https://github.com/sota1235/notion-sdk-js-helper/pull/357
+- chore(deps): update node.js to v22.18.0 by @renovate[bot] in https://github.com/sota1235/notion-sdk-js-helper/pull/358
+- chore(deps): update dependency lint-staged to v16.1.4 by @renovate[bot] in https://github.com/sota1235/notion-sdk-js-helper/pull/359
+- chore(deps): update dependency @types/node to v24.2.0 by @renovate[bot] in https://github.com/sota1235/notion-sdk-js-helper/pull/361
+- chore(deps): update dependency ts-jest to v29.4.1 by @renovate[bot] in https://github.com/sota1235/notion-sdk-js-helper/pull/360
+- chore(deps): update reviewdog/action-actionlint action to v1.66.0 by @renovate[bot] in https://github.com/sota1235/notion-sdk-js-helper/pull/363
+- chore(deps): update dependency @types/node to v24.2.1 by @renovate[bot] in https://github.com/sota1235/notion-sdk-js-helper/pull/364
+- chore(deps): update dependency lint-staged to v16.1.5 by @renovate[bot] in https://github.com/sota1235/notion-sdk-js-helper/pull/365
+- chore(deps): update actions/checkout action to v4.3.0 by @renovate[bot] in https://github.com/sota1235/notion-sdk-js-helper/pull/366
+- chore(deps): update reviewdog/action-actionlint action to v1.66.1 by @renovate[bot] in https://github.com/sota1235/notion-sdk-js-helper/pull/368
+- chore(deps): update dependency @types/node to v24.3.0 by @renovate[bot] in https://github.com/sota1235/notion-sdk-js-helper/pull/369
+- chore(deps): update node.js to v22.19.0 by @renovate[bot] in https://github.com/sota1235/notion-sdk-js-helper/pull/371
+- Feat support v4 by @sota1235 in https://github.com/sota1235/notion-sdk-js-helper/pull/372
+
+## [v3.0.1](https://github.com/sota1235/notion-sdk-js-helper/compare/v3.0.0...v3.0.1) - 2025-06-06
+- add cline rules by @sota1235 in https://github.com/sota1235/notion-sdk-js-helper/pull/331
+- chore(deps): update dependency @types/node to v22.15.24 by @renovate[bot] in https://github.com/sota1235/notion-sdk-js-helper/pull/332
+- fix: way to correct exports field by @sota1235 in https://github.com/sota1235/notion-sdk-js-helper/pull/333
+
+## [v3.0.0](https://github.com/sota1235/notion-sdk-js-helper/compare/v2.2.0...v3.0.0) - 2025-05-31
+- chore(deps): update dependency node to v20.12.2 by @renovate[bot] in https://github.com/sota1235/notion-sdk-js-helper/pull/213
+- chore(deps): update dependency typescript to v5.4.4 by @renovate[bot] in https://github.com/sota1235/notion-sdk-js-helper/pull/214
+- chore(deps): update dependency @typescript-eslint/eslint-plugin to v7.6.0 by @renovate[bot] in https://github.com/sota1235/notion-sdk-js-helper/pull/215
+- chore(deps): update dependency typescript to v5.4.5 by @renovate[bot] in https://github.com/sota1235/notion-sdk-js-helper/pull/216
+- chore(deps): update dependency @typescript-eslint/eslint-plugin to v7.7.0 by @renovate[bot] in https://github.com/sota1235/notion-sdk-js-helper/pull/218
+- chore(deps): update dependency @typescript-eslint/eslint-plugin to v7.7.1 by @renovate[bot] in https://github.com/sota1235/notion-sdk-js-helper/pull/220
+- chore(deps): update dependency @typescript-eslint/eslint-plugin to v7.8.0 by @renovate[bot] in https://github.com/sota1235/notion-sdk-js-helper/pull/221
+- chore(deps): update dependency node to v20.13.1 by @renovate[bot] in https://github.com/sota1235/notion-sdk-js-helper/pull/223
+- chore(deps): update actions/checkout digest to 0ad4b8f by @renovate[bot] in https://github.com/sota1235/notion-sdk-js-helper/pull/219
+- chore(deps): update dependency @typescript-eslint/eslint-plugin to v7.9.0 by @renovate[bot] in https://github.com/sota1235/notion-sdk-js-helper/pull/224
+- chore(deps): update dependency ts-jest to v29.1.3 by @renovate[bot] in https://github.com/sota1235/notion-sdk-js-helper/pull/226
+- chore(deps): update dependency @typescript-eslint/eslint-plugin to v7.10.0 by @renovate[bot] in https://github.com/sota1235/notion-sdk-js-helper/pull/227
+- chore(deps): update dependency lint-staged to v15.2.4 by @renovate[bot] in https://github.com/sota1235/notion-sdk-js-helper/pull/228
+- chore(deps): update dependency lint-staged to v15.2.5 by @renovate[bot] in https://github.com/sota1235/notion-sdk-js-helper/pull/230
+- chore(deps): update dependency ts-jest to v29.1.4 by @renovate[bot] in https://github.com/sota1235/notion-sdk-js-helper/pull/231
+- chore(deps): update dependency @typescript-eslint/eslint-plugin to v7.11.0 by @renovate[bot] in https://github.com/sota1235/notion-sdk-js-helper/pull/232
+- chore(deps): update dependency @typescript-eslint/eslint-plugin to v7.12.0 by @renovate[bot] in https://github.com/sota1235/notion-sdk-js-helper/pull/234
+- chore(deps): update dependency prettier to v3.3.0 by @renovate[bot] in https://github.com/sota1235/notion-sdk-js-helper/pull/235
+- chore(deps): update dependency prettier to v3.3.1 by @renovate[bot] in https://github.com/sota1235/notion-sdk-js-helper/pull/236
+- chore(deps): update dependency prettier to v3.3.2 by @renovate[bot] in https://github.com/sota1235/notion-sdk-js-helper/pull/237
+- chore(deps): update dependency @typescript-eslint/eslint-plugin to v7.13.0 by @renovate[bot] in https://github.com/sota1235/notion-sdk-js-helper/pull/238
+- chore(deps): update dependency lint-staged to v15.2.6 by @renovate[bot] in https://github.com/sota1235/notion-sdk-js-helper/pull/239
+- chore(deps): update dependency lint-staged to v15.2.7 by @renovate[bot] in https://github.com/sota1235/notion-sdk-js-helper/pull/240
+- chore(deps): update dependency @typescript-eslint/eslint-plugin to v7.13.1 by @renovate[bot] in https://github.com/sota1235/notion-sdk-js-helper/pull/241
+- chore(deps): update dependency ts-jest to v29.1.5 by @renovate[bot] in https://github.com/sota1235/notion-sdk-js-helper/pull/242
+- chore(deps): update dependency @typescript-eslint/eslint-plugin to v7.14.1 by @renovate[bot] in https://github.com/sota1235/notion-sdk-js-helper/pull/243
+- chore(deps): update dependency @typescript-eslint/eslint-plugin to v7.15.0 by @renovate[bot] in https://github.com/sota1235/notion-sdk-js-helper/pull/245
+- chore(deps): update dependency typescript to v5.5.3 by @renovate[bot] in https://github.com/sota1235/notion-sdk-js-helper/pull/244
+- chore(deps): update dependency node to v20.15.1 by @renovate[bot] in https://github.com/sota1235/notion-sdk-js-helper/pull/233
+- chore(deps): update reviewdog/action-actionlint action to v1.53.0 by @renovate[bot] in https://github.com/sota1235/notion-sdk-js-helper/pull/229
+- replace eslint, prettier with biome by @sota1235 in https://github.com/sota1235/notion-sdk-js-helper/pull/246
+- chore(deps): update dependency ts-jest to v29.2.0 by @renovate[bot] in https://github.com/sota1235/notion-sdk-js-helper/pull/248
+- chore(deps): update dependency ts-jest to v29.2.1 by @renovate[bot] in https://github.com/sota1235/notion-sdk-js-helper/pull/249
+- chore(deps): update dependency ts-jest to v29.2.2 by @renovate[bot] in https://github.com/sota1235/notion-sdk-js-helper/pull/250
+- chore(deps): update dependency husky to v9.1.0 by @renovate[bot] in https://github.com/sota1235/notion-sdk-js-helper/pull/252
+- chore(deps): update dependency husky to v9.1.1 by @renovate[bot] in https://github.com/sota1235/notion-sdk-js-helper/pull/253
+- chore(deps): update dependency ts-jest to v29.2.3 by @renovate[bot] in https://github.com/sota1235/notion-sdk-js-helper/pull/254
+- chore(deps): update dependency typescript to v5.5.4 by @renovate[bot] in https://github.com/sota1235/notion-sdk-js-helper/pull/255
+- chore(deps): update dependency husky to v9.1.4 by @renovate[bot] in https://github.com/sota1235/notion-sdk-js-helper/pull/257
+- chore(deps): update dependency ts-jest to v29.2.4 by @renovate[bot] in https://github.com/sota1235/notion-sdk-js-helper/pull/258
+- chore(deps): update dependency lint-staged to v15.2.8 by @renovate[bot] in https://github.com/sota1235/notion-sdk-js-helper/pull/259
+- chore(deps): update dependency node to v20.16.0 by @renovate[bot] in https://github.com/sota1235/notion-sdk-js-helper/pull/256
+- chore(deps): update reviewdog/action-actionlint action to v1.54.0 by @renovate[bot] in https://github.com/sota1235/notion-sdk-js-helper/pull/251
+- chore(deps): update dependency lint-staged to v15.2.9 by @renovate[bot] in https://github.com/sota1235/notion-sdk-js-helper/pull/260
+- chore(deps): update dependency husky to v9.1.5 by @renovate[bot] in https://github.com/sota1235/notion-sdk-js-helper/pull/261
+- chore(deps): update dependency ts-jest to v29.2.5 by @renovate[bot] in https://github.com/sota1235/notion-sdk-js-helper/pull/263
+- chore(deps): update dependency node to v20.17.0 by @renovate[bot] in https://github.com/sota1235/notion-sdk-js-helper/pull/262
+- chore(deps): update dependency lint-staged to v15.2.10 by @renovate[bot] in https://github.com/sota1235/notion-sdk-js-helper/pull/264
+- chore(deps): update actions/setup-node action to v4.0.3 by @renovate[bot] in https://github.com/sota1235/notion-sdk-js-helper/pull/265
+- chore(deps): update dependency husky to v9.1.6 by @renovate[bot] in https://github.com/sota1235/notion-sdk-js-helper/pull/268
+- chore(deps): update actions/setup-node action to v4.0.4 by @renovate[bot] in https://github.com/sota1235/notion-sdk-js-helper/pull/269
+- chore(deps): update dependency @types/jest to v29.5.13 by @renovate[bot] in https://github.com/sota1235/notion-sdk-js-helper/pull/270
+- chore(deps): update dependency @biomejs/biome to v1.9.2 by @renovate[bot] in https://github.com/sota1235/notion-sdk-js-helper/pull/272
+- chore(deps): update reviewdog/action-actionlint action to v1.55.0 by @renovate[bot] in https://github.com/sota1235/notion-sdk-js-helper/pull/271
+- chore(deps): update dependency @biomejs/biome to v1.9.3 by @renovate[bot] in https://github.com/sota1235/notion-sdk-js-helper/pull/274
+- chore(deps): update dependency node to v20.18.0 by @renovate[bot] in https://github.com/sota1235/notion-sdk-js-helper/pull/275
+- chore(deps): update reviewdog/action-actionlint action to v1.57.0 by @renovate[bot] in https://github.com/sota1235/notion-sdk-js-helper/pull/273
+- chore(deps): update dependency @biomejs/biome to v1.9.4 by @renovate[bot] in https://github.com/sota1235/notion-sdk-js-helper/pull/276
+- chore(deps): update dependency @types/jest to v29.5.14 by @renovate[bot] in https://github.com/sota1235/notion-sdk-js-helper/pull/278
+- chore(deps): update dependency husky to v9.1.7 by @renovate[bot] in https://github.com/sota1235/notion-sdk-js-helper/pull/280
+- chore(deps): update node.js to v20.18.1 by @renovate[bot] in https://github.com/sota1235/notion-sdk-js-helper/pull/281
+- chore(deps): update dependency lint-staged to v15.2.11 by @renovate[bot] in https://github.com/sota1235/notion-sdk-js-helper/pull/283
+- chore(deps): update dependency lint-staged to v15.3.0 by @renovate[bot] in https://github.com/sota1235/notion-sdk-js-helper/pull/284
+- chore(deps): update reviewdog/action-actionlint action to v1.62.0 by @renovate[bot] in https://github.com/sota1235/notion-sdk-js-helper/pull/282
+- chore(deps): update actions/checkout action to v4.2.2 by @renovate[bot] in https://github.com/sota1235/notion-sdk-js-helper/pull/266
+- chore(deps): update dependency lint-staged to v15.4.0 by @renovate[bot] in https://github.com/sota1235/notion-sdk-js-helper/pull/285
+- chore(deps): update reviewdog/action-actionlint action to v1.63.0 by @renovate[bot] in https://github.com/sota1235/notion-sdk-js-helper/pull/286
+- chore(deps): update dependency lint-staged to v15.4.1 by @renovate[bot] in https://github.com/sota1235/notion-sdk-js-helper/pull/287
+- chore(deps): update node.js to v20.18.2 by @renovate[bot] in https://github.com/sota1235/notion-sdk-js-helper/pull/288
+- chore(deps): update reviewdog/action-actionlint action to v1.64.1 by @renovate[bot] in https://github.com/sota1235/notion-sdk-js-helper/pull/289
+- chore(deps): update actions/setup-node action to v4.2.0 by @renovate[bot] in https://github.com/sota1235/notion-sdk-js-helper/pull/277
+- chore(deps): update dependency lint-staged to v15.4.3 by @renovate[bot] in https://github.com/sota1235/notion-sdk-js-helper/pull/290
+- chore(deps): update dependency typescript to v5.7.3 by @renovate[bot] in https://github.com/sota1235/notion-sdk-js-helper/pull/267
+- chore(deps): update node.js to v22 by @renovate[bot] in https://github.com/sota1235/notion-sdk-js-helper/pull/279
+- chore(deps): update dependency @types/node to v22.13.1 by @renovate[bot] in https://github.com/sota1235/notion-sdk-js-helper/pull/291
+- chore(deps): update node.js to v22.14.0 by @renovate[bot] in https://github.com/sota1235/notion-sdk-js-helper/pull/292
+- chore(deps): update dependency @types/node to v22.13.2 by @renovate[bot] in https://github.com/sota1235/notion-sdk-js-helper/pull/293
+- chore(deps): update dependency @types/node to v22.13.4 by @renovate[bot] in https://github.com/sota1235/notion-sdk-js-helper/pull/294
+- chore(deps): update reviewdog/action-actionlint action to v1.65.0 by @renovate[bot] in https://github.com/sota1235/notion-sdk-js-helper/pull/295
+- chore(deps): update dependency @types/node to v22.13.5 by @renovate[bot] in https://github.com/sota1235/notion-sdk-js-helper/pull/296
+- chore(deps): update dependency ts-jest to v29.2.6 by @renovate[bot] in https://github.com/sota1235/notion-sdk-js-helper/pull/297
+- chore(deps): update dependency @types/node to v22.13.9 by @renovate[bot] in https://github.com/sota1235/notion-sdk-js-helper/pull/298
+- chore(deps): update dependency @types/node to v22.13.10 by @renovate[bot] in https://github.com/sota1235/notion-sdk-js-helper/pull/300
+- chore(deps): update dependency lint-staged to v15.5.0 by @renovate[bot] in https://github.com/sota1235/notion-sdk-js-helper/pull/301
+- chore(deps): update reviewdog/action-actionlint action to v1.65.2 by @renovate[bot] in https://github.com/sota1235/notion-sdk-js-helper/pull/302
+- chore(deps): update actions/setup-node action to v4.3.0 by @renovate[bot] in https://github.com/sota1235/notion-sdk-js-helper/pull/303
+- chore(deps): update dependency @types/node to v22.13.13 by @renovate[bot] in https://github.com/sota1235/notion-sdk-js-helper/pull/305
+- chore(deps): update dependency ts-jest to v29.3.0 by @renovate[bot] in https://github.com/sota1235/notion-sdk-js-helper/pull/306
+- chore(deps): update dependency @types/node to v22.13.14 by @renovate[bot] in https://github.com/sota1235/notion-sdk-js-helper/pull/307
+- chore(deps): update dependency ts-jest to v29.3.1 by @renovate[bot] in https://github.com/sota1235/notion-sdk-js-helper/pull/308
+- chore(deps): update dependency @types/node to v22.13.17 by @renovate[bot] in https://github.com/sota1235/notion-sdk-js-helper/pull/309
+- chore(deps): update dependency @types/node to v22.14.0 by @renovate[bot] in https://github.com/sota1235/notion-sdk-js-helper/pull/310
+- chore(deps): update dependency @types/node to v22.14.1 by @renovate[bot] in https://github.com/sota1235/notion-sdk-js-helper/pull/311
+- chore(deps): update dependency lint-staged to v15.5.1 by @renovate[bot] in https://github.com/sota1235/notion-sdk-js-helper/pull/312
+- chore(deps): update actions/setup-node action to v4.4.0 by @renovate[bot] in https://github.com/sota1235/notion-sdk-js-helper/pull/313
+- chore(deps): update dependency ts-jest to v29.3.2 by @renovate[bot] in https://github.com/sota1235/notion-sdk-js-helper/pull/314
+- chore(deps): update node.js to v22.15.0 by @renovate[bot] in https://github.com/sota1235/notion-sdk-js-helper/pull/315
+- chore(deps): update dependency @types/node to v22.15.3 by @renovate[bot] in https://github.com/sota1235/notion-sdk-js-helper/pull/316
+- chore(deps): update dependency lint-staged to v15.5.2 by @renovate[bot] in https://github.com/sota1235/notion-sdk-js-helper/pull/317
+- chore(deps): update dependency @types/node to v22.15.14 by @renovate[bot] in https://github.com/sota1235/notion-sdk-js-helper/pull/319
+- chore(deps): update dependency @types/node to v22.15.15 by @renovate[bot] in https://github.com/sota1235/notion-sdk-js-helper/pull/320
+- chore(deps): update dependency @types/node to v22.15.16 by @renovate[bot] in https://github.com/sota1235/notion-sdk-js-helper/pull/321
+- chore(deps): update node.js to v22.15.1 by @renovate[bot] in https://github.com/sota1235/notion-sdk-js-helper/pull/322
+- chore(deps): update dependency @types/node to v22.15.18 by @renovate[bot] in https://github.com/sota1235/notion-sdk-js-helper/pull/324
+- chore(deps): update dependency ts-jest to v29.3.3 by @renovate[bot] in https://github.com/sota1235/notion-sdk-js-helper/pull/325
+- chore(deps): update dependency ts-jest to v29.3.4 by @renovate[bot] in https://github.com/sota1235/notion-sdk-js-helper/pull/326
+- chore(deps): update node.js to v22.16.0 by @renovate[bot] in https://github.com/sota1235/notion-sdk-js-helper/pull/327
+- chore(deps): update dependency @types/node to v22.15.21 by @renovate[bot] in https://github.com/sota1235/notion-sdk-js-helper/pull/328
+- chore(deps): update dependency @types/node to v22.15.23 by @renovate[bot] in https://github.com/sota1235/notion-sdk-js-helper/pull/329
+- chore(deps): update dependency lint-staged to v16 by @renovate[bot] in https://github.com/sota1235/notion-sdk-js-helper/pull/323
+- chore(deps): update dependency typescript to v5.8.3 - autoclosed by @renovate[bot] in https://github.com/sota1235/notion-sdk-js-helper/pull/299
+- Update to v3.0.0 by @sota1235 in https://github.com/sota1235/notion-sdk-js-helper/pull/330
+
+## [v2.2.0](https://github.com/sota1235/notion-sdk-js-helper/compare/v2.1.1...v2.2.0) - 2024-04-11
+- chore(deps): update dependency @typescript-eslint/eslint-plugin to v6.13.2 by @renovate[bot] in https://github.com/sota1235/notion-sdk-js-helper/pull/164
+- chore(deps): update dependency eslint to v8.55.0 by @renovate[bot] in https://github.com/sota1235/notion-sdk-js-helper/pull/166
+- chore(deps): update dependency @types/jest to v29.5.11 by @renovate[bot] in https://github.com/sota1235/notion-sdk-js-helper/pull/167
+- chore(deps): update dependency typescript to v5.3.3 by @renovate[bot] in https://github.com/sota1235/notion-sdk-js-helper/pull/168
+- chore(deps): update dependency lint-staged to v15.2.0 by @renovate[bot] in https://github.com/sota1235/notion-sdk-js-helper/pull/165
+- chore(deps): update dependency prettier to v3.1.1 by @renovate[bot] in https://github.com/sota1235/notion-sdk-js-helper/pull/169
+- chore(deps): update dependency ts-node to v10.9.2 by @renovate[bot] in https://github.com/sota1235/notion-sdk-js-helper/pull/170
+- chore(deps): update dependency @typescript-eslint/eslint-plugin to v6.14.0 by @renovate[bot] in https://github.com/sota1235/notion-sdk-js-helper/pull/171
+- chore(deps): update dependency @typescript-eslint/eslint-plugin to v6.15.0 by @renovate[bot] in https://github.com/sota1235/notion-sdk-js-helper/pull/174
+- chore(deps): update dependency eslint to v8.56.0 by @renovate[bot] in https://github.com/sota1235/notion-sdk-js-helper/pull/175
+- chore(deps): update reviewdog/action-actionlint digest to 9ccda19 by @renovate[bot] in https://github.com/sota1235/notion-sdk-js-helper/pull/173
+- chore(deps): update actions/setup-node digest to b39b52d by @renovate[bot] in https://github.com/sota1235/notion-sdk-js-helper/pull/172
+- chore(deps): update dependency @typescript-eslint/eslint-plugin to v6.16.0 by @renovate[bot] in https://github.com/sota1235/notion-sdk-js-helper/pull/176
+- chore(deps): update dependency @typescript-eslint/eslint-plugin to v6.17.0 by @renovate[bot] in https://github.com/sota1235/notion-sdk-js-helper/pull/177
+- chore(deps): update dependency @typescript-eslint/eslint-plugin to v6.18.1 by @renovate[bot] in https://github.com/sota1235/notion-sdk-js-helper/pull/178
+- chore(deps): update dependency @typescript-eslint/eslint-plugin to v6.19.0 by @renovate[bot] in https://github.com/sota1235/notion-sdk-js-helper/pull/180
+- chore(deps): update dependency prettier to v3.2.2 by @renovate[bot] in https://github.com/sota1235/notion-sdk-js-helper/pull/181
+- chore(deps): update dependency prettier to v3.2.3 by @renovate[bot] in https://github.com/sota1235/notion-sdk-js-helper/pull/182
+- chore(deps): update dependency prettier to v3.2.4 by @renovate[bot] in https://github.com/sota1235/notion-sdk-js-helper/pull/183
+- chore(deps): update dependency node to v20.11.0 by @renovate[bot] in https://github.com/sota1235/notion-sdk-js-helper/pull/179
+- chore(deps): update dependency @typescript-eslint/eslint-plugin to v6.19.1 by @renovate[bot] in https://github.com/sota1235/notion-sdk-js-helper/pull/185
+- chore(deps): update dependency ts-jest to v29.1.2 by @renovate[bot] in https://github.com/sota1235/notion-sdk-js-helper/pull/187
+- chore(deps): update dependency @sota1235/eslint-config to v4.2.3 by @renovate[bot] in https://github.com/sota1235/notion-sdk-js-helper/pull/189
+- chore(deps): update dependency @typescript-eslint/eslint-plugin to v6.20.0 by @renovate[bot] in https://github.com/sota1235/notion-sdk-js-helper/pull/190
+- chore(deps): update dependency lint-staged to v15.2.1 by @renovate[bot] in https://github.com/sota1235/notion-sdk-js-helper/pull/191
+- chore(deps): update pkgdeps/git-tag-action action to v3 by @renovate[bot] in https://github.com/sota1235/notion-sdk-js-helper/pull/186
+- chore(deps): update reviewdog/action-actionlint digest to 6a38513 - autoclosed by @renovate[bot] in https://github.com/sota1235/notion-sdk-js-helper/pull/184
+- chore(deps): update dependency @types/jest to v29.5.12 by @renovate[bot] in https://github.com/sota1235/notion-sdk-js-helper/pull/193
+- chore(deps): update dependency lint-staged to v15.2.2 by @renovate[bot] in https://github.com/sota1235/notion-sdk-js-helper/pull/194
+- chore(deps): update dependency prettier to v3.2.5 by @renovate[bot] in https://github.com/sota1235/notion-sdk-js-helper/pull/195
+- chore(deps): update dependency @typescript-eslint/eslint-plugin to v6.21.0 by @renovate[bot] in https://github.com/sota1235/notion-sdk-js-helper/pull/196
+- chore(deps): update dependency node to v20.11.1 by @renovate[bot] in https://github.com/sota1235/notion-sdk-js-helper/pull/197
+- chore(deps): update dependency @typescript-eslint/eslint-plugin to v7 by @renovate[bot] in https://github.com/sota1235/notion-sdk-js-helper/pull/198
+- chore(deps): update dependency @typescript-eslint/eslint-plugin to v7.0.2 by @renovate[bot] in https://github.com/sota1235/notion-sdk-js-helper/pull/199
+- chore(deps): update dependency @typescript-eslint/eslint-plugin to v7.1.0 by @renovate[bot] in https://github.com/sota1235/notion-sdk-js-helper/pull/201
+- chore(deps): update dependency eslint to v8.57.0 by @renovate[bot] in https://github.com/sota1235/notion-sdk-js-helper/pull/202
+- chore(deps): update dependency @typescript-eslint/eslint-plugin to v7.1.1 by @renovate[bot] in https://github.com/sota1235/notion-sdk-js-helper/pull/203
+- chore(deps): update actions/setup-node digest to 60edb5d by @renovate[bot] in https://github.com/sota1235/notion-sdk-js-helper/pull/192
+- chore(deps): update reviewdog/action-actionlint digest to c6ee1eb by @renovate[bot] in https://github.com/sota1235/notion-sdk-js-helper/pull/200
+- chore(deps): update dependency typescript to v5.4.2 by @renovate[bot] in https://github.com/sota1235/notion-sdk-js-helper/pull/204
+- chore(deps): update dependency @typescript-eslint/eslint-plugin to v7.2.0 by @renovate[bot] in https://github.com/sota1235/notion-sdk-js-helper/pull/205
+- chore(deps): update dependency typescript to v5.4.3 by @renovate[bot] in https://github.com/sota1235/notion-sdk-js-helper/pull/207
+- chore(deps): update dependency @typescript-eslint/eslint-plugin to v7.3.1 by @renovate[bot] in https://github.com/sota1235/notion-sdk-js-helper/pull/206
+- chore(deps): update dependency @typescript-eslint/eslint-plugin to v7.4.0 by @renovate[bot] in https://github.com/sota1235/notion-sdk-js-helper/pull/208
+- chore(deps): update dependency node to v20.12.1 by @renovate[bot] in https://github.com/sota1235/notion-sdk-js-helper/pull/209
+- chore(deps): update dependency @typescript-eslint/eslint-plugin to v7.5.0 by @renovate[bot] in https://github.com/sota1235/notion-sdk-js-helper/pull/210
+- v2.2.0 by @sota1235 in https://github.com/sota1235/notion-sdk-js-helper/pull/211
+
+## [v2.1.1](https://github.com/sota1235/notion-sdk-js-helper/compare/v2.1.0...v2.1.1) - 2023-12-08
+- chore(deps): update dependency @typescript-eslint/eslint-plugin to v6.13.1 by @renovate[bot] in https://github.com/sota1235/notion-sdk-js-helper/pull/162
+- v2.1.1 - support @notionhq/client@2.2.14 by @sota1235 in https://github.com/sota1235/notion-sdk-js-helper/pull/163
+
+## [v2.1.0](https://github.com/sota1235/notion-sdk-js-helper/compare/v2.0.0...v2.1.0) - 2023-11-29
+- add helper for block object response type by @sota1235 in https://github.com/sota1235/notion-sdk-js-helper/pull/161
+
+## [v2.0.0](https://github.com/sota1235/notion-sdk-js-helper/compare/v1.0.0...v2.0.0) - 2023-11-29
+- chore(deps): update dependency @typescript-eslint/eslint-plugin to v5.59.9 by @renovate[bot] in https://github.com/sota1235/notion-sdk-js-helper/pull/68
+- chore(deps): update dependency typescript to v5.0.4 by @renovate[bot] in https://github.com/sota1235/notion-sdk-js-helper/pull/70
+- chore(deps): update dependency typescript to v5.1.3 by @renovate[bot] in https://github.com/sota1235/notion-sdk-js-helper/pull/69
+- chore(deps): update dependency @typescript-eslint/eslint-plugin to v5.59.11 by @renovate[bot] in https://github.com/sota1235/notion-sdk-js-helper/pull/71
+- chore(deps): update dependency eslint to v8.43.0 by @renovate[bot] in https://github.com/sota1235/notion-sdk-js-helper/pull/72
+- chore(deps): update node.js to v18.16.1 by @renovate[bot] in https://github.com/sota1235/notion-sdk-js-helper/pull/73
+- chore(deps): update dependency @typescript-eslint/eslint-plugin to v5.60.0 by @renovate[bot] in https://github.com/sota1235/notion-sdk-js-helper/pull/74
+- chore(deps): update dependency @notionhq/client to v2.2.6 by @renovate[bot] in https://github.com/sota1235/notion-sdk-js-helper/pull/76
+- chore(deps): update dependency @typescript-eslint/eslint-plugin to v5.60.1 by @renovate[bot] in https://github.com/sota1235/notion-sdk-js-helper/pull/77
+- chore(deps): update dependency lint-staged to v13.2.3 by @renovate[bot] in https://github.com/sota1235/notion-sdk-js-helper/pull/78
+- chore(deps): update dependency ts-jest to v29.1.1 by @renovate[bot] in https://github.com/sota1235/notion-sdk-js-helper/pull/79
+- chore(deps): update dependency typescript to v5.1.6 by @renovate[bot] in https://github.com/sota1235/notion-sdk-js-helper/pull/80
+- chore(deps): update dependency eslint to v8.44.0 by @renovate[bot] in https://github.com/sota1235/notion-sdk-js-helper/pull/81
+- chore(deps): pin dependencies by @renovate[bot] in https://github.com/sota1235/notion-sdk-js-helper/pull/75
+- chore(deps): update dependency @typescript-eslint/eslint-plugin to v5.61.0 by @renovate[bot] in https://github.com/sota1235/notion-sdk-js-helper/pull/83
+- chore(deps): update dependency jest to v29.6.1 by @renovate[bot] in https://github.com/sota1235/notion-sdk-js-helper/pull/84
+- chore(deps): update dependency prettier to v3 by @renovate[bot] in https://github.com/sota1235/notion-sdk-js-helper/pull/85
+- chore(deps): update actions/setup-node digest to e33196f by @renovate[bot] in https://github.com/sota1235/notion-sdk-js-helper/pull/82
+- chore(deps): update dependency @notionhq/client to v2.2.7 by @renovate[bot] in https://github.com/sota1235/notion-sdk-js-helper/pull/86
+- chore(deps): update dependency @types/jest to v29.5.3 by @renovate[bot] in https://github.com/sota1235/notion-sdk-js-helper/pull/88
+- chore(deps): update dependency @typescript-eslint/eslint-plugin to v5.62.0 by @renovate[bot] in https://github.com/sota1235/notion-sdk-js-helper/pull/89
+- chore(deps): update dependency @typescript-eslint/eslint-plugin to v6 by @renovate[bot] in https://github.com/sota1235/notion-sdk-js-helper/pull/90
+- chore(deps): update dependency @sota1235/eslint-config to v4 by @renovate[bot] in https://github.com/sota1235/notion-sdk-js-helper/pull/87
+- chore(deps): update dependency @notionhq/client to v2.2.8 by @renovate[bot] in https://github.com/sota1235/notion-sdk-js-helper/pull/91
+- chore(deps): update dependency @typescript-eslint/eslint-plugin to v6.1.0 by @renovate[bot] in https://github.com/sota1235/notion-sdk-js-helper/pull/93
+- chore(deps): update dependency eslint to v8.45.0 by @renovate[bot] in https://github.com/sota1235/notion-sdk-js-helper/pull/94
+- chore(deps): update dependency @notionhq/client to v2.2.9 by @renovate[bot] in https://github.com/sota1235/notion-sdk-js-helper/pull/95
+- chore(deps): update dependency @typescript-eslint/eslint-plugin to v6.2.0 by @renovate[bot] in https://github.com/sota1235/notion-sdk-js-helper/pull/96
+- chore(deps): update dependency node to v18.17.0 by @renovate[bot] in https://github.com/sota1235/notion-sdk-js-helper/pull/92
+- chore(deps): update dependency jest to v29.6.2 by @renovate[bot] in https://github.com/sota1235/notion-sdk-js-helper/pull/97
+- chore(deps): update dependency @typescript-eslint/eslint-plugin to v6.2.1 by @renovate[bot] in https://github.com/sota1235/notion-sdk-js-helper/pull/98
+- chore(deps): update dependency eslint to v8.46.0 by @renovate[bot] in https://github.com/sota1235/notion-sdk-js-helper/pull/99
+- chore(deps): update dependency @notionhq/client to v2.2.10 by @renovate[bot] in https://github.com/sota1235/notion-sdk-js-helper/pull/100
+- chore(deps): update dependency prettier to v3.0.1 by @renovate[bot] in https://github.com/sota1235/notion-sdk-js-helper/pull/101
+- chore(deps): update dependency node to v18.17.1 by @renovate[bot] in https://github.com/sota1235/notion-sdk-js-helper/pull/102
+- chore(deps): update dependency @typescript-eslint/eslint-plugin to v6.3.0 by @renovate[bot] in https://github.com/sota1235/notion-sdk-js-helper/pull/104
+- chore(deps): update dependency @notionhq/client to v2.2.11 by @renovate[bot] in https://github.com/sota1235/notion-sdk-js-helper/pull/106
+- chore(deps): update dependency prettier to v3.0.2 by @renovate[bot] in https://github.com/sota1235/notion-sdk-js-helper/pull/109
+- chore(deps): update dependency @typescript-eslint/eslint-plugin to v6.4.0 by @renovate[bot] in https://github.com/sota1235/notion-sdk-js-helper/pull/110
+- chore(deps): update dependency eslint to v8.47.0 by @renovate[bot] in https://github.com/sota1235/notion-sdk-js-helper/pull/111
+- chore(deps): update dependency lint-staged to v14 by @renovate[bot] in https://github.com/sota1235/notion-sdk-js-helper/pull/108
+- chore(deps): update actions/setup-node digest to 5e21ff4 by @renovate[bot] in https://github.com/sota1235/notion-sdk-js-helper/pull/105
+- chore(deps): update dependency @sota1235/eslint-config to v4.2.2 by @renovate[bot] in https://github.com/sota1235/notion-sdk-js-helper/pull/103
+- chore(deps): update dependency @typescript-eslint/eslint-plugin to v6.4.1 by @renovate[bot] in https://github.com/sota1235/notion-sdk-js-helper/pull/113
+- chore(deps): update dependency @types/jest to v29.5.4 by @renovate[bot] in https://github.com/sota1235/notion-sdk-js-helper/pull/114
+- chore(deps): update dependency jest to v29.6.3 by @renovate[bot] in https://github.com/sota1235/notion-sdk-js-helper/pull/115
+- chore(deps): update dependency lint-staged to v14.0.1 by @renovate[bot] in https://github.com/sota1235/notion-sdk-js-helper/pull/116
+- chore(deps): update dependency jest to v29.6.4 by @renovate[bot] in https://github.com/sota1235/notion-sdk-js-helper/pull/117
+- chore(deps): update dependency @notionhq/client to v2.2.12 by @renovate[bot] in https://github.com/sota1235/notion-sdk-js-helper/pull/118
+- chore(deps): update dependency prettier to v3.0.3 by @renovate[bot] in https://github.com/sota1235/notion-sdk-js-helper/pull/120
+- chore(deps): update dependency @typescript-eslint/eslint-plugin to v6.5.0 by @renovate[bot] in https://github.com/sota1235/notion-sdk-js-helper/pull/121
+- chore(deps): update dependency eslint to v8.48.0 by @renovate[bot] in https://github.com/sota1235/notion-sdk-js-helper/pull/122
+- chore(deps): update dependency @notionhq/client to v2.2.13 by @renovate[bot] in https://github.com/sota1235/notion-sdk-js-helper/pull/124
+- chore(deps): update dependency @typescript-eslint/eslint-plugin to v6.6.0 by @renovate[bot] in https://github.com/sota1235/notion-sdk-js-helper/pull/126
+- chore(deps): update dependency @typescript-eslint/eslint-plugin to v6.7.0 by @renovate[bot] in https://github.com/sota1235/notion-sdk-js-helper/pull/127
+- chore(deps): update dependency eslint to v8.49.0 by @renovate[bot] in https://github.com/sota1235/notion-sdk-js-helper/pull/128
+- chore(deps): update dependency jest to v29.7.0 by @renovate[bot] in https://github.com/sota1235/notion-sdk-js-helper/pull/129
+- chore(deps): update dependency @types/jest to v29.5.5 by @renovate[bot] in https://github.com/sota1235/notion-sdk-js-helper/pull/130
+- chore(deps): update dependency @typescript-eslint/eslint-plugin to v6.7.2 by @renovate[bot] in https://github.com/sota1235/notion-sdk-js-helper/pull/132
+- chore(deps): update dependency @typescript-eslint/eslint-plugin to v6.7.3 by @renovate[bot] in https://github.com/sota1235/notion-sdk-js-helper/pull/133
+- chore(deps): update dependency eslint to v8.50.0 by @renovate[bot] in https://github.com/sota1235/notion-sdk-js-helper/pull/134
+- chore(deps): update dependency @typescript-eslint/eslint-plugin to v6.7.4 by @renovate[bot] in https://github.com/sota1235/notion-sdk-js-helper/pull/135
+- chore(deps): update reviewdog/action-actionlint digest to 82693e9 by @renovate[bot] in https://github.com/sota1235/notion-sdk-js-helper/pull/123
+- chore(deps): update dependency node to v18.18.0 by @renovate[bot] in https://github.com/sota1235/notion-sdk-js-helper/pull/131
+- chore(deps): update dependency typescript to v5.2.2 by @renovate[bot] in https://github.com/sota1235/notion-sdk-js-helper/pull/119
+- chore(deps): update dependency @typescript-eslint/eslint-plugin to v6.7.5 by @renovate[bot] in https://github.com/sota1235/notion-sdk-js-helper/pull/136
+- chore(deps): update dependency eslint to v8.51.0 by @renovate[bot] in https://github.com/sota1235/notion-sdk-js-helper/pull/137
+- chore(deps): update dependency node to v18.18.2 by @renovate[bot] in https://github.com/sota1235/notion-sdk-js-helper/pull/138
+- chore(deps): update dependency @typescript-eslint/eslint-plugin to v6.8.0 by @renovate[bot] in https://github.com/sota1235/notion-sdk-js-helper/pull/139
+- chore(deps): update dependency @types/jest to v29.5.6 by @renovate[bot] in https://github.com/sota1235/notion-sdk-js-helper/pull/141
+- chore(deps): update dependency @typescript-eslint/eslint-plugin to v6.9.0 by @renovate[bot] in https://github.com/sota1235/notion-sdk-js-helper/pull/143
+- chore(deps): update dependency eslint to v8.52.0 by @renovate[bot] in https://github.com/sota1235/notion-sdk-js-helper/pull/146
+- chore(deps): update dependency @types/jest to v29.5.7 by @renovate[bot] in https://github.com/sota1235/notion-sdk-js-helper/pull/147
+- chore(deps): update dependency @typescript-eslint/eslint-plugin to v6.9.1 by @renovate[bot] in https://github.com/sota1235/notion-sdk-js-helper/pull/148
+- chore(deps): update dependency @typescript-eslint/eslint-plugin to v6.10.0 by @renovate[bot] in https://github.com/sota1235/notion-sdk-js-helper/pull/149
+- chore(deps): update dependency eslint to v8.53.0 by @renovate[bot] in https://github.com/sota1235/notion-sdk-js-helper/pull/150
+- chore(deps): update dependency @types/jest to v29.5.8 by @renovate[bot] in https://github.com/sota1235/notion-sdk-js-helper/pull/151
+- chore(deps): update dependency @typescript-eslint/eslint-plugin to v6.11.0 by @renovate[bot] in https://github.com/sota1235/notion-sdk-js-helper/pull/152
+- chore(deps): update dependency prettier to v3.1.0 by @renovate[bot] in https://github.com/sota1235/notion-sdk-js-helper/pull/153
+- chore(deps): update dependency @types/jest to v29.5.9 by @renovate[bot] in https://github.com/sota1235/notion-sdk-js-helper/pull/154
+- chore(deps): update dependency @typescript-eslint/eslint-plugin to v6.12.0 by @renovate[bot] in https://github.com/sota1235/notion-sdk-js-helper/pull/156
+- chore(deps): update dependency eslint to v8.54.0 by @renovate[bot] in https://github.com/sota1235/notion-sdk-js-helper/pull/157
+- chore(deps): update dependency @types/jest to v29.5.10 by @renovate[bot] in https://github.com/sota1235/notion-sdk-js-helper/pull/158
+- chore(deps): update dependency typescript to v5.3.2 by @renovate[bot] in https://github.com/sota1235/notion-sdk-js-helper/pull/155
+- chore(deps): update actions/setup-node action to v4 by @renovate[bot] in https://github.com/sota1235/notion-sdk-js-helper/pull/144
+- chore(deps): update dependency lint-staged to v15 by @renovate[bot] in https://github.com/sota1235/notion-sdk-js-helper/pull/140
+- chore(deps): update actions/checkout action to v4 by @renovate[bot] in https://github.com/sota1235/notion-sdk-js-helper/pull/125
+- chore(deps): update dependency node to v20 by @renovate[bot] in https://github.com/sota1235/notion-sdk-js-helper/pull/145
+- build(deps-dev): bump @babel/traverse from 7.14.7 to 7.23.4 by @dependabot[bot] in https://github.com/sota1235/notion-sdk-js-helper/pull/160
+- v2.0.0 by @sota1235 in https://github.com/sota1235/notion-sdk-js-helper/pull/159
+
+## [v1.0.0](https://github.com/sota1235/notion-sdk-js-helper/compare/v0.1.0...v1.0.0) - 2023-06-08
+- Update dependency prettier to v2.8.0 by @renovate[bot] in https://github.com/sota1235/notion-sdk-js-helper/pull/4
+- add npm badge by @sota1235 in https://github.com/sota1235/notion-sdk-js-helper/pull/8
+- Update dependency eslint to v8.29.0 by @renovate[bot] in https://github.com/sota1235/notion-sdk-js-helper/pull/9
+- Update dependency @types/jest to v29.2.4 by @renovate[bot] in https://github.com/sota1235/notion-sdk-js-helper/pull/11
+- Update dependency prettier to v2.8.1 by @renovate[bot] in https://github.com/sota1235/notion-sdk-js-helper/pull/12
+- Update dependency lint-staged to v13.1.0 by @renovate[bot] in https://github.com/sota1235/notion-sdk-js-helper/pull/10
+- Update dependency eslint to v8.30.0 by @renovate[bot] in https://github.com/sota1235/notion-sdk-js-helper/pull/13
+- chore(deps): update dependency @types/jest to v29.2.5 by @renovate[bot] in https://github.com/sota1235/notion-sdk-js-helper/pull/14
+- chore(deps): update dependency eslint to v8.31.0 by @renovate[bot] in https://github.com/sota1235/notion-sdk-js-helper/pull/15
+- chore(deps): update dependency husky to v8.0.3 by @renovate[bot] in https://github.com/sota1235/notion-sdk-js-helper/pull/16
+- chore(deps): update dependency prettier to v2.8.2 by @renovate[bot] in https://github.com/sota1235/notion-sdk-js-helper/pull/18
+- chore(deps): update dependency ts-jest to v29.0.5 by @renovate[bot] in https://github.com/sota1235/notion-sdk-js-helper/pull/19
+- chore(deps): update dependency prettier to v2.8.3 by @renovate[bot] in https://github.com/sota1235/notion-sdk-js-helper/pull/20
+- chore(deps): update dependency eslint to v8.32.0 by @renovate[bot] in https://github.com/sota1235/notion-sdk-js-helper/pull/21
+- chore(deps): update dependency @types/jest to v29.2.6 by @renovate[bot] in https://github.com/sota1235/notion-sdk-js-helper/pull/22
+- chore(deps): update jest monorepo (minor) by @renovate[bot] in https://github.com/sota1235/notion-sdk-js-helper/pull/23
+- chore(deps): update dependency eslint to v8.33.0 by @renovate[bot] in https://github.com/sota1235/notion-sdk-js-helper/pull/24
+- chore(deps): update dependency jest to v29.4.2 by @renovate[bot] in https://github.com/sota1235/notion-sdk-js-helper/pull/25
+- chore(deps): update dependency lint-staged to v13.1.1 by @renovate[bot] in https://github.com/sota1235/notion-sdk-js-helper/pull/26
+- chore(deps): update dependency prettier to v2.8.4 by @renovate[bot] in https://github.com/sota1235/notion-sdk-js-helper/pull/27
+- chore(deps): update dependency eslint to v8.34.0 by @renovate[bot] in https://github.com/sota1235/notion-sdk-js-helper/pull/28
+- chore(deps): update dependency jest to v29.4.3 by @renovate[bot] in https://github.com/sota1235/notion-sdk-js-helper/pull/29
+- chore(deps): update dependency lint-staged to v13.1.2 by @renovate[bot] in https://github.com/sota1235/notion-sdk-js-helper/pull/30
+- chore(deps): update dependency eslint to v8.35.0 by @renovate[bot] in https://github.com/sota1235/notion-sdk-js-helper/pull/31
+- chore(deps): update dependency lint-staged to v13.1.4 by @renovate[bot] in https://github.com/sota1235/notion-sdk-js-helper/pull/32
+- chore(deps): update dependency jest to v29.5.0 by @renovate[bot] in https://github.com/sota1235/notion-sdk-js-helper/pull/33
+- chore(deps): update dependency eslint to v8.36.0 by @renovate[bot] in https://github.com/sota1235/notion-sdk-js-helper/pull/35
+- chore(deps): update dependency @notionhq/client to v2.2.3 by @renovate[bot] in https://github.com/sota1235/notion-sdk-js-helper/pull/36
+- chore(deps): update dependency @types/jest to v29.4.4 by @renovate[bot] in https://github.com/sota1235/notion-sdk-js-helper/pull/38
+- chore(deps): update dependency typescript to v4.9.5 by @renovate[bot] in https://github.com/sota1235/notion-sdk-js-helper/pull/39
+- chore(deps): update dependency @types/jest to v29.5.0 by @renovate[bot] in https://github.com/sota1235/notion-sdk-js-helper/pull/40
+- chore(deps): update dependency @typescript-eslint/eslint-plugin to v5.55.0 by @renovate[bot] in https://github.com/sota1235/notion-sdk-js-helper/pull/41
+- chore(deps): update dependency prettier to v2.8.7 by @renovate[bot] in https://github.com/sota1235/notion-sdk-js-helper/pull/42
+- chore(deps): update dependency @typescript-eslint/eslint-plugin to v5.56.0 by @renovate[bot] in https://github.com/sota1235/notion-sdk-js-helper/pull/43
+- chore(deps): update dependency @typescript-eslint/eslint-plugin to v5.57.0 by @renovate[bot] in https://github.com/sota1235/notion-sdk-js-helper/pull/44
+- chore(deps): update dependency eslint to v8.37.0 by @renovate[bot] in https://github.com/sota1235/notion-sdk-js-helper/pull/45
+- chore(deps): update dependency @typescript-eslint/eslint-plugin to v5.57.1 by @renovate[bot] in https://github.com/sota1235/notion-sdk-js-helper/pull/46
+- chore(deps): update dependency ts-jest to v29.1.0 by @renovate[bot] in https://github.com/sota1235/notion-sdk-js-helper/pull/47
+- chore(deps): update dependency eslint to v8.38.0 by @renovate[bot] in https://github.com/sota1235/notion-sdk-js-helper/pull/48
+- chore(deps): update dependency @notionhq/client to v2.2.4 by @renovate[bot] in https://github.com/sota1235/notion-sdk-js-helper/pull/49
+- chore(deps): update dependency @typescript-eslint/eslint-plugin to v5.58.0 by @renovate[bot] in https://github.com/sota1235/notion-sdk-js-helper/pull/50
+- chore(deps): update dependency @types/jest to v29.5.1 by @renovate[bot] in https://github.com/sota1235/notion-sdk-js-helper/pull/51
+- chore(deps): update dependency @typescript-eslint/eslint-plugin to v5.59.0 by @renovate[bot] in https://github.com/sota1235/notion-sdk-js-helper/pull/52
+- chore(deps): update dependency eslint to v8.39.0 by @renovate[bot] in https://github.com/sota1235/notion-sdk-js-helper/pull/53
+- chore(deps): update dependency prettier to v2.8.8 by @renovate[bot] in https://github.com/sota1235/notion-sdk-js-helper/pull/54
+- chore(deps): update dependency @typescript-eslint/eslint-plugin to v5.59.1 by @renovate[bot] in https://github.com/sota1235/notion-sdk-js-helper/pull/55
+- chore(deps): update dependency @notionhq/client to v2.2.5 by @renovate[bot] in https://github.com/sota1235/notion-sdk-js-helper/pull/56
+- chore(deps): update dependency @typescript-eslint/eslint-plugin to v5.59.2 by @renovate[bot] in https://github.com/sota1235/notion-sdk-js-helper/pull/57
+- chore(deps): update dependency eslint to v8.40.0 by @renovate[bot] in https://github.com/sota1235/notion-sdk-js-helper/pull/58
+- chore(deps): update dependency @typescript-eslint/eslint-plugin to v5.59.5 by @renovate[bot] in https://github.com/sota1235/notion-sdk-js-helper/pull/59
+- chore(deps): update dependency @typescript-eslint/eslint-plugin to v5.59.6 by @renovate[bot] in https://github.com/sota1235/notion-sdk-js-helper/pull/61
+- chore(deps): update dependency eslint to v8.41.0 by @renovate[bot] in https://github.com/sota1235/notion-sdk-js-helper/pull/62
+- chore(deps): update dependency @typescript-eslint/eslint-plugin to v5.59.7 by @renovate[bot] in https://github.com/sota1235/notion-sdk-js-helper/pull/63
+- chore(deps): update dependency @types/jest to v29.5.2 by @renovate[bot] in https://github.com/sota1235/notion-sdk-js-helper/pull/64
+- chore(deps): update dependency @typescript-eslint/eslint-plugin to v5.59.8 by @renovate[bot] in https://github.com/sota1235/notion-sdk-js-helper/pull/65
+- chore(deps): update dependency eslint to v8.42.0 by @renovate[bot] in https://github.com/sota1235/notion-sdk-js-helper/pull/66
+- Fixing some typo. by @michaeltansg in https://github.com/sota1235/notion-sdk-js-helper/pull/60
+- chore(deps): update dependency typescript to v5 by @renovate[bot] in https://github.com/sota1235/notion-sdk-js-helper/pull/37
+- chore(deps): update dependency lint-staged to v13.2.2 - autoclosed by @renovate[bot] in https://github.com/sota1235/notion-sdk-js-helper/pull/34
+- chore(deps): update node.js to v18.16.0 by @renovate[bot] in https://github.com/sota1235/notion-sdk-js-helper/pull/17
+- Update to v1.0.0 by @sota1235 in https://github.com/sota1235/notion-sdk-js-helper/pull/67
+
+## [v0.1.0](https://github.com/sota1235/notion-sdk-js-helper/compare/v0.0.4...v0.1.0) - 2022-11-28
+- update README by @sota1235 in https://github.com/sota1235/notion-sdk-js-helper/pull/6
+- Support mixed richtext array by @sota1235 in https://github.com/sota1235/notion-sdk-js-helper/pull/7
+
+## [v0.0.4](https://github.com/sota1235/notion-sdk-js-helper/compare/v0.0.3...v0.0.4) - 2022-11-27
+
+## [v0.0.3](https://github.com/sota1235/notion-sdk-js-helper/compare/v0.0.2...v0.0.3) - 2022-11-27
+
+## [v0.0.2](https://github.com/sota1235/notion-sdk-js-helper/compare/v0.0.1...v0.0.2) - 2022-11-27
+
+## [v0.0.1](https://github.com/sota1235/notion-sdk-js-helper/commits/v0.0.1) - 2022-11-27
+- Update dependency lint-staged to v13.0.4 by @renovate[bot] in https://github.com/sota1235/notion-sdk-js-helper/pull/1
