@@ -1,5 +1,13 @@
 # Changelog
 
+## [v4.0.3](https://github.com/sota1235/notion-sdk-js-helper/compare/v4.0.2...v4.0.3) - 2026-03-14
+### Dependencies
+- chore(deps): update dependency @biomejs/biome to v2.4.6 by @renovate[bot] in https://github.com/sota1235/notion-sdk-js-helper/pull/450
+- chore(deps): update dependency @types/node to v25.3.5 by @renovate[bot] in https://github.com/sota1235/notion-sdk-js-helper/pull/451
+- chore(deps): update dependency lint-staged to v16.3.3 by @renovate[bot] in https://github.com/sota1235/notion-sdk-js-helper/pull/452
+- chore(deps): update dependency @types/node to v25.4.0 by @renovate[bot] in https://github.com/sota1235/notion-sdk-js-helper/pull/453
+- chore(deps): update dependency jest to v30.3.0 by @renovate[bot] in https://github.com/sota1235/notion-sdk-js-helper/pull/454
+
 ## [v4.0.2](https://github.com/sota1235/notion-sdk-js-helper/compare/v4.0.1...v4.0.2) - 2026-03-07
 ### Dependencies
 - chore(deps): update songmu/tagpr action to v1.17.1 by @renovate[bot] in https://github.com/sota1235/notion-sdk-js-helper/pull/447
