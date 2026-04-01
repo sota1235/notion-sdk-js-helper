@@ -1,5 +1,10 @@
-import type { BlockObjectRequestWithoutChildren } from "@notionhq/client/build/src/api-endpoints.js";
-import type { Emoji, Language, NotionBlock, TextColor } from "./customTypes.js";
+import type {
+  ChildBlockObject,
+  Emoji,
+  Language,
+  NotionBlock,
+  TextColor,
+} from "./customTypes.js";
 import { DEFAULT_COLOR, type RichText, richText } from "./richTextObject.js";
 
 type Text = string | RichText;
@@ -28,7 +33,7 @@ export const paragraph = (
   text: TextForBlock,
   options: {
     blockColor?: TextColor;
-    children?: BlockObjectRequestWithoutChildren[];
+    children?: ChildBlockObject[];
   } = {},
 ): NotionBlock<"paragraph"> => ({
   type: "paragraph",
@@ -45,7 +50,7 @@ export const heading1 = (
   options: {
     blockColor?: TextColor;
     isToggleable?: boolean;
-    children?: BlockObjectRequestWithoutChildren[];
+    children?: ChildBlockObject[];
   } = {},
 ): NotionBlock<"heading_1"> => ({
   type: "heading_1",
@@ -63,7 +68,7 @@ export const heading2 = (
   options: {
     blockColor?: TextColor;
     isToggleable?: boolean;
-    children?: BlockObjectRequestWithoutChildren[];
+    children?: ChildBlockObject[];
   } = {},
 ): NotionBlock<"heading_2"> => ({
   type: "heading_2",
@@ -81,7 +86,7 @@ export const heading3 = (
   options: {
     blockColor?: TextColor;
     isToggleable?: boolean;
-    children?: BlockObjectRequestWithoutChildren[];
+    children?: ChildBlockObject[];
   } = {},
 ): NotionBlock<"heading_3"> => ({
   type: "heading_3",
@@ -99,7 +104,7 @@ export const callout = (
   icon: Emoji,
   options: {
     blockColor?: TextColor;
-    children?: BlockObjectRequestWithoutChildren[];
+    children?: ChildBlockObject[];
   } = {},
 ): NotionBlock<"callout"> => ({
   type: "callout",
@@ -118,7 +123,7 @@ export const quote = (
   text: TextForBlock,
   options: {
     blockColor?: TextColor;
-    children?: BlockObjectRequestWithoutChildren[];
+    children?: ChildBlockObject[];
   } = {},
 ): NotionBlock<"quote"> => ({
   type: "quote",
@@ -134,7 +139,7 @@ export const bulletedListItem = (
   text: TextForBlock,
   options: {
     blockColor?: TextColor;
-    children?: BlockObjectRequestWithoutChildren[];
+    children?: ChildBlockObject[];
   } = {},
 ): NotionBlock<"bulleted_list_item"> => ({
   type: "bulleted_list_item",
@@ -150,7 +155,7 @@ export const numberedListItem = (
   text: TextForBlock,
   options: {
     blockColor?: TextColor;
-    children?: BlockObjectRequestWithoutChildren[];
+    children?: ChildBlockObject[];
   } = {},
 ): NotionBlock<"numbered_list_item"> => ({
   type: "numbered_list_item",
@@ -167,7 +172,7 @@ export const todo = (
   options: {
     checked?: boolean;
     blockColor?: TextColor;
-    children?: BlockObjectRequestWithoutChildren[];
+    children?: ChildBlockObject[];
   } = {},
 ): NotionBlock<"to_do"> => ({
   type: "to_do",
@@ -184,7 +189,7 @@ export const toggle = (
   text: TextForBlock,
   options: {
     blockColor?: TextColor;
-    children?: BlockObjectRequestWithoutChildren[];
+    children?: ChildBlockObject[];
   } = {},
 ): NotionBlock<"toggle"> => ({
   type: "toggle",
@@ -337,7 +342,7 @@ export const columnList = (
 
 // https://developers.notion.com/reference/block#column-list-and-column-blocks
 export const column = (
-  children: BlockObjectRequestWithoutChildren[],
+  children: ChildBlockObject[],
 ): NotionBlock<"column"> => ({
   type: "column",
   column: {
@@ -348,7 +353,7 @@ export const column = (
 // https://developers.notion.com/reference/block#template-blocks
 export const template = (
   text: TextForBlock,
-  children: BlockObjectRequestWithoutChildren[],
+  children: ChildBlockObject[],
 ): NotionBlock<"template"> => ({
   type: "template",
   template: {
@@ -368,7 +373,7 @@ export const linkToPage = (pageId: string): NotionBlock<"link_to_page"> => ({
 // https://developers.notion.com/reference/block#synced-block-blocks
 export const syncedBlock = (
   blockId: string | undefined,
-  children?: BlockObjectRequestWithoutChildren[],
+  children?: ChildBlockObject[],
 ): NotionBlock<"synced_block"> => {
   const syncedFrom =
     blockId !== undefined

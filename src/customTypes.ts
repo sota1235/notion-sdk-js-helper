@@ -30,3 +30,9 @@ export type RichTextForRequest =
 export type Language = CodeBlockObjectResponse["code"]["language"];
 
 export type TextColor = Annotation["color"];
+
+// Extract the children block type from NotionBlock (BlockObjectWithSingleLevelOfChildrenRequest)
+export type ChildBlockObject = Exclude<
+  NotionBlock<"paragraph">["paragraph"]["children"],
+  undefined
+>[0];

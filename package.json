@@ -6,17 +6,14 @@
   "exports": "./dist/index.js",
   "types": "./dist/index.d.ts",
   "dependencies": {
-    "typescript": "^5.0.0"
+    "typescript": "^6.0.0"
   },
   "devDependencies": {
     "@biomejs/biome": "2.4.9",
-    "@types/jest": "30.0.0",
     "@types/node": "25.5.0",
     "husky": "9.1.7",
-    "jest": "30.3.0",
     "lint-staged": "16.4.0",
-    "ts-jest": "29.4.6",
-    "ts-node": "^10.9.1"
+    "vitest": "^3.2.1"
   },
   "scripts": {
     "build": "tsc",
@@ -24,9 +21,8 @@
     "watch": "tsc --watch",
     "fix": "npm run lint -- --write",
     "lint": "npx @biomejs/biome check",
-    "test": "jest",
-    "test:ci": "jest -c ./jest.config.ci.js",
-    "debug:createPage": "ts-node src/example/createPage.ts",
+    "test": "vitest run",
+    "test:ci": "vitest run --coverage",
     "prepare": "husky"
   },
   "keywords": [
