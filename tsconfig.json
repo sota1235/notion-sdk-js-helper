@@ -12,8 +12,9 @@
     "noImplicitReturns": true,
     "noFallthroughCasesInSwitch": true,
     "esModuleInterop": true,
+    "rootDir": "./src",
     "outDir": "./dist"
   },
   "include": ["src/**/*"],
-  "exclude": ["node_modules", "src/__snapshots__"]
+  "exclude": ["node_modules", "src/__snapshots__", "src/**/*.test.ts", "src/example"]
 }

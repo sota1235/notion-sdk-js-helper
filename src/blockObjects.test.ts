@@ -1,4 +1,4 @@
-import type { BlockObjectRequestWithoutChildren } from "@notionhq/client/build/src/api-endpoints.js";
+import { describe, expect, test } from "vitest";
 import {
   bookmark,
   breadcrumb,
@@ -29,6 +29,7 @@ import {
   toggle,
   video,
 } from "./blockObjects.js";
+import type { ChildBlockObject } from "./customTypes.js";
 import { type RichText, richText } from "./richTextObject.js";
 
 type Text = string | RichText;
@@ -361,9 +362,7 @@ describe("blockObjects", () => {
   });
 
   describe("syncedBlock", () => {
-    test.each<
-      [string | undefined, BlockObjectRequestWithoutChildren[] | undefined]
-    >([
+    test.each<[string | undefined, ChildBlockObject[] | undefined]>([
       [undefined, undefined],
       [undefined, [paragraph("test")]],
       ["blockId", undefined],

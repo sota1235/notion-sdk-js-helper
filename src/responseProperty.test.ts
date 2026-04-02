@@ -1,4 +1,5 @@
 import type { PageObjectResponse } from "@notionhq/client/build/src/api-endpoints.js";
+import { describe, it } from "vitest";
 import { isExactProperty } from "./responseProperty.js";
 
 describe("responseProperty", () => {
