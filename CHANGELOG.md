@@ -1,5 +1,28 @@
 # Changelog
 
+## [v4.0.3](https://github.com/sota1235/notion-sdk-js-helper/compare/v4.0.2...v4.0.3) - 2026-04-05
+### Dependencies
+- chore(deps): update dependency @biomejs/biome to v2.4.6 by @renovate[bot] in https://github.com/sota1235/notion-sdk-js-helper/pull/450
+- chore(deps): update dependency @types/node to v25.3.5 by @renovate[bot] in https://github.com/sota1235/notion-sdk-js-helper/pull/451
+- chore(deps): update dependency lint-staged to v16.3.3 by @renovate[bot] in https://github.com/sota1235/notion-sdk-js-helper/pull/452
+- chore(deps): update dependency @types/node to v25.4.0 by @renovate[bot] in https://github.com/sota1235/notion-sdk-js-helper/pull/453
+- chore(deps): update dependency jest to v30.3.0 by @renovate[bot] in https://github.com/sota1235/notion-sdk-js-helper/pull/454
+- chore(deps): update dependency @biomejs/biome to v2.4.7 by @renovate[bot] in https://github.com/sota1235/notion-sdk-js-helper/pull/456
+- chore(deps): update dependency lint-staged to v16.3.4 by @renovate[bot] in https://github.com/sota1235/notion-sdk-js-helper/pull/457
+- chore(deps): update dependency @types/node to v25.5.0 by @renovate[bot] in https://github.com/sota1235/notion-sdk-js-helper/pull/458
+- chore(deps): update dependency @biomejs/biome to v2.4.8 by @renovate[bot] in https://github.com/sota1235/notion-sdk-js-helper/pull/460
+- chore(deps): update node.js to v24.14.1 by @renovate[bot] in https://github.com/sota1235/notion-sdk-js-helper/pull/463
+- chore(deps): update dependency @biomejs/biome to v2.4.9 by @renovate[bot] in https://github.com/sota1235/notion-sdk-js-helper/pull/465
+- TypeScript v6へのアップデートとJestからVitestへの移行 by @sota1235 in https://github.com/sota1235/notion-sdk-js-helper/pull/466
+- chore(deps): update dependency @biomejs/biome to v2.4.10 by @renovate[bot] in https://github.com/sota1235/notion-sdk-js-helper/pull/467
+- chore(deps): update reviewdog/action-actionlint action to v1.72.0 by @renovate[bot] in https://github.com/sota1235/notion-sdk-js-helper/pull/468
+- chore(deps): update vitest monorepo to v4 (major) by @renovate[bot] in https://github.com/sota1235/notion-sdk-js-helper/pull/469
+### Others
+- chore(deps): update dependency lint-staged to v16.4.0 by @renovate[bot] in https://github.com/sota1235/notion-sdk-js-helper/pull/459
+- build(deps): bump picomatch by @dependabot[bot] in https://github.com/sota1235/notion-sdk-js-helper/pull/461
+- build(deps-dev): bump handlebars from 4.7.8 to 4.7.9 by @dependabot[bot] in https://github.com/sota1235/notion-sdk-js-helper/pull/462
+- chore(deps): update songmu/tagpr action to v1.18.0 by @renovate[bot] in https://github.com/sota1235/notion-sdk-js-helper/pull/470
+
 ## [v4.0.2](https://github.com/sota1235/notion-sdk-js-helper/compare/v4.0.1...v4.0.2) - 2026-03-07
 ### Dependencies
 - chore(deps): update songmu/tagpr action to v1.17.1 by @renovate[bot] in https://github.com/sota1235/notion-sdk-js-helper/pull/447
