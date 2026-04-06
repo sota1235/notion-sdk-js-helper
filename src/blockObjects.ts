@@ -346,7 +346,7 @@ export const column = (
 ): NotionBlock<"column"> => ({
   type: "column",
   column: {
-    children: children,
+    children,
   },
 });
 

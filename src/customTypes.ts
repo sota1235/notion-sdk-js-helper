@@ -12,10 +12,24 @@ export type BlockObjectRequest = Exclude<
   CreatePageParameters["children"],
   undefined
 >[0];
-export type NotionBlock<T extends string> = Extract<
-  BlockObjectRequest,
-  { [key in T]: any }
->;
+
+// Internal: BlockObjectWithSingleLevelOfChildrenRequest from the Notion SDK.
+// This represents blocks that can appear as children of other blocks.
+// Using this as the base for NotionBlock ensures that function return types
+// are assignable to ChildBlockObject, enabling composition like:
+//   paragraph("text", { children: [paragraph("inner")] })
+type BlockObjectWithChildren = Exclude<
+  Extract<BlockObjectRequest, { paragraph: any }>["paragraph"]["children"],
+  undefined
+>[0];
+
+// Prefer the child-level variant for type compatibility.
+// Fallback to BlockObjectRequest for top-level-only blocks (e.g. column, column_list).
+export type NotionBlock<T extends string> = [
+  Extract<BlockObjectWithChildren, { [key in T]: any }>,
+] extends [never]
+  ? Extract<BlockObjectRequest, { [key in T]: any }>
+  : Extract<BlockObjectWithChildren, { [key in T]: any }>;
 
 // Enums
 export type Emoji = Extract<
@@ -31,8 +45,12 @@ export type Language = CodeBlockObjectResponse["code"]["language"];
 
 export type TextColor = Annotation["color"];
 
-// Extract the children block type from NotionBlock (BlockObjectWithSingleLevelOfChildrenRequest)
+// Extract the children block type from NotionBlock.
+// Exclude `tab` because its type in BlockObjectRequestWithoutChildren (EmptyObject)
+// is structurally incompatible with BlockObjectWithSingleLevelOfChildrenRequest
+// (TabRequestWithTabItemChildren), which would break assignability between the
+// two SDK-internal block type hierarchies.
 export type ChildBlockObject = Exclude<
-  NotionBlock<"paragraph">["paragraph"]["children"],
-  undefined
->[0];
+  Exclude<NotionBlock<"paragraph">["paragraph"]["children"], undefined>[0],
+  { tab: any }
+>;
