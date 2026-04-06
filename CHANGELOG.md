@@ -1,5 +1,9 @@
 # Changelog
 
+## [v4.0.4](https://github.com/sota1235/notion-sdk-js-helper/compare/v4.0.3...v4.0.4) - 2026-04-06
+### Others
+- fix: NotionBlockの型互換性を修正しtabブロック追加による型エラーを解消 by @sota1235 in https://github.com/sota1235/notion-sdk-js-helper/pull/472
+
 ## [v4.0.3](https://github.com/sota1235/notion-sdk-js-helper/compare/v4.0.2...v4.0.3) - 2026-04-05
 ### Dependencies
 - chore(deps): update dependency @biomejs/biome to v2.4.6 by @renovate[bot] in https://github.com/sota1235/notion-sdk-js-helper/pull/450
