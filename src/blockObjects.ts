@@ -341,14 +341,13 @@ export const columnList = (
 });
 
 // https://developers.notion.com/reference/block#column-list-and-column-blocks
-export const column = (
-  children: ChildBlockObject[],
-): NotionBlock<"column"> => ({
-  type: "column",
-  column: {
-    children: children,
-  },
-});
+export const column = (children: ChildBlockObject[]): NotionBlock<"column"> =>
+  ({
+    type: "column",
+    column: {
+      children,
+    },
+  }) as NotionBlock<"column">;
 
 // https://developers.notion.com/reference/block#template-blocks
 export const template = (
