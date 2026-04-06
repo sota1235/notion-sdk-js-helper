@@ -45,8 +45,12 @@ export type Language = CodeBlockObjectResponse["code"]["language"];
 
 export type TextColor = Annotation["color"];
 
-// Extract the children block type from NotionBlock (BlockObjectWithSingleLevelOfChildrenRequest)
+// Extract the children block type from NotionBlock.
+// Exclude `tab` because its type in BlockObjectRequestWithoutChildren (EmptyObject)
+// is structurally incompatible with BlockObjectWithSingleLevelOfChildrenRequest
+// (TabRequestWithTabItemChildren), which would break assignability between the
+// two SDK-internal block type hierarchies.
 export type ChildBlockObject = Exclude<
-  NotionBlock<"paragraph">["paragraph"]["children"],
-  undefined
->[0];
+  Exclude<NotionBlock<"paragraph">["paragraph"]["children"], undefined>[0],
+  { tab: any }
+>;
