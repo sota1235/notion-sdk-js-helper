@@ -1,5 +1,19 @@
 # Changelog
 
+## [v4.0.5](https://github.com/sota1235/notion-sdk-js-helper/compare/v4.0.4...v4.0.5) - 2026-04-17
+### Dependencies
+- chore(deps): update dependency @types/node to v25.5.2 by @renovate[bot] in https://github.com/sota1235/notion-sdk-js-helper/pull/474
+- chore(deps): update songmu/tagpr action to v1.18.1 by @renovate[bot] in https://github.com/sota1235/notion-sdk-js-helper/pull/475
+- chore(deps): update vitest monorepo to v4.1.3 (patch) by @renovate[bot] in https://github.com/sota1235/notion-sdk-js-helper/pull/476
+- chore(deps): update vitest monorepo to v4.1.4 (patch) by @renovate[bot] in https://github.com/sota1235/notion-sdk-js-helper/pull/479
+- chore(deps): update songmu/tagpr action to v1.18.2 by @renovate[bot] in https://github.com/sota1235/notion-sdk-js-helper/pull/480
+- chore(deps): update songmu/tagpr action to v1.18.3 by @renovate[bot] in https://github.com/sota1235/notion-sdk-js-helper/pull/482
+- chore(deps): update dependency @types/node to v25.6.0 by @renovate[bot] in https://github.com/sota1235/notion-sdk-js-helper/pull/483
+- chore(deps): update node.js to v24.15.0 by @renovate[bot] in https://github.com/sota1235/notion-sdk-js-helper/pull/484
+- chore(deps): update dependency @biomejs/biome to v2.4.12 by @renovate[bot] in https://github.com/sota1235/notion-sdk-js-helper/pull/481
+### Others
+- build(deps-dev): bump vite from 7.3.1 to 8.0.8 by @dependabot[bot] in https://github.com/sota1235/notion-sdk-js-helper/pull/478
+
 ## [v4.0.4](https://github.com/sota1235/notion-sdk-js-helper/compare/v4.0.3...v4.0.4) - 2026-04-06
 ### Others
 - fix: NotionBlockの型互換性を修正しtabブロック追加による型エラーを解消 by @sota1235 in https://github.com/sota1235/notion-sdk-js-helper/pull/472
