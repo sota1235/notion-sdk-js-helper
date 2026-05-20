@@ -17,7 +17,7 @@
     "@types/node": "25.7.0",
     "@vitest/coverage-v8": "4.1.6",
     "husky": "9.1.7",
-    "lint-staged": "16.4.0",
+    "lint-staged": "17.0.5",
     "vitest": "^4.0.0"
   },
   "scripts": {
