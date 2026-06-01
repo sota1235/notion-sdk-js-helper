@@ -24,7 +24,7 @@ jobs:
 
       - name: Activate npm version pinned in package.json
         run: |
-          corepack enable
+          corepack enable npm
           corepack prepare --activate
 
       - name: Installing dependencies
