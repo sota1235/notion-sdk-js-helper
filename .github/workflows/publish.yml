@@ -22,11 +22,14 @@ jobs:
           registry-url: 'https://registry.npmjs.org'
           cache: npm
 
+      - name: Ensure npm CLI supports staged publishing
+        run: npm install -g npm@">=11.15.0"
+
       - name: Installing dependencies
         run: npm ci --no-fund --no-audit
 
       - name: Build package
         run: npm run build:publish
 
-      - name: Publishing to npm
-        run: npm publish --access public --provenance
+      - name: Publishing to npm (staged)
+        run: npm stage publish --access public --provenance
