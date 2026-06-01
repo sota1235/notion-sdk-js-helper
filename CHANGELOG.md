@@ -1,6 +1,6 @@
 # Changelog
 
-## [v4.0.6](https://github.com/sota1235/notion-sdk-js-helper/compare/v4.0.5...v4.0.6) - 2026-05-30
+## [v4.0.6](https://github.com/sota1235/notion-sdk-js-helper/compare/v4.0.5...v4.0.6) - 2026-06-01
 ### Dependencies
 - chore(deps): update dependency @biomejs/biome to v2.4.14 by @renovate[bot] in https://github.com/sota1235/notion-sdk-js-helper/pull/492
 - chore(deps): update dependency @biomejs/biome to v2.4.15 by @renovate[bot] in https://github.com/sota1235/notion-sdk-js-helper/pull/497
@@ -11,6 +11,8 @@
 - chore(deps): update dependency @types/node to v25.9.1 by @renovate[bot] in https://github.com/sota1235/notion-sdk-js-helper/pull/501
 - chore(deps): update vitest monorepo to v4.1.7 by @renovate[bot] in https://github.com/sota1235/notion-sdk-js-helper/pull/503
 - chore(deps): update dependency @biomejs/biome to v2.4.16 by @renovate[bot] in https://github.com/sota1235/notion-sdk-js-helper/pull/504
+### Others
+- Release for v4.0.6 by @octo-sts[bot] in https://github.com/sota1235/notion-sdk-js-helper/pull/494
 
 ## [v4.0.5](https://github.com/sota1235/notion-sdk-js-helper/compare/v4.0.4...v4.0.5) - 2026-05-01
 ### Dependencies
