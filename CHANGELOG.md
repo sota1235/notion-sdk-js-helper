@@ -1,5 +1,7 @@
 # Changelog
 
+## [v4.0.5](https://github.com/sota1235/notion-sdk-js-helper/compare/v4.0.6...v4.0.5) - 2026-06-01
+
 ## [v4.0.5](https://github.com/sota1235/notion-sdk-js-helper/compare/v4.0.4...v4.0.5) - 2026-05-01
 ### Dependencies
 - chore(deps): update dependency @types/node to v25.5.2 by @renovate[bot] in https://github.com/sota1235/notion-sdk-js-helper/pull/474
