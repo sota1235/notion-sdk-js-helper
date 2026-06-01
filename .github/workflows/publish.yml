@@ -3,6 +3,7 @@ on:
   push:
     tags:
       - "v*"
+  workflow_dispatch:
 
 jobs:
   release:
@@ -24,8 +25,9 @@ jobs:
 
       - name: Activate npm version pinned in package.json
         run: |
-          corepack enable npm
-          corepack prepare --activate
+          corepack enable
+          corepack install
+          echo "Active npm version: $(npm --version)"
 
       - name: Installing dependencies
         run: npm ci --no-fund --no-audit
