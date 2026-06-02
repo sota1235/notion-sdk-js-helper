@@ -23,10 +23,11 @@ jobs:
           registry-url: 'https://registry.npmjs.org'
           cache: npm
 
-      - name: Upgrade npm to the version pinned in package.json
+      - name: Install npm version pinned in package.json
         run: |
-          npm install -g "npm@$(node -p "require('./package.json').packageManager.split('@')[1].split('+')[0]")"
-          echo "Active npm version: $(npm --version)"
+          PM=$(npm pkg get packageManager | tr -d '"')
+          npm install -g "${PM%%+*}"
+          npm --version
 
       - name: Installing dependencies
         run: npm ci --no-fund --no-audit
