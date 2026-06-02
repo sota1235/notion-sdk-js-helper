@@ -23,11 +23,11 @@ jobs:
           registry-url: 'https://registry.npmjs.org'
           cache: npm
 
-      - name: Activate npm version pinned in package.json
+      - name: Install npm version pinned in package.json
         run: |
-          corepack enable
-          corepack install
-          echo "Active npm version: $(npm --version)"
+          PM=$(npm pkg get packageManager | tr -d '"')
+          npm install -g "${PM%%+*}"
+          npm --version
 
       - name: Installing dependencies
         run: npm ci --no-fund --no-audit
