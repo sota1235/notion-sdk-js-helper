@@ -23,10 +23,9 @@ jobs:
           registry-url: 'https://registry.npmjs.org'
           cache: npm
 
-      - name: Activate npm version pinned in package.json
+      - name: Upgrade npm to the version pinned in package.json
         run: |
-          corepack enable
-          corepack install
+          npm install -g "npm@$(node -p "require('./package.json').packageManager.split('@')[1].split('+')[0]")"
           echo "Active npm version: $(npm --version)"
 
       - name: Installing dependencies
