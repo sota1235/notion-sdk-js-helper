@@ -1,5 +1,24 @@
 # Changelog
 
+## [v4.0.7](https://github.com/sota1235/notion-sdk-js-helper/compare/v4.0.6...v4.0.7) - 2026-06-28
+
+### Dependencies
+- chore(deps): update dependency lint-staged to v17.0.7 by @renovate[bot] in https://github.com/sota1235/notion-sdk-js-helper/pull/515
+- chore(deps): update vitest monorepo to v4.1.8 by @renovate[bot] in https://github.com/sota1235/notion-sdk-js-helper/pull/516
+- chore(deps): update dependency @types/node to v25.9.2 by @renovate[bot] in https://github.com/sota1235/notion-sdk-js-helper/pull/519
+- chore(deps): update dependency @types/node to v25.9.3 by @renovate[bot] in https://github.com/sota1235/notion-sdk-js-helper/pull/520
+- chore(deps): update npm to v11.16.0 by @renovate[bot] in https://github.com/sota1235/notion-sdk-js-helper/pull/517
+- chore(deps): update vitest monorepo to v4.1.9 by @renovate[bot] in https://github.com/sota1235/notion-sdk-js-helper/pull/522
+- chore(deps): update npm to v11.17.0 by @renovate[bot] in https://github.com/sota1235/notion-sdk-js-helper/pull/525
+- chore(deps): update dependency @biomejs/biome to v2.5.0 by @renovate[bot] in https://github.com/sota1235/notion-sdk-js-helper/pull/523
+- chore(deps): update dependency @biomejs/biome to v2.5.1 by @renovate[bot] in https://github.com/sota1235/notion-sdk-js-helper/pull/527
+- chore(deps): update dependency lint-staged to v17.0.8 by @renovate[bot] in https://github.com/sota1235/notion-sdk-js-helper/pull/529
+- chore(deps): update dependency @types/node to v25.9.4 by @renovate[bot] in https://github.com/sota1235/notion-sdk-js-helper/pull/528
+- chore(deps): update dependency @types/node to v26 by @renovate[bot] in https://github.com/sota1235/notion-sdk-js-helper/pull/531
+- chore(deps): update dependency @types/node to v26.0.1 by @renovate[bot] in https://github.com/sota1235/notion-sdk-js-helper/pull/532
+### Others
+- build(deps-dev): bump vite from 8.0.8 to 8.0.16 by @dependabot[bot] in https://github.com/sota1235/notion-sdk-js-helper/pull/521
+
 ## [v4.0.6](https://github.com/sota1235/notion-sdk-js-helper/compare/v4.0.5...v4.0.6) - 2026-05-30
 ### Dependencies
 - chore(deps): update dependency @biomejs/biome to v2.4.14 by @renovate[bot] in https://github.com/sota1235/notion-sdk-js-helper/pull/492
