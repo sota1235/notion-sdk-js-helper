@@ -2,5 +2,15 @@
   "extends": ["github>sota1235/renovate-config"],
   "labels": [
     "kind/dependencies"
+  ],
+  "packageRules": [
+    {
+      "matchPackageNames": ["npm"],
+      "addLabels": ["skip-changelog"]
+    },
+    {
+      "matchDepTypes": ["devDependencies"],
+      "addLabels": ["skip-changelog"]
+    }
   ]
 }
