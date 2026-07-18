@@ -14,7 +14,7 @@
     "typescript": "^7.0.0"
   },
   "devDependencies": {
-    "@biomejs/biome": "2.5.3",
+    "@biomejs/biome": "2.5.4",
     "@types/node": "26.1.1",
     "@vitest/coverage-v8": "4.1.10",
     "husky": "9.1.7",
