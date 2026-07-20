@@ -1,5 +1,10 @@
 # Changelog
 
+## [v4.0.8](https://github.com/sota1235/notion-sdk-js-helper/compare/v4.0.7...v4.0.8) - 2026-07-20
+
+### Dependencies
+- chore(deps): update dependency typescript to v7 by @renovate[bot] in https://github.com/sota1235/notion-sdk-js-helper/pull/542
+
 ## [v4.0.7](https://github.com/sota1235/notion-sdk-js-helper/compare/v4.0.6...v4.0.7) - 2026-07-08
 
 ### Dependencies
