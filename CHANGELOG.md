@@ -1,5 +1,7 @@
 # Changelog
 
+## [v4.0.9](https://github.com/sota1235/notion-sdk-js-helper/compare/v4.0.8...v4.0.9) - 2026-08-07
+
 ## [v4.0.8](https://github.com/sota1235/notion-sdk-js-helper/compare/v4.0.7...v4.0.8) - 2026-08-02
 
 ### Dependencies
