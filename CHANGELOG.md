@@ -1,5 +1,11 @@
 # Changelog
 
+## [v4.0.9](https://github.com/sota1235/notion-sdk-js-helper/compare/v4.0.8...v4.0.9) - 2026-10-30
+
+### Others
+- build(deps-dev): bump source-map-js from 1.2.1 to 1.2.2 by @dependabot[bot] in https://github.com/sota1235/notion-sdk-js-helper/pull/614
+- build(deps-dev): bump vite from 8.0.16 to 8.3.5 by @dependabot[bot] in https://github.com/sota1235/notion-sdk-js-helper/pull/621
+
 ## [v4.0.8](https://github.com/sota1235/notion-sdk-js-helper/compare/v4.0.7...v4.0.8) - 2026-08-02
 
 ### Dependencies
