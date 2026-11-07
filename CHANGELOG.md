@@ -1,5 +1,7 @@
 # Changelog
 
+## [v4.0.10](https://github.com/sota1235/notion-sdk-js-helper/compare/v4.0.9...v4.0.10) - 2026-11-07
+
 ## [v4.0.9](https://github.com/sota1235/notion-sdk-js-helper/compare/v4.0.8...v4.0.9) - 2026-11-02
 
 ### Others
